@@ -27,5 +27,7 @@ ServerEvents.tags('item', event => {
     mi_material_for_tags.forEach(element => {
         event.add(`c:bolts/${element}`, `modern_industrialization:${element}_bolt`)
     });
+    
+
 
 })

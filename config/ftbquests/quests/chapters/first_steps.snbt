@@ -1150,8 +1150,8 @@
 				item: { count: 1, id: "eccentrictome:tome" }
 				type: "item"
 			}]
-			x: -7.5d
-			y: 7.5d
+			x: -2.0d
+			y: 3.0d
 		}
 	]
 }

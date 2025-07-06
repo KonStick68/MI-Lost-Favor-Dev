@@ -1,4 +1,4 @@
-	#Enable UNSUPPORTED and DANGEROUS debug commands.
+#Enable UNSUPPORTED and DANGEROUS debug commands.
 debugCommands = false
 #Maximum height of the distillation tower multiblock.
 # Default: 9
@@ -16,6 +16,8 @@ defaultIndustrialistTrades = true
 	ae2Integration = true
 	#Enable the FTB Quests integration, if present.
 	ftbQuestsIntegration = true
+	#Enable the Almost Unified integration, if present.
+	almostUnifiedIntegration = true
 
 [datagen]
 	#Run MI runtime datagen on startup.

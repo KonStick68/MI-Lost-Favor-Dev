@@ -6,6 +6,7 @@ ServerEvents.recipes(event => {
 
     remove_by_id.forEach(id => {
         event.remove({type: "minecraft:smelting", id: id})
+        
     });
     
 })

@@ -1,7 +1,0 @@
-[shaders]
-	#Should the gender euphoria shader be enabled?
-	genderEuphoriaShader = true
-	#Should the signal tracker ping shader be enabled?
-	pingShader = true
-	#Should the progression shader be enabled?
-	progressionShader = true

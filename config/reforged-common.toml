@@ -5,7 +5,7 @@
 #-------------------------------------------
 #Default: true
 #-------------------------------------------
-"Boolean: Can Crafted Items Receive Tiers" = true
+"Boolean: Can Crafted Items Receive Tiers" = false
 #
 ############################################
 #

@@ -1,8 +1,0 @@
-#How many millibuckets of a fluid can wells hold? Set to 0 to disable.
-# Default: 100000
-# Range: > 0
-tankCapacity = 100000
-#When set to true, all wells in the chunk will stop working while there's more than 1.
-onlyOnePerChunk = false
-#Handle what fluids wells collect based on biome, and how much
-dataList = ["{}"]

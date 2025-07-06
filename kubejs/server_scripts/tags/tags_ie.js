@@ -11,7 +11,31 @@ ServerEvents.tags('item', event => {
         /immersiveengineering:dust.*/,
         /immersiveengineering:ingot.*/,
         /immersiveengineering:raw.*/,
-        /immersiveengineering:nugget.*/
+        /immersiveengineering:nugget.*/,
+        'immersiveengineering:deepslate_ore_silver',
+        'immersiveengineering:ore_silver'
+       
+    ])
+
+    event.add('c:rods/treated_wood','immersiveengineering:stick_treated')
+
+})
+
+ServerEvents.tags('block', event => {
+
+    event.removeAllTagsFrom([
+        'immersiveengineering:ethanol_bucket',
+        'immersiveengineering:biodiesel_bucket',
+        /immersiveengineering:.*coke.*/,
+        /immersiveengineering:plate.*/,
+        /immersiveengineering:wire.*/,
+        /immersiveengineering:stick.*/,
+        /immersiveengineering:dust.*/,
+        /immersiveengineering:ingot.*/,
+        /immersiveengineering:raw.*/,
+        /immersiveengineering:nugget.*/,
+        'immersiveengineering:deepslate_ore_silver',
+        'immersiveengineering:ore_silver'
        
     ])
 
