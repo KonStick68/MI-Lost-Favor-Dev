@@ -1,0 +1,24 @@
+ServerEvents.recipes(event => {
+
+    event.custom({
+        "type": "immersiveengineering:arc_furnace",
+        "additives": [],
+        "energy": 102400,
+        "input": {
+            "tag": "c:ores/aluminum"
+        },
+        "results": [
+            {
+                "basePredicate": {
+                    "tag": "c:ingots/aluminum"
+                },
+                "count": 2
+            }
+        ],
+        "slag": {
+            "tag": "c:slag"
+        },
+        "time": 200
+    })
+
+})

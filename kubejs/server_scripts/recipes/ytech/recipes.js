@@ -13,11 +13,38 @@ ServerEvents.recipes(event => {
             'ytech:bronze_block',
             'ytech:raw_galena_block',
             'ytech:raw_cassiterite_block',
-            // 'ytech:bronze_anvil',
         ]
     })
 
-    // event.remove({type: "ytech:hammering"})
+    const removing_by_recipe_id = [
+        "ytech:bronze_ingot_from_alloying"
+    ]
+
+    removing_by_recipe_id.forEach(id => {
+        event.remove({ id: id })
+    });
+
+    event.custom({
+        "type": "ytech:alloying",
+        "ingredient1": {
+            "count": 9,
+            "ingredient": {
+                "tag": "c:ingots/copper"
+            }
+        },
+        "ingredient2": {
+            "count": 1,
+            "ingredient": {
+                "tag": "c:ingots/tin"
+            }
+        },
+        "minTemp": 1085,
+        "result": {
+            "count": 2,
+            "id": "modern_industrialization:bronze_ingot"
+        },
+        "smeltingTime": 200
+    })
 
     event.replaceInput({ input: 'ytech:crushed_copper' }, 'ytech:crushed_copper', 'modern_industrialization:copper_dust')
     event.replaceInput({ input: 'ytech:crushed_gold' }, 'ytech:crushed_gold', 'modern_industrialization:gold_dust')

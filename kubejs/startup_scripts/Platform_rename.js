@@ -1,1 +1,1 @@
-Platform.mods.kubejs.name = 'MI:Ages';
+Platform.mods.kubejs.name = 'MI:Lost Favor';

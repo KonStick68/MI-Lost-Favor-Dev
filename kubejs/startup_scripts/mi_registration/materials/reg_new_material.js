@@ -24,7 +24,7 @@ MIMaterialEvents.addMaterials(event => {
         builder => {
         builder
             .materialSet('dull')
-            .addParts('ingot', 'dust', 'tiny_dust')
+            .addParts('ingot', 'dust', 'tiny_dust', 'plate')
             .defaultRecipes()
     })
 
