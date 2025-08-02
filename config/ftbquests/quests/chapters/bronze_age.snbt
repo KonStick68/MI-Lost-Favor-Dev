@@ -8,20 +8,12 @@
 	}
 	id: "561B8642F13079C1"
 	order_index: 0
-	quest_links: [
-		{
-			id: "4C83AAC8EDEF45CE"
-			linked_quest: "25A292F117ECA3E6"
-			x: 1.0d
-			y: -8.0d
-		}
-		{
-			id: "243A57B9EE4118A6"
-			linked_quest: "1A029535714421E5"
-			x: 0.0d
-			y: -8.0d
-		}
-	]
+	quest_links: [{
+		id: "243A57B9EE4118A6"
+		linked_quest: "1A029535714421E5"
+		x: 0.0d
+		y: -8.0d
+	}]
 	quests: [
 		{
 			icon_scale: 0.7d
@@ -35,37 +27,6 @@
 			}]
 			x: 0.0d
 			y: -17.0d
-		}
-		{
-			dependencies: ["25A292F117ECA3E6"]
-			icon: {
-				id: "modern_industrialization:fire_clay_bricks"
-			}
-			id: "6FABBCC7CB80AF62"
-			tasks: [
-				{
-					count: 12L
-					id: "3BFEF06E1313D7DC"
-					item: { count: 3, id: "modern_industrialization:fire_clay_dust" }
-					optional_task: true
-					type: "item"
-				}
-				{
-					count: 12L
-					id: "0BA5C81DA6666B7E"
-					item: { count: 1, id: "modern_industrialization:fire_clay_brick" }
-					optional_task: true
-					type: "item"
-				}
-				{
-					count: 3L
-					id: "42B11CCB42362F92"
-					item: { count: 3, id: "modern_industrialization:fire_clay_bricks" }
-					type: "item"
-				}
-			]
-			x: 1.0d
-			y: -6.5d
 		}
 		{
 			dependencies: [
@@ -102,8 +63,8 @@
 				item: { count: 1, id: "modern_industrialization:bronze_barrel" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: -9.5d
+			x: 0.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["590167B593FE267A"]
@@ -190,8 +151,8 @@
 				item: { count: 1, id: "modern_industrialization:wrench" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: -9.5d
+			x: 1.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["0A085734E03F68AC"]
@@ -1238,8 +1199,8 @@
 				item: { count: 1, id: "extended_industrialization:steel_honey_extractor" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 6.5d
+			x: 9.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["65DB2546A83972B8"]
@@ -1258,7 +1219,7 @@
 			id: "24CA1756A9E4BB2C"
 			shape: "square"
 			tasks: [{
-				id: "53CABD340E7A0D93"
+				id: "62ACCAF1452AFB4C"
 				item: { count: 1, id: "extended_industrialization:steel_waste_collector" }
 				type: "item"
 			}]
@@ -1329,7 +1290,7 @@
 		{
 			dependencies: ["5666EC7EBCE18EBA"]
 			id: "0BCD76587F2DB00F"
-			shape: "hexagon"
+			shape: "octagon"
 			size: 3.0d
 			tasks: [{
 				id: "53DACCB128655D7F"
@@ -1544,8 +1505,8 @@
 				item: { count: 1, id: "modern_industrialization:electric_wiremill" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 15.0d
+			x: 3.0d
+			y: 17.5d
 		}
 		{
 			dependencies: ["18173B817094E01A"]
@@ -1613,8 +1574,8 @@
 				item: { count: 1, id: "modern_industrialization:electric_packer" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 17.5d
+			x: 5.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["18173B817094E01A"]
@@ -1690,16 +1651,16 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["590167B593FE267A"]
+			dependencies: ["7D9C31E5FE076F2C"]
 			id: "6728D3D62F6812D6"
-			shape: "rsquare"
+			shape: "circle"
 			tasks: [{
 				id: "149D647A1949B1D0"
 				item: { count: 1, id: "extended_industrialization:steam_farmer" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: -1.0d
+			x: 1.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["590167B593FE267A"]
@@ -1728,6 +1689,7 @@
 		{
 			dependencies: ["18173B817094E01A"]
 			id: "2B42D796563B0125"
+			shape: "octagon"
 			tasks: [{
 				id: "55CEC1183D8B35DA"
 				item: { count: 1, id: "modern_industrialization:basic_upgrade" }
@@ -1961,7 +1923,7 @@
 			y: 15.5d
 		}
 		{
-			dependencies: ["5444C0A441E3DA20"]
+			dependencies: ["2B815502453269AF"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "27E2DE26B2FE8F12"
@@ -2409,7 +2371,10 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["56B854374AFEF7EF"]
+			dependencies: [
+				"56B854374AFEF7EF"
+				"5129DED2A2DED5FE"
+			]
 			id: "0C12EB8A3A007618"
 			shape: "octagon"
 			tasks: [{
@@ -2582,14 +2547,14 @@
 		{
 			dependencies: ["590167B593FE267A"]
 			id: "750F4699E092121D"
-			shape: "circle"
+			shape: "rsquare"
 			tasks: [{
 				id: "28E3CA037FC478FB"
 				item: { count: 1, id: "minecraft:gunpowder" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.5d
+			x: -3.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["590167B593FE267A"]
@@ -2599,7 +2564,7 @@
 				item: { count: 1, id: "extended_industrialization:bronze_bending_machine" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.0d
 			y: -6.5d
 		}
 		{
@@ -2656,8 +2621,8 @@
 					type: "item"
 				}
 			]
-			x: 9.5d
-			y: -0.5d
+			x: 6.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["06F29772DEA6EF99"]
@@ -2741,8 +2706,8 @@
 				item: { count: 1, id: "modern_industrialization:large_steam_boiler" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 8.0d
+			x: -1.5d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -2765,6 +2730,102 @@
 			]
 			x: 0.0d
 			y: 19.0d
+		}
+		{
+			dependencies: ["144DEA3CFC2456E3"]
+			id: "05C4AA05CA0E6F80"
+			shape: "pentagon"
+			tasks: [{
+				id: "1277513341BBFB9F"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(storagedrawers:drawers)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["05C4AA05CA0E6F80"]
+			id: "730FE22E7C0A49F3"
+			shape: "rsquare"
+			tasks: [{
+				id: "0EAEAB1A14C2A180"
+				item: { count: 1, id: "storagedrawers:framing_table" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"7D9C31E5FE076F2C"
+				"05C4AA05CA0E6F80"
+			]
+			id: "00544E360CE5F0F6"
+			shape: "hexagon"
+			tasks: [{
+				id: "39E6414AD8924B69"
+				item: { count: 1, id: "storagedrawers:controller" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"00544E360CE5F0F6"
+				"2B42D796563B0125"
+			]
+			id: "7B1641B7970C8BAC"
+			tasks: [{
+				id: "53887A4EC791BFD0"
+				item: { count: 1, id: "storagedrawers:controller_io" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"4F16E1AF399E74E4"
+				"05C4AA05CA0E6F80"
+			]
+			id: "1C9A5CCDDB126501"
+			tasks: [{
+				id: "33EB14E8C8F3E9BC"
+				item: { count: 1, id: "storagedrawers:compacting_drawers_2" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"6D6E72C5421174F4"
+				"1C9A5CCDDB126501"
+			]
+			id: "49A2B52A2538342C"
+			tasks: [{
+				id: "0AEBCE3A62DDE866"
+				item: { count: 1, id: "storagedrawers:compacting_drawers_3" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"2B03BB35DDCD4870"
+				"6CA54239AFF1C9F6"
+			]
+			id: "4D74D3732EBC0916"
+			shape: "heart"
+			tasks: [{
+				id: "75B821D8338AAEB0"
+				item: { count: 1, id: "extended_industrialization:machine_config_card" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
 		}
 	]
 }

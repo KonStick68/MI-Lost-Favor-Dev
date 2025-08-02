@@ -51,6 +51,8 @@
 	]
 	quest.0501BDB7ED850B47.quest_desc: [""]
 	quest.0528A7114DC06152.quest_desc: ["позволяет рубить деерво на доски 1 к 2, вместо 1 к 1 в верстаке с топором."]
+	quest.05C4AA05CA0E6F80.quest_desc: ["add rubber to recipe just so you couldn't craft them in early game, but still could easily made later?"]
+	quest.06793C23D00355A7.quest_desc: ["Magnet? And configurable??? I'll take 2 please"]
 	quest.07E78D29C898CE55.quest_desc: ["Wild sheep"]
 	quest.085A58908A521A63.quest_desc: [
 		"The ancients lacked vision. They stopped at just blends without realizing what these poisons can really do. I've felt the changes. Every night I feel the toxins pulsing in my blood. I'm changing, I feel much stronger, feel more alert. Its revelating."
@@ -86,6 +88,7 @@
 		"{@pagebreak}"
 		"Я почти сделал это! Материал, который будет использоваться для раскрытия всего потенциала яда. Я приготовил это снадобье, чтобы подготовить окончательное создание высшего вещества! Но мне нужно еще раз войти в недра."
 	]
+	quest.0C7FBEEB6BB3499E.quest_desc: ["Adds items into system"]
 	quest.0CE37F75EAC4705E.quest_desc: [
 		"&lWither Skeleton Skull&r:"
 		"• +2x Power Capacity"
@@ -111,7 +114,6 @@
 		"Модернизации имеют &lтип&r, только лучшая модернизация в рамках типа будет засчитана."
 	]
 	quest.0E83A5E1B38BC5EF.quest_desc: ["тикает растение - даёт сурс"]
-	quest.0EA589BC97492829.quest_desc: ["Just like elytra... But worse"]
 	quest.0EC6045881A3898D.quest_desc: ["Wild pig"]
 	quest.0F53AF70888733D6.quest_desc: [
 		"The Athame is a fast and deadly weapon and you will need to use the Diamond Ritual to obtain its power"
@@ -148,6 +150,7 @@
 		"Note that breaking a machine with the wrench will not drop it. Use a pickaxe for that!"
 	]
 	quest.12EA2728AD90FABD.quest_desc: ["Позволяет жарить еду и Шифт + ПКМ создавать зажённые факела"]
+	quest.13134EE8E1631EBB.quest_desc: ["PIPES"]
 	quest.13C6412ED5BDC06F.quest_desc: [
 		"With toxic paste in my arsenal, I can improve on the techniques of the ancients. I can create a more powerful blend using it. But I must be incredibly careful. My system may not be able to handle it if I haven't already grown accustom."
 		"{@pagebreak}"
@@ -181,6 +184,7 @@
 		""
 		"Используя перегонный аппарат, мы можем изготавливать МИЛЫЕ ТОКСИЧНЫЕ ГОРШОЧКИ. Для самых мощных масел подходит только этот вариант. Простой глиняный горшочек трескался под воздействием токсина."
 	]
+	quest.19800DDEA270C24C.quest_desc: ["One of the most useful items in any situation. You can configure it via button to the top right of your character so it will refill whatever block you're holding straight from your system as vell as search thru your system to pick blocks via middle mouse"]
 	quest.1987F8CE26632CC4.quest_desc: [
 		"Incenses are a neat block that spread herb-specific effects in a specific area."
 		""
@@ -196,6 +200,7 @@
 		"Лаванда: Регенерация"
 		"Рута: Увеличение скорости роста растений"
 	]
+	quest.19A7F1A6EEC302DE.quest_desc: ["Heart of ME system. Whatever black magic going on inside, system won't work without it"]
 	quest.19E126BBEF648662.quest_desc: [
 		"However, there is a catch to mutagens. Not all of them are the same, and the one I get greatly depends on the INGREDIENTS I CONSUME. As such when eating substances or making blends, I must be mindful of which ones I eat, as each ingredient contains an affinity for one aspect of the world that another may not share."
 		""
@@ -209,8 +214,14 @@
 		""
 		"Редстоун довольно чувствителен к токсинам, что можно понять из принципа работы измерителя токсичности. Но сначала я должен превратить его в смесь."
 	]
+	quest.19E4B6C663F63DC4.quest_desc: ["Smallest item holding cell for ME drive."]
+	quest.1AE0400A3C0AF316.quest_desc: ["Looks OP for such an easy craft, so idk where to put it :p"]
 	quest.1BCEB13A38CE4D8E.quest_desc: ["позволяет искать руду в чанках"]
-	quest.1E195026745014C0.quest_desc: ["Turns ingots into rods and rods into bolts when provided with lubricant"]
+	quest.1E195026745014C0.quest_desc: [
+		"Turns ingots into rods and rods into bolts when provided with lubricant"
+		""
+		"PIPES"
+	]
 	quest.1EE1B8261F4D85A0.quest_desc: ["Свечение при ударе на 30 сек."]
 	quest.203B742A5DB473FA.quest_desc: ["Simply smash a piece of flint into a stone to sharpen it"]
 	quest.2071CE16FAA3FDEE.quest_desc: [
@@ -285,9 +296,13 @@
 		"{@pagebreak}"
 		"Если я почувствую себя ОСОБЕННО плохо, я могу изготовить это пахучее и НЕ приятное на ощупь масло. Им могут заинтересоваться местные врачи."
 	]
+	quest.30DFEC80A6406BBF.quest_desc: ["Saw/bolts in recipe?"]
+	quest.3174BF34DCC9BB5E.quest_desc: ["8 channels/cable"]
+	quest.3256F857783BB7AA.quest_desc: ["Takes items from system"]
 	quest.3375DE99A86D3CB4.quest_desc: ["Item pipes will normally prefer the closest inventory. An inhibitor increases the length of a connection by 1000 for pathfinding purposes, which makes item pipes avoid that connection if possible."]
 	quest.338029494A6F98B3.quest_desc: ["Only deer with antlers drops correct item"]
 	quest.33D177C9C103372D.quest_desc: ["Позволяет бросаться маслами, очень полезно в будущем."]
+	quest.35450D58651AF44B.quest_desc: ["Allows you to access your system from any point in the world when linked to quantum ring"]
 	quest.35A512DACA56FF16.quest_desc: [
 		"The Alembic. An old device in the academy that will help purify liquids similar to how the crucible purifies solids. However, they are fragile. In order for this to work, I need a stronger glassy material. I know located in the Nether. I must find it!"
 		""
@@ -417,6 +432,12 @@
 		"• +2.5x Power Capacity"
 		"• +3x Recharge Rate"
 	]
+	quest.4546847E27695973.quest_desc: ["Connects any type of storage to your system"]
+	quest.454D157B4C9AF35E.quest_desc: [
+		"Simpliest ME system is made out of ME terminal, any form of items storage and acces point, all of them connected via fluix cables and provided with energy (either directly to ME terminal or via energy acceptors)"
+		"Each ME terminal as well as each cable has limited channels, each connected system element (such as import bus, storage bus etc.) takes one channel to operate, so you a little bit limited in that regard, but ME terminals could be stacked to provide more channels to operate."
+		"More info could be found iside ingame guide (Seriously, it's very good, with examples and pictures)"
+	]
 	quest.4662695201019F94.quest_desc: [
 		"Adding fume funnels to the left and right of your witch's oven can drastically improve it's yield."
 		""
@@ -507,6 +528,10 @@
 	quest.55B031B4D7E5DEE3.quest_desc: ["Wikd chicken"]
 	quest.5643AEC296D95BE9.quest_desc: ["Слабость и замедление"]
 	quest.56AE77021D975ACD.quest_desc: ["This mesh can catch basic resources such as: sand, gravel, clay and fish"]
+	quest.57A91C641FE38999.quest_desc: [
+		"Copper bolt to craft?"
+		"Unlock next stage after this?(because unlocking it in the middle of quest line is kinda weird to me, but IDK)"
+	]
 	quest.58DE851CD9578153.quest_desc: ["позволяет шарить глифы за опыт, чем больше глифово - тратит больше опыта"]
 	quest.590167B593FE267A.quest_desc: [
 		"All the bronze machines use steam to operate"
@@ -544,6 +569,7 @@
 		"у предметов есть шанс получить бонус при дробление"
 	]
 	quest.5F3B3C006860B496.quest_desc: ["Attracts items when powered"]
+	quest.5F750B9378BA292B.quest_desc: [""]
 	quest.5FB8F11E1CE083EC.quest_desc: [
 		"An outfit from a bygone age. Their style was very fitting in their time. With some minor-improvements, I've made it coat fit me perfectly. Now for the remaining parts."
 		""
@@ -565,6 +591,7 @@
 		""
 		"Костюм чумного доктора обладает довольно приятным дополнением. Время действия негативных эффектов снижается в зависимости от количества частей одежды на вас. Это может даже полностью свести эффект на нет."
 	]
+	quest.605AFF391B6FB32E.quest_desc: ["32 channels/cable"]
 	quest.606AC3FF6B9213D5.quest_desc: ["Just like a normal composter, but mechanical!"]
 	quest.60F83295651EE0CF.quest_desc: [
 		"I found it... "
@@ -631,6 +658,7 @@
 		""
 		"Можно использовать вместе с поясом для масел, зелье будет копать руду по области как гранаты, при этом копание будет происходит словно вы копаете с киркой зачарованной на удачу 2."
 	]
+	quest.6AB3FC93EDD641B3.quest_desc: ["System access point. Could be upgraded to crafting terminal with... crafting table"]
 	quest.6B56735FE657E8D0.quest_desc: ["даёт сурс за еду либо кидать либо класть на платформу. Вокруг 3х3 будет превращать землю в мицелий и выращивать грибы"]
 	quest.6CB0342958887169.quest_desc: ["Furnace, but better!"]
 	quest.6E57514B8D09F6D8.quest_desc: [
@@ -644,6 +672,7 @@
 		"Однажды мне пришла идея смешать огненный порошок с ядом, они и по отдельности сильны, но вместе... ДА ЭТО ЧЁРТОВ ВЕДЬМИН ОГОНЬ!!!"
 	]
 	quest.70798A5B74FDB203.quest_desc: ["На болоте"]
+	quest.70E46A04581CCAC3.quest_desc: [""]
 	quest.714992905CA44375.quest_desc: [
 		"My catalogue of ingredients, although plentiful, can be limiting in its color. I do not have enough ingredients to expand my ideas, my vision! But I know how I can get more. It may seem like these are all the flowers and herbs the world has to offer, but I know simple plant life can be so much more complex. I will imbue these plants, strip them down to their genetical make-up, and create new plants. COMPLETELY REMADE BY MY HAND."
 		""
@@ -696,9 +725,12 @@
 		"{@pagebreak}"
 		"Это сложное устройство похоже на своего двоюродного брата - арбалет. Однако благодаря обширным исследованиям и инженерным разработкам мне удалось свести его к одноручному арбалету, который может сделать два дополнительных выстрела, прежде чем его нужно будет заряжать."
 	]
+	quest.7787ABAA319FB651.quest_desc: ["Breaks and pickups blocks, can be enchanted with any pickaxe enchantment"]
 	quest.77E388F4525884E8.quest_desc: [""]
 	quest.7A5F66121C4BCC2B.quest_desc: ["Charges items. That's it"]
 	quest.7AA3CDBC6B160F86.quest_desc: ["Free furnaces"]
+	quest.7B3C8D21C9000197.quest_desc: ["Make quest for arrow out of every metal type just for funzies?"]
+	quest.7D5DCEA36FF46987.quest_desc: ["Daytime bed"]
 	quest.7E9470BDDB0600F0.quest_desc: [
 		"11 без"
 		"35 с"
@@ -716,18 +748,22 @@
 	task.08836B7AEB5DF9AF.title: "Energy generation"
 	task.0CB11BEA448FFB96.title: "Ore generation"
 	task.0F25C68A335172FD.title: "Ore generattion"
+	task.1277513341BBFB9F.title: "Any #storagedrawers:drawers"
 	task.15F67DE3803CCA6C.title: "Poison?"
 	task.15F9629F86649AB6.title: "How to setup your network"
 	task.16FCEE60932380BD.title: "Any #minecraft:anvil"
 	task.274F98243AA9482F.title: "Animals breeding"
 	task.33FFDC1566305E62.title: "item/fluid transfer"
+	task.4224A6EBD936625E.title: "Butcher?"
 	task.46CE431166A44610.title: "Oil pot"
 	task.4E4DCBBCBFA389BB.title: "Any #c:files"
 	task.4FE41B7B9F6AAEE7.title: "!"
 	task.55A9AB2E43857E14.title: "Any #minecraft:beds"
 	task.5733CBC7B63AE4B4.title: "source generation"
+	task.5811DD77B7904989.title: "AE2WTlib"
 	task.5D063D32D1C6BB2C.title: "Any #ytech:aqueducts"
 	task.5EC8E0E987CF862A.title: "More plants"
+	task.62D92EAF1C74E303.title: "Any #comforts:hammocks"
 	task.6F9CD690878AEB29.title: "Any #toxony:scalpels"
 	task.73CEC69AE2924335.title: "Any #c:logs/archwood"
 	task.77C744B48E7A1B18.title: "Any #minecraft:beds"

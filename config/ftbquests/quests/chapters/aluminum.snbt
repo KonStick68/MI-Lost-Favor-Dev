@@ -754,18 +754,6 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["0BCD76587F2DB00F"]
-			id: "0EA589BC97492829"
-			shape: "heart"
-			tasks: [{
-				id: "017458F879F5BB65"
-				item: { count: 1, id: "immersiveengineering:glider" }
-				type: "item"
-			}]
-			x: 3.5d
-			y: 6.0d
-		}
-		{
 			dependencies: ["12D33FAA9C537EF8"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -976,6 +964,7 @@
 				"5C5203B17DB9752E"
 			]
 			id: "6BC434A6B44D825B"
+			shape: "octagon"
 			size: 3.0d
 			tasks: [{
 				id: "641D04E886E1F213"
@@ -1341,8 +1330,8 @@
 				item: { count: 1, id: "ae2:formation_core" }
 				type: "item"
 			}]
-			x: -9.0d
-			y: 2.0d
+			x: -8.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["3C276536D97E985C"]
@@ -1354,8 +1343,8 @@
 				item: { count: 1, id: "ae2:annihilation_core" }
 				type: "item"
 			}]
-			x: -9.0d
-			y: 4.0d
+			x: -8.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["454D157B4C9AF35E"]
@@ -1366,8 +1355,8 @@
 				item: { count: 1, id: "ae2:import_bus" }
 				type: "item"
 			}]
-			x: -9.5d
-			y: 3.5d
+			x: -11.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["454D157B4C9AF35E"]
@@ -1378,8 +1367,8 @@
 				item: { count: 1, id: "ae2:export_bus" }
 				type: "item"
 			}]
-			x: -9.5d
-			y: 2.5d
+			x: -11.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["454D157B4C9AF35E"]
@@ -1390,8 +1379,8 @@
 				item: { count: 1, id: "ae2:storage_bus" }
 				type: "item"
 			}]
-			x: -9.0d
-			y: 3.0d
+			x: -11.5d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -1401,13 +1390,315 @@
 			]
 			hide_dependency_lines: true
 			id: "454D157B4C9AF35E"
-			shape: "diamond"
+			rewards: [{
+				id: "75CB8A65E38ACF02"
+				item: {
+					count: 1
+					id: "ae2:guide"
+				}
+				type: "item"
+			}]
+			shape: "octagon"
 			tasks: [{
 				id: "15F9629F86649AB6"
 				type: "checkmark"
 			}]
-			x: -10.0d
+			x: -12.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["454D157B4C9AF35E"]
+			id: "7787ABAA319FB651"
+			shape: "diamond"
+			tasks: [{
+				id: "5E5ABAC024F0374B"
+				item: { count: 1, id: "ae2:annihilation_plane" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["51ACFBCDBA613212"]
+			id: "19800DDEA270C24C"
+			shape: "octagon"
+			tasks: [{
+				id: "5032441BFC8D479B"
+				item: { count: 1, id: "ae2:wireless_terminal" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["19800DDEA270C24C"]
+			id: "06793C23D00355A7"
+			shape: "rsquare"
+			tasks: [{
+				id: "22BBEB2000A191BC"
+				item: { count: 1, id: "ae2wtlib:magnet_card" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["19800DDEA270C24C"]
+			id: "35450D58651AF44B"
+			shape: "rsquare"
+			tasks: [{
+				id: "57A30406B93AA5A2"
+				item: { count: 1, id: "ae2wtlib:quantum_bridge_card" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6AB3FC93EDD641B3"]
+			id: "51ACFBCDBA613212"
+			tasks: [{
+				id: "149DED1C0359607B"
+				item: { count: 1, id: "ae2:wireless_access_point" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["19800DDEA270C24C"]
+			id: "335816E90C26E818"
+			shape: "rsquare"
+			tasks: [{
+				id: "75D3F7C97A29EEBA"
+				item: { count: 1, id: "ae2:wireless_booster" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["454D157B4C9AF35E"]
+			id: "3663E19C03145651"
+			shape: "diamond"
+			tasks: [{
+				id: "216623F7AD5DF4AB"
+				item: { count: 1, id: "ae2:drive" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3663E19C03145651"]
+			dependency_requirement: "one_completed"
+			hide_dependent_lines: true
+			id: "19E4B6C663F63DC4"
+			shape: "diamond"
+			tasks: [{
+				id: "335E3C9B13C267E3"
+				item: { count: 1, id: "ae2:item_storage_cell_1k" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3663E19C03145651"]
+			id: "70E46A04581CCAC3"
+			shape: "diamond"
+			tasks: [{
+				id: "0CE162D097DEE33B"
+				item: { count: 1, id: "ae2:portable_fluid_cell_1k" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["454D157B4C9AF35E"]
+			id: "1BE0EC7CC3C84287"
+			shape: "diamond"
+			tasks: [{
+				id: "2F70AB3AD029BCDD"
+				item: { count: 1, id: "ae2:energy_acceptor" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["50A40FAE189C817D"]
+			id: "1AE0400A3C0AF316"
+			shape: "heart"
+			tasks: [
+				{
+					id: "6FBA60F4E663116E"
+					item: { count: 1, id: "extended_industrialization:nano_helmet" }
+					type: "item"
+				}
+				{
+					id: "15050ACE37E5AEDA"
+					item: { count: 1, id: "extended_industrialization:nano_chestplate" }
+					type: "item"
+				}
+				{
+					id: "61CEF576F158418B"
+					item: { count: 1, id: "extended_industrialization:nano_leggings" }
+					type: "item"
+				}
+				{
+					id: "18B18BE30F1D1303"
+					item: { count: 1, id: "extended_industrialization:nano_boots" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"3256F857783BB7AA"
+				"0C7FBEEB6BB3499E"
+			]
+			id: "0445DFBF72F88F1C"
+			shape: "diamond"
+			tasks: [{
+				id: "29CCD2EB7CFF7CE2"
+				item: { count: 1, id: "advanced_ae:import_export_bus_part" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["454D157B4C9AF35E"]
+			id: "0525578062559FAA"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "371D5B0B8ABD4EE3"
+					item: { count: 1, id: "extendedae:tag_storage_bus" }
+					type: "item"
+				}
+				{
+					id: "4C10649AFCA3A630"
+					item: { count: 1, id: "extendedae:mod_storage_bus" }
+					type: "item"
+				}
+				{
+					id: "1C70E0FBDA4A0FAC"
+					item: { count: 1, id: "extendedae:precise_storage_bus" }
+					type: "item"
+				}
+			]
+			x: -11.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6AB3FC93EDD641B3"]
+			id: "12B05FD9B885507F"
+			shape: "octagon"
+			tasks: [{
+				id: "338363A454E0C783"
+				item: { count: 1, id: "ae2:basic_card" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["12B05FD9B885507F"]
+			id: "4B5EA89E72E93E69"
+			shape: "rsquare"
+			tasks: [{
+				id: "5747567E7FD9058C"
+				item: { count: 1, id: "ae2:redstone_card" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["12B05FD9B885507F"]
+			id: "39E5AE024BF58E11"
+			shape: "rsquare"
+			tasks: [{
+				id: "65891846DF59ED31"
+				item: { count: 1, id: "ae2:capacity_card" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["12B05FD9B885507F"]
+			id: "735811CED41AF4CD"
+			shape: "rsquare"
+			tasks: [{
+				id: "1443BDAEB23F2508"
+				item: { count: 1, id: "ae2:void_card" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"19E4B6C663F63DC4"
+				"6AB3FC93EDD641B3"
+			]
+			id: "2FEB99107A0DACC6"
+			tasks: [{
+				id: "308731FCB094B869"
+				item: { count: 1, id: "ae2:cell_workbench" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["454D157B4C9AF35E"]
+			id: "61040BB4E5AC19D4"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "460B8D41FBB0FAE1"
+					item: { count: 1, id: "ae2:formation_plane" }
+					type: "item"
+				}
+				{
+					id: "21E1C9ED8E2D04EE"
+					item: { count: 1, id: "extendedae:active_formation_plane" }
+					type: "item"
+				}
+			]
+			x: -12.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["454D157B4C9AF35E"]
+			id: "605AFF391B6FB32E"
+			shape: "diamond"
+			tasks: [{
+				id: "613FB164500F7AED"
+				item: { count: 1, id: "ae2:fluix_smart_dense_cable" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0BCD76587F2DB00F"]
+			id: "640DC65E9255BECE"
+			shape: "heart"
+			tasks: [{
+				id: "1F0D6D058B31E805"
+				item: { count: 1, id: "hangglider:hang_glider" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
 		}
 	]
 }
