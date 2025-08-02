@@ -1,4 +1,4 @@
-filename = 'Pastel-1.1.1.jar'
+filename = 'Pastel-1.1.3.jar'
 name = 'Pastel'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = 'fe2a85870385f787dbbd7fd080fa89c8638f7a3b'
+hash = '724280969e11d5aed8a7a070db2e1bf3f721f0f0'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6793866
+file-id = 6814735
 project-id = 1264556

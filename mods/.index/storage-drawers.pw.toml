@@ -1,4 +1,4 @@
-filename = 'Storage Drawers-neoforge-1.21-13.8.9.jar'
+filename = 'Storage Drawers-neoforge-1.21.1-13.8.11.jar'
 name = 'Storage Drawers'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '23f8298c6137dd1a9ce896641cf90dd30d20948e'
+hash = 'd69affc6ee72a4324a35cc8b64dede8ec8e6fc10'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6714200
+file-id = 6834654
 project-id = 223852

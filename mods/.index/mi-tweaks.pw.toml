@@ -1,4 +1,4 @@
-filename = 'mi-tweaks-1.8.10-1.21.1.jar'
+filename = 'mi-tweaks-1.8.11-1.21.1.jar'
 name = 'MI Tweaks'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '318ba4a8cb399f72f8f58d73a087424ebb2affe7'
+hash = 'd8830e136dde6c046e2a8484a32b27678a75e5de'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6742080
+file-id = 6818742
 project-id = 1068413

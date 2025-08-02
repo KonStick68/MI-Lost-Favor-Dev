@@ -1,16 +1,16 @@
-filename = 'megacells-4.10.0.jar'
-name = 'MEGA Cells'
+filename = 'immersive_machinery-0.2.0+1.21.1-neoforge.jar'
+name = 'Immersive Machinery [Fabric/Forge]'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = 'b8d5ce05caa82766ff57ee89ac6075123224a7e2'
+hash = '479c940b7e869dc4637a7f1d291ef310e8749c7f'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6808045
-project-id = 622112
+file-id = 6495135
+project-id = 1068736

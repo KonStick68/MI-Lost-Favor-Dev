@@ -1,16 +1,16 @@
-filename = 'rustic_engineer-1.1.2-neoforge-1.21.1.jar'
-name = 'Rustic Engineer'
-side = 'both'
+filename = 'coolrain-1.1.0-1.21.1-neoforge.jar'
+name = 'Cool Rain'
+side = 'client'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '8616e29e34d4318ae7e71319e0a68f5cdad74748'
+hash = 'e7e59c06677651828af9298c09b27a8f72a4d2a0'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6472088
-project-id = 1026067
+file-id = 6196244
+project-id = 1196599

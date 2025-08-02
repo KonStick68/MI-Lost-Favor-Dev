@@ -1,4 +1,4 @@
-filename = 'toxony-0.9.9.jar'
+filename = 'toxony-0.10.1.jar'
 name = 'Toxony'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'beta'
 
 [download]
-hash = '732d4b1f5a9b4094a8106853c9a85c99c106bb30'
+hash = 'abb1a68323650f5cfb4091077f8f4c3f74bbe4be'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6785706
+file-id = 6811991
 project-id = 1236984
