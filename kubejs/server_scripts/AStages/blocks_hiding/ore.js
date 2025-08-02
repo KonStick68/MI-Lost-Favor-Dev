@@ -102,11 +102,9 @@ const ore_samples = [
 
 ore_samples.forEach(element => {
     facing.forEach(facing => {
-
         AStages.addRestrictionForOre(`astages/samples/${element}_sample_${facing.id}`, "ores_early", 
             Block.getBlock(`kubejs:${element}_ore_sample`).defaultBlockState().setValue(BlockProperties.HORIZONTAL_FACING, facing.direction), 
-            Blocks.STONE.defaultBlockState()
+            "rocks:rock"
         ) 
-
     })
 })
