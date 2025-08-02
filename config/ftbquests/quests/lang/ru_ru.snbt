@@ -2,6 +2,11 @@
 	chapter.7CF76022186FB1FC.title: "Occultism"
 	quest.1C0F24C077FF849F.title: "Macerator?"
 	quest.31990356CC7F128E.title: "Lumberjack"
+	quest.410F856A333A2FDF.quest_desc: [
+		"Чтобы получить одомашененную версию животных, необходимо разводить диких животных!"
+		""
+		"Чем дальше заходит род диких животных, тем больше шанс что животное станет одомашненным "
+	]
 	quest.4E82D339CAB26A95.title: "Slow Smelter"
 	task.4D2528186728DD34.title: "Any #minecraft:axes"
 	task.58A993FC8210949E.title: "Any #minecraft:candles"
