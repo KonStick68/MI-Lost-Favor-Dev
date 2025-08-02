@@ -1,0 +1,1413 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aluminum"
+	group: "786FFA1BEC14E223"
+	icon: {
+		id: "modern_industrialization:aluminum_ingot"
+	}
+	id: "126830F3CB1F8DDD"
+	order_index: 0
+	quest_links: [{
+		id: "62D52F1D27E0B802"
+		linked_quest: "0BCD76587F2DB00F"
+		x: 2.0d
+		y: 3.0d
+	}]
+	quests: [
+		{
+			dependencies: ["1535DAA84E3E8980"]
+			hide_dependency_lines: true
+			id: "4528EE0CB91CE4AC"
+			shape: "diamond"
+			tasks: [{
+				id: "222C79DCC6D115CF"
+				item: { count: 1, id: "modern_industrialization:electrolyzer" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["1535DAA84E3E8980"]
+			id: "193C98D99D4A0CA8"
+			shape: "rsquare"
+			tasks: [{
+				id: "7939F473D88A6D46"
+				item: { count: 1, id: "extended_industrialization:electric_farmer" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1535DAA84E3E8980"]
+			id: "52FC37B95614B02B"
+			shape: "rsquare"
+			tasks: [{
+				id: "341D853D49D15289"
+				item: { count: 1, id: "extended_industrialization:large_electric_furnace" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1535DAA84E3E8980"]
+			id: "356AAECAA18ED146"
+			shape: "rsquare"
+			tasks: [{
+				id: "3359A595819298EC"
+				item: { count: 1, id: "extended_industrialization:large_electric_macerator" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1535DAA84E3E8980"]
+			id: "1421BA67FAF23D62"
+			shape: "rsquare"
+			tasks: [{
+				id: "25F408EB34FB5B12"
+				item: { count: 1, id: "extended_industrialization:machine_chainer" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0BCD76587F2DB00F"]
+			id: "019A242810D414BA"
+			shape: "heart"
+			tasks: [{
+				id: "02458EE59495F902"
+				item: { count: 1, id: "modern_industrialization:overdrive_module" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["12D33FAA9C537EF8"]
+			id: "1535DAA84E3E8980"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "44FFCB7431B2C15B"
+				item: { count: 1, id: "modern_industrialization:advanced_machine_hull" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1535DAA84E3E8980"]
+			id: "721C26781ACF5AFC"
+			shape: "diamond"
+			tasks: [{
+				id: "67FC3A2B5DAAA639"
+				item: { count: 1, id: "extended_industrialization:mv_solar_panel" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1535DAA84E3E8980"]
+			id: "5C5203B17DB9752E"
+			shape: "rsquare"
+			tasks: [{
+				id: "348C4E09656878AC"
+				item: { count: 1, id: "modern_industrialization:vacuum_freezer" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["1535DAA84E3E8980"]
+			id: "5AAE5B75AB0470BD"
+			shape: "diamond"
+			tasks: [{
+				id: "6055FCFD9CC7895F"
+				item: { count: 1, id: "modern_industrialization:oil_drilling_rig" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1535DAA84E3E8980"]
+			hide_dependency_lines: true
+			id: "6CD532F96409049A"
+			shape: "diamond"
+			tasks: [{
+				id: "78D1C1203B1FC515"
+				item: { count: 1, id: "modern_industrialization:mv_steam_turbine" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1535DAA84E3E8980"]
+			hide_dependency_lines: true
+			id: "036066A145AA7F8E"
+			shape: "diamond"
+			tasks: [{
+				id: "16DA1D8DBBA6788E"
+				item: { count: 1, id: "modern_industrialization:mv_diesel_generator" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1535DAA84E3E8980"]
+			id: "36B3975E66261640"
+			shape: "diamond"
+			tasks: [{
+				id: "0F1135E939B84C0A"
+				item: { count: 1, id: "modern_industrialization:electric_quarry" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"6B792C2CCB0AEAB2"
+				"3480C617A777F0C5"
+				"0CDB37176E65359D"
+			]
+			id: "12D33FAA9C537EF8"
+			shape: "diamond"
+			tasks: [{
+				id: "242DB6E33C588460"
+				item: { count: 1, id: "modern_industrialization:electronic_circuit" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1535DAA84E3E8980"]
+			id: "15A9E991C3BF3779"
+			shape: "rsquare"
+			tasks: [{
+				id: "32277C0040AE29FE"
+				item: { count: 1, id: "modern_industrialization:distillery" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"1535DAA84E3E8980"
+				"5D07A5B2F5ECF337"
+			]
+			id: "106DA438AC3117F4"
+			tasks: [{
+				id: "58512C3FD567D153"
+				item: { count: 1, id: "modern_industrialization:advanced_large_steam_boiler" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["12D33FAA9C537EF8"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "49B427B046D31CC9"
+			shape: "diamond"
+			tasks: [{
+				id: "1D4B0294114C3927"
+				item: { count: 1, id: "modern_industrialization:large_pump" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1535DAA84E3E8980"]
+			hide_dependency_lines: true
+			id: "64B741C93CAA5B34"
+			shape: "diamond"
+			tasks: [{
+				id: "102E55310422900F"
+				item: { count: 1, id: "modern_industrialization:chemical_reactor" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1535DAA84E3E8980"]
+			id: "22B7317BB018972A"
+			shape: "diamond"
+			tasks: [{
+				id: "07DA2F21E884D1FA"
+				item: { count: 1, id: "modern_industrialization:centrifuge" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["22B7317BB018972A"]
+			id: "302F30F3D1036C81"
+			shape: "diamond"
+			tasks: [{
+				id: "6F7D489EF0589C52"
+				item: { count: 1, id: "modern_industrialization:manganese_crushed_dust" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["22B7317BB018972A"]
+			hide_dependency_lines: true
+			id: "7DB84D53908CC6DC"
+			shape: "none"
+			tasks: [{
+				id: "43662784B8E2F817"
+				item: { count: 1, id: "modern_industrialization:ruby_dust" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"7DB84D53908CC6DC"
+				"22B7317BB018972A"
+			]
+			id: "13F18BDF620E06BF"
+			shape: "diamond"
+			tasks: [{
+				id: "7EFF318FE28E03C7"
+				item: { count: 1, id: "modern_industrialization:chromium_crushed_dust" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"302F30F3D1036C81"
+				"64B741C93CAA5B34"
+				"7391FFB583CCD2BD"
+			]
+			id: "58D21F7E784D1CB9"
+			min_required_dependencies: 2
+			shape: "diamond"
+			tasks: [{
+				id: "28A40E5A31E66F87"
+				item: { count: 1, id: "modern_industrialization:manganese_sulfuric_solution_bucket" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"4528EE0CB91CE4AC"
+				"3EDE546C8F7D9238"
+			]
+			id: "6327C5C4FF176D02"
+			shape: "diamond"
+			tasks: [{
+				id: "606354646A308C50"
+				item: { count: 1, id: "modern_industrialization:chromium_tiny_dust" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"58D21F7E784D1CB9"
+				"4528EE0CB91CE4AC"
+			]
+			id: "77A93BDB2DED8F4D"
+			shape: "diamond"
+			tasks: [{
+				id: "41134FA7567202C2"
+				item: { count: 1, id: "modern_industrialization:manganese_tiny_dust" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"77A93BDB2DED8F4D"
+				"6327C5C4FF176D02"
+			]
+			id: "2B86C2F3762A64D2"
+			shape: "octagon"
+			tasks: [{
+				id: "2B5E872AB6C1CE48"
+				item: { count: 1, id: "modern_industrialization:stainless_steel_dust" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["0BCD76587F2DB00F"]
+			icon: {
+				id: "immersiveengineering:chunk_loader"
+			}
+			id: "4074482799422285"
+			shape: "octagon"
+			tasks: [
+				{
+					id: "4BF5F9CD8D06A1AF"
+					observe_type: 0
+					timer: 0L
+					to_observe: "immersiveengineering:chunk_loader"
+					type: "observation"
+				}
+				{
+					id: "73F10F39D21AF34F"
+					item: { count: 1, id: "immersiveengineering:chunk_loader" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "79787CCC5DB455A7"
+					item: { count: 1, id: "minecraft:calibrated_sculk_sensor" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "58DBA3E7FE2DB9C5"
+					item: { count: 5, id: "immersiveengineering:steel_window" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "63D4AC24EAC8E5BA"
+					item: { count: 20, id: "immersiveengineering:steel_scaffolding_standard" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "6BC703E3B251DCEA"
+					item: { count: 9, id: "immersiveengineering:concrete" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "3C86170E050D547B"
+					item: { count: 3, id: "immersiveengineering:light_engineering" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3BB2AA58DC35ED47"
+					item: { count: 2, id: "immersiveengineering:resonanz_engineering" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "745AFE0C50B648F7"
+					item: { count: 1, id: "immersiveengineering:rs_engineering" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "146E344A40A247BE"
+					item: { count: 4, id: "immersiveengineering:steel_fence" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["50A40FAE189C817D"]
+			id: "766A84DCD9F13C70"
+			shape: "none"
+			tasks: [{
+				id: "478C3F3FC9C239E5"
+				item: { count: 1, id: "modern_industrialization:advanced_upgrade" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["3FE921C660AB2665"]
+			id: "50A40FAE189C817D"
+			shape: "none"
+			tasks: [{
+				id: "415D8C1EF4E48546"
+				item: { count: 1, id: "modern_industrialization:polyethylene_bucket" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"15A9E991C3BF3779"
+				"64B741C93CAA5B34"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			id: "3FE921C660AB2665"
+			shape: "none"
+			tasks: [{
+				id: "055B10C94AFE911E"
+				item: { count: 1, id: "modern_industrialization:ethylene_bucket" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"5C5203B17DB9752E"
+				"46141B477C8E0B25"
+			]
+			hide_dependency_lines: true
+			id: "4011A79DEE4D3A0C"
+			shape: "heart"
+			tasks: [{
+				consume_items: true
+				count: 1024L
+				id: "46155F871ECB99A7"
+				item: { count: 64, id: "modern_industrialization:rubber_sheet" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["0BCD76587F2DB00F"]
+			id: "7C52F2946D5F9857"
+			shape: "octagon"
+			tasks: [{
+				icon: {
+					id: "ae2:mysterious_cube"
+				}
+				id: "62575292AF14A686"
+				observe_type: 0
+				timer: 0L
+				to_observe: "ae2:mysterious_cube"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7C52F2946D5F9857"]
+			hide_dependency_lines: true
+			id: "5185D129A4E238B5"
+			shape: "diamond"
+			tasks: [{
+				id: "25EC9AF43D1CED5E"
+				item: { count: 1, id: "ae2:certus_quartz_crystal" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0400107F87A7BEC6"]
+			id: "3C276536D97E985C"
+			shape: "diamond"
+			tasks: [{
+				id: "7253B028FBDAC77D"
+				item: { count: 1, id: "ae2:fluix_crystal" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3C276536D97E985C"]
+			id: "3174BF34DCC9BB5E"
+			shape: "diamond"
+			tasks: [{
+				id: "1BD16F868527B931"
+				item: { count: 1, id: "ae2:fluix_glass_cable" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["41E80F2D1521D52D"]
+			id: "4C64489A737195EC"
+			shape: "diamond"
+			tasks: [{
+				id: "275683D42C2D8940"
+				item: { count: 1, id: "immersiveengineering:connector_hv" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["41E80F2D1521D52D"]
+			id: "1C35EB2CA01F09C8"
+			shape: "diamond"
+			tasks: [{
+				id: "1A4FEE3F15AE3CBC"
+				item: { count: 1, id: "immersiveengineering:connector_hv_relay" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0BCD76587F2DB00F"]
+			id: "41E80F2D1521D52D"
+			shape: "rsquare"
+			tasks: [{
+				id: "407DDE5313EFEB2E"
+				item: { count: 1, id: "immersiveengineering:wirecoil_steel" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["41E80F2D1521D52D"]
+			id: "6748BBEF1E34A756"
+			shape: "diamond"
+			tasks: [{
+				id: "2D44824220A5696C"
+				item: { count: 1, id: "immersiveengineering:capacitor_hv" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["41E80F2D1521D52D"]
+			id: "5DDA25EB563D52A6"
+			shape: "octagon"
+			tasks: [{
+				id: "5806BB4D794F6460"
+				item: { count: 1, id: "immersiveengineering:wirecoil_redstone" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5DDA25EB563D52A6"]
+			id: "7E3ADDC7181F7286"
+			shape: "diamond"
+			tasks: [{
+				id: "348B3ADB614A23AA"
+				item: { count: 1, id: "immersiveengineering:connector_redstone" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5DDA25EB563D52A6"]
+			id: "344EAA66BB0A0CA0"
+			shape: "diamond"
+			tasks: [{
+				id: "6CDBE0A361E8D36F"
+				item: { count: 1, id: "immersiveengineering:redstone_timer" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5DDA25EB563D52A6"]
+			id: "5F9914776F1A9C33"
+			shape: "diamond"
+			tasks: [{
+				id: "14EA64997DF2AE2B"
+				item: { count: 1, id: "immersiveengineering:redstone_switchboard" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5DDA25EB563D52A6"]
+			id: "6E6F6A6AC7FE82E7"
+			shape: "diamond"
+			tasks: [{
+				id: "20354C93B8B869FA"
+				item: { count: 1, id: "immersiveengineering:redstone_state_cell" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5DDA25EB563D52A6"]
+			id: "7C1EEA75AB2EF2C9"
+			tasks: [{
+				id: "2E0890A56E14DBC2"
+				item: { count: 1, id: "immersiveengineering:connector_bundled" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7C1EEA75AB2EF2C9"]
+			id: "6EEFEB5DD10A329D"
+			shape: "diamond"
+			tasks: [{
+				id: "1A96A939E695211F"
+				item: { count: 1, id: "immersiveengineering:logic_unit" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5DDA25EB563D52A6"]
+			id: "7A663BF0F927D37D"
+			shape: "diamond"
+			tasks: [{
+				id: "5EAEE2F6FE41FD13"
+				item: { count: 1, id: "immersiveengineering:conveyor_redstone" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5DDA25EB563D52A6"]
+			id: "62175436FA348355"
+			shape: "diamond"
+			tasks: [{
+				id: "3E386BB12D0D2C96"
+				item: { count: 1, id: "immersiveengineering:machine_interface" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6EEFEB5DD10A329D"]
+			id: "764B69FBE4283FD9"
+			shape: "diamond"
+			tasks: [{
+				id: "2F2BF6A6D01C7E50"
+				item: { count: 1, id: "immersiveengineering:circuit_table" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7C1EEA75AB2EF2C9"]
+			id: "5D494B7A215617F0"
+			shape: "diamond"
+			tasks: [{
+				id: "0AB130A41E5973D2"
+				item: { count: 1, id: "immersiveengineering:item_batcher" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["764B69FBE4283FD9"]
+			id: "3D0E6086BCC4B89C"
+			shape: "diamond"
+			tasks: [{
+				id: "0B00344FCB1ACC4C"
+				item: { count: 1, id: "immersiveengineering:circuit_board" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3D0E6086BCC4B89C"]
+			id: "5358DF16D7972129"
+			shape: "diamond"
+			tasks: [{
+				id: "3B4578BE3575BD64"
+				item: { count: 1, id: "immersiveengineering:logic_circuit" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0BCD76587F2DB00F"]
+			id: "0EA589BC97492829"
+			shape: "heart"
+			tasks: [{
+				id: "017458F879F5BB65"
+				item: { count: 1, id: "immersiveengineering:glider" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["12D33FAA9C537EF8"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "3EE89E67CCA4B991"
+			shape: "diamond"
+			tasks: [{
+				id: "2179FF46848CB828"
+				item: { count: 1, id: "modern_industrialization:large_motor" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1535DAA84E3E8980"]
+			hide_dependency_lines: true
+			id: "0B27BAA4F468BA8C"
+			shape: "diamond"
+			tasks: [{
+				id: "1683F8024DDB822F"
+				item: { count: 1, id: "extended_industrialization:tesla_coil" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0B27BAA4F468BA8C"]
+			hide_dependency_lines: true
+			id: "51C3CD0FDBE33888"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "5E772BC3C8BFDB35"
+					item: { count: 1, id: "extended_industrialization:tesla_receiver" }
+					type: "item"
+				}
+				{
+					id: "033BD5959E8BDDB9"
+					item: { count: 1, id: "extended_industrialization:mv_tesla_receiver_hatch" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1535DAA84E3E8980"]
+			id: "6E6F60F274DE8687"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "1B4577B114981EEA"
+					item: { count: 1, id: "modern_industrialization:advanced_item_input_hatch" }
+					type: "item"
+				}
+				{
+					id: "12F3A4B3D4AF276F"
+					item: { count: 1, id: "modern_industrialization:advanced_item_output_hatch" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1535DAA84E3E8980"]
+			id: "51C794568E88AE27"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "249EF86CFB320EC3"
+					item: { count: 1, id: "modern_industrialization:advanced_fluid_input_hatch" }
+					type: "item"
+				}
+				{
+					id: "45842DAC346A015B"
+					item: { count: 1, id: "modern_industrialization:advanced_fluid_output_hatch" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1535DAA84E3E8980"]
+			hide_dependency_lines: true
+			id: "5CFB93E46B3BA2D0"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "7605364C10C17288"
+					item: { count: 1, id: "modern_industrialization:mv_energy_input_hatch" }
+					type: "item"
+				}
+				{
+					id: "109ECFD23D005A3E"
+					item: { count: 1, id: "modern_industrialization:mv_energy_output_hatch" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0BCD76587F2DB00F"]
+			id: "4C286178F3A4A3FB"
+			shape: "diamond"
+			tasks: [{
+				id: "507AC060373D8215"
+				item: { count: 1, id: "modern_industrialization:silicon_dust" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1535DAA84E3E8980"]
+			hide_dependency_lines: true
+			id: "32C526576A708D75"
+			shape: "diamond"
+			tasks: [{
+				id: "1DC1B552673F01E9"
+				item: { count: 1, id: "modern_industrialization:mv_storage_unit" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"1535DAA84E3E8980"
+				"4C286178F3A4A3FB"
+			]
+			hide_dependency_lines: true
+			id: "1463D31561833F60"
+			shape: "diamond"
+			tasks: [{
+				id: "6845A12FBBF8F4C6"
+				item: { count: 1, id: "modern_industrialization:silicon_battery" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0BCD76587F2DB00F"]
+			id: "6B792C2CCB0AEAB2"
+			shape: "diamond"
+			tasks: [{
+				id: "566D18C7E01B76DD"
+				item: { count: 1, id: "modern_industrialization:electronic_circuit_board" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"718051CD9ECF9A2D"
+				"4C286178F3A4A3FB"
+			]
+			id: "3480C617A777F0C5"
+			shape: "diamond"
+			tasks: [{
+				id: "17008CA25EBB181C"
+				item: { count: 1, id: "modern_industrialization:transistor" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"718051CD9ECF9A2D"
+				"4C286178F3A4A3FB"
+			]
+			id: "0CDB37176E65359D"
+			shape: "diamond"
+			tasks: [{
+				id: "4FD1168DE593C11C"
+				item: { count: 1, id: "modern_industrialization:diode" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"13F18BDF620E06BF"
+				"64B741C93CAA5B34"
+				"7391FFB583CCD2BD"
+			]
+			id: "3EDE546C8F7D9238"
+			min_required_dependencies: 2
+			shape: "diamond"
+			tasks: [{
+				id: "4CCBFE1AAB728D18"
+				item: { count: 1, id: "modern_industrialization:chromium_hydrochloric_solution_bucket" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"2B86C2F3762A64D2"
+				"5C5203B17DB9752E"
+			]
+			id: "6BC434A6B44D825B"
+			size: 3.0d
+			tasks: [{
+				id: "641D04E886E1F213"
+				item: { count: 1, id: "modern_industrialization:stainless_steel_ingot" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["0BCD76587F2DB00F"]
+			id: "45D7914DAECC1D03"
+			shape: "octagon"
+			tasks: [{
+				id: "3086086D07749BF1"
+				item: { count: 1, id: "modern_industrialization:configurable_tank" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5AAE5B75AB0470BD"]
+			id: "4E0AD2567CC7B2BF"
+			shape: "diamond"
+			tasks: [{
+				id: "25001321927112AD"
+				item: { count: 1, id: "modern_industrialization:aluminum_drill" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["36B3975E66261640"]
+			id: "61D6BB3074EE60DE"
+			shape: "diamond"
+			tasks: [{
+				id: "6BB7C3225C17BF55"
+				item: { count: 1, id: "modern_industrialization:bronze_drill" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["36B3975E66261640"]
+			id: "3282D19628994B4D"
+			shape: "diamond"
+			tasks: [{
+				id: "6DFA482CDC699ED1"
+				item: { count: 1, id: "modern_industrialization:copper_drill" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["36B3975E66261640"]
+			id: "5917BB2922E238F6"
+			shape: "diamond"
+			tasks: [{
+				id: "79E19C5600749FF1"
+				item: { count: 1, id: "modern_industrialization:steel_drill" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["36B3975E66261640"]
+			id: "12EDC0C3604E101D"
+			shape: "diamond"
+			tasks: [{
+				id: "1C4530B06D7200EF"
+				item: { count: 1, id: "modern_industrialization:gold_drill" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4E0AD2567CC7B2BF"]
+			id: "7AB02A37608496EE"
+			shape: "diamond"
+			tasks: [{
+				id: "3B642403108CE2E6"
+				item: { count: 1, id: "modern_industrialization:crude_oil_bucket" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7AB02A37608496EE"]
+			id: "46141B477C8E0B25"
+			shape: "diamond"
+			tasks: [{
+				id: "7F491261B09C23E3"
+				item: { count: 1, id: "modern_industrialization:naphtha_bucket" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7AB02A37608496EE"]
+			hide_dependent_lines: true
+			id: "7391FFB583CCD2BD"
+			shape: "diamond"
+			tasks: [{
+				id: "544D0437CDA2ABA8"
+				item: { count: 1, id: "modern_industrialization:sulfuric_acid_bucket" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7C52F2946D5F9857"]
+			id: "28AFF1E8060AF552"
+			shape: "diamond"
+			tasks: [{
+				id: "46B7B1A200C55F7E"
+				item: { count: 1, id: "ae2:calculation_processor_press" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7C52F2946D5F9857"]
+			id: "53AC75C204F0B576"
+			shape: "diamond"
+			tasks: [{
+				id: "4E7C0EE900B18A60"
+				item: { count: 1, id: "ae2:engineering_processor_press" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7C52F2946D5F9857"]
+			id: "238EE06493B3A737"
+			shape: "diamond"
+			tasks: [{
+				id: "3F186B3544111FA3"
+				item: { count: 1, id: "ae2:logic_processor_press" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7C52F2946D5F9857"]
+			id: "7AA98C59CFB4CD55"
+			shape: "diamond"
+			tasks: [{
+				id: "1818989586057A3D"
+				item: { count: 1, id: "ae2:silicon_press" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7C52F2946D5F9857"]
+			id: "75D74C85176AB1A3"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "2A77D6660C62099B"
+					item: { count: 1, id: "ae2:inscriber" }
+					type: "item"
+				}
+				{
+					id: "1B7E9566DA78D77D"
+					item: { count: 1, id: "modern_industrialization:electric_packer" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"28AFF1E8060AF552"
+				"75D74C85176AB1A3"
+			]
+			id: "413DDE936776EE77"
+			shape: "diamond"
+			tasks: [{
+				id: "1D018ECFF2C46962"
+				item: { count: 1, id: "ae2:printed_calculation_processor" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"53AC75C204F0B576"
+				"75D74C85176AB1A3"
+			]
+			id: "0157B496CF704FD9"
+			shape: "diamond"
+			tasks: [{
+				id: "79839B74D863D670"
+				item: { count: 1, id: "ae2:printed_engineering_processor" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"238EE06493B3A737"
+				"75D74C85176AB1A3"
+			]
+			id: "2FFCAD249C90AAB5"
+			shape: "diamond"
+			tasks: [{
+				id: "3C007A74A23135B2"
+				item: { count: 1, id: "ae2:printed_logic_processor" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"7AA98C59CFB4CD55"
+				"75D74C85176AB1A3"
+			]
+			hide_dependent_lines: true
+			id: "7E3B35F48675A24C"
+			shape: "diamond"
+			tasks: [{
+				id: "3E9990E1DE3E4369"
+				item: { count: 1, id: "ae2:printed_silicon" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"413DDE936776EE77"
+				"7E3B35F48675A24C"
+			]
+			id: "0779762CF7B57DE8"
+			shape: "diamond"
+			tasks: [{
+				id: "4EF71F3AF3B41334"
+				item: { count: 1, id: "ae2:calculation_processor" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"0157B496CF704FD9"
+				"7E3B35F48675A24C"
+			]
+			id: "0482EA4038FBB82A"
+			shape: "diamond"
+			tasks: [{
+				id: "2D8DF1D702D01E1A"
+				item: { count: 1, id: "ae2:engineering_processor" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"2FFCAD249C90AAB5"
+				"7E3B35F48675A24C"
+			]
+			hide_dependent_lines: true
+			id: "3D84CD9EFC320D32"
+			shape: "diamond"
+			tasks: [{
+				id: "08C564D42B7A10AC"
+				item: { count: 1, id: "ae2:logic_processor" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5929AACD538053AF"]
+			id: "0400107F87A7BEC6"
+			shape: "diamond"
+			tasks: [{
+				id: "3A2AAB7625F7A16F"
+				item: { count: 1, id: "ae2:charged_certus_quartz_crystal" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5185D129A4E238B5"]
+			id: "5929AACD538053AF"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "6E5016E9DEBFBB6C"
+					item: { count: 1, id: "ae2:charger" }
+					type: "item"
+				}
+				{
+					id: "6C35317F3C23A1BB"
+					item: { count: 1, id: "modern_industrialization:electrolyzer" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3C276536D97E985C"
+				"0482EA4038FBB82A"
+			]
+			hide_dependency_lines: true
+			id: "19A7F1A6EEC302DE"
+			shape: "diamond"
+			tasks: [{
+				id: "338068D12DE947F2"
+				item: { count: 1, id: "ae2:controller" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"3D84CD9EFC320D32"
+				"6C714B3C032C00D7"
+				"1EACB245C3B65A31"
+			]
+			id: "6AB3FC93EDD641B3"
+			shape: "diamond"
+			tasks: [{
+				id: "254E21B3C6987323"
+				item: { count: 1, id: "ae2:terminal" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3C276536D97E985C"]
+			hide_dependency_lines: true
+			id: "1EACB245C3B65A31"
+			shape: "diamond"
+			tasks: [{
+				id: "5B6D67B48717BECF"
+				item: { count: 1, id: "ae2:formation_core" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3C276536D97E985C"]
+			hide_dependency_lines: true
+			id: "6C714B3C032C00D7"
+			shape: "diamond"
+			tasks: [{
+				id: "7995EABBE6166F43"
+				item: { count: 1, id: "ae2:annihilation_core" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["454D157B4C9AF35E"]
+			id: "0C7FBEEB6BB3499E"
+			shape: "diamond"
+			tasks: [{
+				id: "7483542312930DBB"
+				item: { count: 1, id: "ae2:import_bus" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["454D157B4C9AF35E"]
+			id: "3256F857783BB7AA"
+			shape: "diamond"
+			tasks: [{
+				id: "1B72A6E3FB15A987"
+				item: { count: 1, id: "ae2:export_bus" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["454D157B4C9AF35E"]
+			id: "4546847E27695973"
+			shape: "diamond"
+			tasks: [{
+				id: "6F8B02C0CD993B13"
+				item: { count: 1, id: "ae2:storage_bus" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"6AB3FC93EDD641B3"
+				"3174BF34DCC9BB5E"
+				"19A7F1A6EEC302DE"
+			]
+			hide_dependency_lines: true
+			id: "454D157B4C9AF35E"
+			shape: "diamond"
+			tasks: [{
+				id: "15F9629F86649AB6"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: 3.0d
+		}
+	]
+}

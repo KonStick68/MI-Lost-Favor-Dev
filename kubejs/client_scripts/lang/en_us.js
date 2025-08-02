@@ -5,5 +5,8 @@ ClientEvents.lang('en_us', event => {
   event.add('milf.text.entity.interact.part2', 'Something magical prevents you from using ')
   event.add('milf.text.block.interact.part0', 'Strange magic prevents you from using this block')
   event.add('desc.immersiveengineering.info.mineral.nether_silt', 'Strange magic prevents you from using this block')
+  event.add('milf.stage.saturation', 'Saturation effect is removed')
+  event.add('milf.stage.xaeromap', 'Unlocked: mini-map, radar, waypoints')
+  event.add('milf.cannot.mine.block', 'You cannot mine this block for now')
   
 })

@@ -1,0 +1,16 @@
+filename = 'AdFinders-1.21.1-10.1.0.0-NeoForge-build.0408.jar'
+name = 'Advanced Finders'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '684f715d1d0b3283a9b41e13aed3286a210ba298'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6728825
+project-id = 260925

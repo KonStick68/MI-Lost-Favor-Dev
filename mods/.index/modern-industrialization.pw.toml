@@ -1,0 +1,16 @@
+filename = 'Modern-Industrialization-2.3.10.jar'
+name = 'Modern Industrialization'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'd62479329b195096f72a5f749458b1f094f93bac'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6780312
+project-id = 405388

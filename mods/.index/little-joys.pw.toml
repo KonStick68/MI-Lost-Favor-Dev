@@ -1,0 +1,16 @@
+filename = 'littlejoys-neoforge-1.21.1-21.1.9.jar'
+name = 'Little Joys'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'f826d016fe54c3dc6bc6acdfc6638a187bbdbc78'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6778690
+project-id = 1235950

@@ -1,0 +1,16 @@
+filename = 'dankstorage-neoforge-1.21.1-19.jar'
+name = 'Dank Storage'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '13ca33179ceef3948ee978097edcddebf9a91afa'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6194013
+project-id = 335673

@@ -1,0 +1,16 @@
+filename = 'sounds-2.4.12+1.21.1+neoforge.jar'
+name = 'Sound​s'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '8cb2dd4e12dc94fb3f352f05adcfbefc1a322993'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6708170
+project-id = 925889

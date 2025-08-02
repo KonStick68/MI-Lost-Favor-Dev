@@ -18,7 +18,7 @@ const ores = [
     {id: "ore_deepslate_emerald", origin: "minecraft:deepslate_emerald_ore", replace: "minecraft:deepslate"},
     {id: "ore_deepslate_lapis", origin: "minecraft:deepslate_lapis_ore", replace: "minecraft:deepslate"},
     {id: "ore_deepslate_diamond", origin: "minecraft:deepslate_diamond_ore", replace: "minecraft:deepslate"},
-    //moded
+    //modded
     {id: "ore_ancient_silver", origin: "toxony:ancient_silver", replace: "minecraft:deepslate"},
     {id: "ore_antimony", origin: "modern_industrialization:antimony_ore", replace: "minecraft:stone"},
     {id: "ore_bauxite", origin: "modern_industrialization:bauxite_ore", replace: "minecraft:stone"},
@@ -61,3 +61,52 @@ const ores = [
 ores.forEach(element => {
     AStages.addRestrictionForOre(`astages/ore_${element.id }`, "ores_early", element.origin, element.replace) 
 });
+
+const facing = [
+    { id: 'north', direction: Facing.NORTH },
+    { id: 'east', direction: Facing.EAST },
+    { id: 'south', direction: Facing.SOUTH },
+    { id: 'west', direction: Facing.WEST }
+]
+
+const ore_samples = [
+    "iron",
+    "gold",
+    "diamond",
+    "copper",
+    "coal",
+    "emerald",
+    "lapis",
+    "redstone",
+    "ancient_debris",
+    "nether_quartz",
+    "nether_gold",
+    "antimony",
+    "bauxite",
+    "iridium",
+    "lead",
+    "monazite",
+    "nickel",
+    "platinum",
+    "salt",
+    "quartz",
+    "tin",
+    "titanium",
+    "tungsten",
+    "uranium",
+]
+
+// ore_samples.forEach(element => {
+//     AStages.addRestrictionForOre(`astages/samples/${element}_sample`, "ores_early", `kubejs:${element}_ore_sample`, "rocks:rock") 
+// });
+
+ore_samples.forEach(element => {
+    facing.forEach(facing => {
+
+        AStages.addRestrictionForOre(`astages/samples/${element}_sample_${facing.id}`, "ores_early", 
+            Block.getBlock(`kubejs:${element}_ore_sample`).defaultBlockState().setValue(BlockProperties.HORIZONTAL_FACING, facing.direction), 
+            Blocks.STONE.defaultBlockState()
+        ) 
+
+    })
+})

@@ -1,0 +1,823 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "toxony"
+	group: ""
+	id: "0BA8A5647651177A"
+	images: [
+		{
+			color: 3663685
+			height: 3.0d
+			image: "toxony:textures/particle/aqua_splash_4.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -3.5d
+			y: 7.0d
+		}
+		{
+			color: 3663685
+			height: 3.0d
+			image: "toxony:textures/particle/aqua_splash_4.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			height: 3.0d
+			image: "toxony:item/flail_spin_1"
+			rotation: 0.0d
+			width: 3.0d
+			x: 3.91836734693878d
+			y: 19.835204081632646d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "48D05EA6556FF501"
+			tasks: [{
+				id: "1BE097434E1513A9"
+				item: { count: 1, id: "toxony:lost_journal" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48D05EA6556FF501"]
+			id: "25A292F117ECA3E6"
+			tasks: [{
+				id: "1CE7019F68820614"
+				item: { count: 1, id: "toxony:mortar_pestle" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5A26B593C3D70B56"]
+			id: "5C1A95780908F901"
+			tasks: [{
+				id: "26EF8D620A48CEFD"
+				item: { count: 1, id: "toxony:redstone_mortar" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["25A292F117ECA3E6"]
+			id: "75DE98178AF407BD"
+			tasks: [{
+				id: "5FEC8FD7C151C903"
+				item: { count: 1, id: "toxony:poison_paste" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3F70D40267927529"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "10EEA65D3AC363CC"
+			shape: "diamond"
+			tasks: [{
+				count: 2L
+				id: "639B90480260D4FC"
+				item: { count: 2, id: "toxony:ocelot_mint" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["75DE98178AF407BD"]
+			id: "28A2FCBC095F291E"
+			tasks: [{
+				icon: {
+					id: "toxony:poison_farmland"
+				}
+				id: "14515087E96E628D"
+				observe_type: 0
+				timer: 0L
+				to_observe: "toxony:poison_farmland"
+				type: "observation"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3F70D40267927529"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "2BB85B5FB4A2E943"
+			shape: "diamond"
+			tasks: [{
+				id: "210428860609B512"
+				item: { count: 1, id: "toxony:nightshade" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3F70D40267927529"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "70798A5B74FDB203"
+			shape: "diamond"
+			tasks: [{
+				count: 3L
+				id: "550C9A154A2AD2C1"
+				item: { count: 3, id: "toxony:water_hemlock" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3F70D40267927529"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: false
+			id: "3A5FB1474CC41CED"
+			shape: "diamond"
+			tasks: [{
+				count: 5L
+				id: "33BBC4AB3CF1AB92"
+				item: { count: 5, id: "toxony:coldsnap" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3F70D40267927529"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "360B3C7F848E2965"
+			shape: "diamond"
+			tasks: [{
+				count: 4L
+				id: "57FBADA70C7756CB"
+				item: { count: 4, id: "toxony:bloodroot" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3F70D40267927529"]
+			id: "3DD74B48583DB8C0"
+			tasks: [{
+				id: "6F9CD690878AEB29"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(toxony:scalpels)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3DD74B48583DB8C0"]
+			hide_dependency_lines: true
+			id: "68C1714F3E9B2CA2"
+			shape: "diamond"
+			tasks: [{
+				count: 2L
+				id: "2D87199C040B3F04"
+				item: { count: 2, id: "toxony:venom_tooth" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3DD74B48583DB8C0"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "0D70E9CF33C567A7"
+			shape: "diamond"
+			tasks: [{
+				count: 2L
+				id: "69A8E0D47B24F035"
+				item: { count: 2, id: "toxony:toxic_spit" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3DD74B48583DB8C0"]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			id: "3EB7176D4C776E9D"
+			shape: "diamond"
+			tasks: [{
+				id: "6C8EA3789F17B2FD"
+				item: { count: 1, id: "toxony:poison_sac" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3DD74B48583DB8C0"]
+			hide_dependency_lines: true
+			id: "50A70151E50EC5DC"
+			shape: "diamond"
+			tasks: [{
+				id: "435D4DCB1B142B83"
+				item: { count: 1, id: "toxony:bog_bone" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3DD74B48583DB8C0"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "24A65F3E0C177185"
+			shape: "diamond"
+			tasks: [{
+				id: "08DCFE9153A8EEFD"
+				item: { count: 1, id: "toxony:acid_slimeball" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["75DE98178AF407BD"]
+			id: "3F70D40267927529"
+			tasks: [{
+				count: 8L
+				id: "504EA5D7BD1EA091"
+				item: { count: 1, id: "toxony:poison_blend" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["75DE98178AF407BD"]
+			id: "351FEB2FC04A2D5A"
+			tasks: [
+				{
+					count: 12L
+					id: "550C8588E5262C77"
+					item: { count: 12, id: "toxony:clay_oil_pot" }
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "6E19F7D40DFDD536"
+					item: { count: 12, id: "toxony:empty_oil_pot" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["02BDC1FB8AC8485D"]
+			id: "5984DB66549B9040"
+			tasks: [{
+				id: "7BB20C166146BFF6"
+				item: { count: 1, id: "toxony:poison_oil_pot" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["02BDC1FB8AC8485D"]
+			id: "5643AEC296D95BE9"
+			tasks: [{
+				id: "3A0D0E5809C306FC"
+				item: { count: 1, id: "toxony:fatigue_oil_pot" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["351FEB2FC04A2D5A"]
+			id: "02BDC1FB8AC8485D"
+			tasks: [{
+				id: "46CE431166A44610"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["02BDC1FB8AC8485D"]
+			id: "1EE1B8261F4D85A0"
+			tasks: [{
+				id: "7224F97416A7E4BD"
+				item: { count: 1, id: "toxony:glowing_oil_pot" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["02BDC1FB8AC8485D"]
+			id: "0E432C3C0C5E9D1D"
+			tasks: [{
+				id: "67E75B0F5852AC43"
+				item: { count: 1, id: "toxony:fire_resistance_oil_pot" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3F70D40267927529"]
+			id: "4932A126EA1016F2"
+			tasks: [{
+				id: "4FC34BF24508D424"
+				item: { count: 1, id: "toxony:tox_gauge" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3F70D40267927529"]
+			id: "7F3F56C04BFCF7BD"
+			tasks: [{
+				id: "2DF6A5FCE0289591"
+				item: { count: 1, id: "toxony:copper_crucible" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"7F3F56C04BFCF7BD"
+				"24A65F3E0C177185"
+			]
+			id: "5A26B593C3D70B56"
+			shape: "gear"
+			tasks: [{
+				id: "099C6DC9A7559A94"
+				item: { count: 1, id: "toxony:toxic_paste" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"5A26B593C3D70B56"
+				"33D177C9C103372D"
+			]
+			id: "69D8F87655435203"
+			tasks: [{
+				id: "619E7E448BCEB512"
+				item: { count: 1, id: "toxony:acid_oil_pot" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3F70D40267927529"]
+			id: "33D177C9C103372D"
+			tasks: [{
+				id: "1AB2B81CA902AC4E"
+				item: { count: 1, id: "toxony:oil_pot_sash" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"10EEA65D3AC363CC"
+				"5A26B593C3D70B56"
+				"0D70E9CF33C567A7"
+			]
+			id: "49F633AB8533C593"
+			tasks: [{
+				id: "30B9039268845587"
+				item: { count: 1, id: "toxony:mending_oil_pot" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5A26B593C3D70B56"]
+			id: "13C6412ED5BDC06F"
+			tasks: [{
+				id: "4985365932000CB4"
+				item: { count: 1, id: "toxony:toxic_blend" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["75DE98178AF407BD"]
+			id: "7737F36A9E69FB4C"
+			tasks: [{
+				id: "5DC76597CDD9E334"
+				item: { components: { "minecraft:charged_projectiles": [ { components: { "minecraft:intangible_projectile": { } }, count: 1, id: "minecraft:arrow" }, { components: { "minecraft:intangible_projectile": { } }, count: 1, id: "minecraft:arrow" }, { components: { "minecraft:intangible_projectile": { } }, count: 1, id: "minecraft:arrow" } ], "toxony:loaded_shots": 3 }, count: 1, id: "toxony:cyclebow" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7737F36A9E69FB4C"]
+			id: "7EBDE83B2DCA80D8"
+			tasks: [{
+				count: 18L
+				id: "427D74264DE880F2"
+				item: { count: 18, id: "toxony:bolt" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			id: "4861D8CA259A874D"
+			tasks: [{
+				id: "07BBD9AC6FAF4B70"
+				item: { count: 2, id: "toxony:bolt_cartridge" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5A26B593C3D70B56"]
+			id: "14D2170A0424A902"
+			tasks: [{
+				id: "6B552FFDB75380F4"
+				item: { count: 1, id: "toxony:potion_flask" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5A26B593C3D70B56"]
+			id: "47ECA2AA01DBE0C5"
+			tasks: [{
+				id: "523F4F559B577D02"
+				item: { count: 1, id: "toxony:glass_vial" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["47ECA2AA01DBE0C5"]
+			id: "046EAAF7665E1DB4"
+			tasks: [{
+				id: "691889B121EBA465"
+				item: { count: 1, id: "toxony:toxin_canister" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["046EAAF7665E1DB4"]
+			id: "35A512DACA56FF16"
+			tasks: [
+				{
+					id: "41521303EBEECB34"
+					item: { count: 1, id: "toxony:alembic" }
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "7E3751BA6FE89A19"
+					item: { count: 12, id: "minecraft:blaze_powder" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["35A512DACA56FF16"]
+			id: "0C79F086A3EA30BA"
+			tasks: [
+				{
+					id: "451146B1588CE341"
+					item: { count: 1, id: "toxony:toxic_formula" }
+					type: "item"
+				}
+				{
+					id: "4D73B594A9EDE677"
+					item: { count: 1, id: "toxony:toxin" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["0C79F086A3EA30BA"]
+			id: "085A58908A521A63"
+			tasks: [{
+				id: "03D27D995554C1F6"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["085A58908A521A63"]
+			id: "19E126BBEF648662"
+			tasks: [{
+				id: "631FFFEBC815D755"
+				item: { count: 1, id: "toxony:redstone_mixture" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["19E126BBEF648662"]
+			id: "48D6F64AD6B17D08"
+			tasks: [{
+				id: "1CA27A1A8827FD6C"
+				item: { count: 1, id: "toxony:redstone_solution" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["48D6F64AD6B17D08"]
+			id: "48279750F55CBC27"
+			tasks: [{
+				id: "36D9AA1FD0743C63"
+				item: { count: 1, id: "toxony:affinity_solution" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["48279750F55CBC27"]
+			id: "11AEAD046E2353E6"
+			tasks: [{
+				id: "129B44759EEB3EDA"
+				item: { count: 1, id: "toxony:copper_needle" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["11AEAD046E2353E6"]
+			id: "3B8E12BA33DFD7AC"
+			tasks: [{
+				id: "1CED011E13D771A2"
+				item: { count: 1, id: "toxony:magnifying_glass" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["3B8E12BA33DFD7AC"]
+			id: "714992905CA44375"
+			tasks: [{
+				id: "5EC8E0E987CF862A"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["714992905CA44375"]
+			dependency_requirement: "one_started"
+			hide_dependency_lines: true
+			id: "66B0AFAA889C566A"
+			shape: "diamond"
+			tasks: [{
+				id: "3A38E59CF9E9412E"
+				item: { count: 1, id: "toxony:whirlsnap" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["714992905CA44375"]
+			hide_dependency_lines: true
+			id: "28A5633CE2E1F4BF"
+			shape: "diamond"
+			tasks: [{
+				id: "5F1A352F6423E602"
+				item: { count: 1, id: "toxony:moonlight_hemlock" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["714992905CA44375"]
+			hide_dependency_lines: true
+			id: "6C48BF82D9CA5228"
+			shape: "diamond"
+			tasks: [{
+				id: "6EB52C1487711FCB"
+				item: { count: 1, id: "toxony:snow_mint" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["714992905CA44375"]
+			hide_dependency_lines: true
+			id: "09230538232F070E"
+			shape: "diamond"
+			tasks: [{
+				id: "0E0988BCBC8E193A"
+				item: { count: 1, id: "toxony:warproot" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 19.5d
+		}
+		{
+			dependencies: ["714992905CA44375"]
+			hide_dependency_lines: true
+			id: "00E54FF69B2F56D3"
+			shape: "diamond"
+			tasks: [{
+				id: "329BC4D0BAB1BE5D"
+				item: { count: 1, id: "toxony:sunspot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["714992905CA44375"]
+			id: "188484018F12E3B9"
+			tasks: [{
+				id: "1AB2D18DEE843E0E"
+				item: { count: 1, id: "toxony:empty_tox_pot" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 19.5d
+		}
+		{
+			dependencies: ["188484018F12E3B9"]
+			id: "0A302433CAC7895F"
+			tasks: [{
+				id: "6966BDDA175824B2"
+				item: { count: 1, id: "toxony:toxin_tox_pot" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 19.5d
+		}
+		{
+			dependencies: ["188484018F12E3B9"]
+			id: "16FC0392E5AA51D8"
+			tasks: [{
+				id: "21110C069ECEFEB9"
+				item: { count: 1, id: "toxony:smoke_tox_pot" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["188484018F12E3B9"]
+			id: "3055F414B9F20508"
+			tasks: [{
+				id: "0176261562DC3810"
+				item: { count: 1, id: "toxony:regeneration_tox_pot" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["188484018F12E3B9"]
+			id: "02AE8C2723A731E7"
+			tasks: [{
+				id: "23B318B0102383ED"
+				item: { count: 1, id: "toxony:acid_tox_pot" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["188484018F12E3B9"]
+			id: "6E99902F01ED8483"
+			tasks: [{
+				id: "6581E170BA54635A"
+				item: { count: 1, id: "toxony:witchfire_tox_pot" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["714992905CA44375"]
+			id: "3AA1D61583B592AC"
+			tasks: [{
+				id: "11E47C89DA7C3FFC"
+				item: { count: 1, id: "toxony:oil_base" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["714992905CA44375"]
+			id: "40FBEE2028873C00"
+			tasks: [{
+				id: "49DB538E73938249"
+				item: { count: 1, id: "toxony:toxic_leather" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["40FBEE2028873C00"]
+			id: "5FB8F11E1CE083EC"
+			tasks: [
+				{
+					id: "28A1D615E936B3F6"
+					item: { count: 1, id: "toxony:plague_doctor_hood" }
+					type: "item"
+				}
+				{
+					id: "17C3F8EAF90FBEB9"
+					item: { count: 1, id: "toxony:plague_doctor_coat" }
+					type: "item"
+				}
+				{
+					id: "672680181447DD23"
+					item: { count: 1, id: "toxony:plague_doctor_leggings" }
+					type: "item"
+				}
+				{
+					id: "6D7FE97C9FF274B0"
+					item: { count: 1, id: "toxony:plague_doctor_boots" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["5FB8F11E1CE083EC"]
+			id: "62D095FE0536F7B7"
+			tasks: [{
+				id: "6983D970185EA64E"
+				item: { count: 1, id: "toxony:oil_pot_bandolier" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 23.5d
+		}
+		{
+			dependencies: ["62D095FE0536F7B7"]
+			id: "10EDC166831C6721"
+			tasks: [{
+				id: "580964687938377C"
+				item: { count: 1, id: "toxony:toxin_flask" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["10EDC166831C6721"]
+			id: "60F83295651EE0CF"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "2DB7EEF6ED61AEC3"
+				item: { count: 1, id: "toxony:alchemical_forge_part" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 27.0d
+		}
+	]
+}

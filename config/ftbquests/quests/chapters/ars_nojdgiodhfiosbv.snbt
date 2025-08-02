@@ -1,0 +1,304 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ars_nojdgiodhfiosbv"
+	group: ""
+	id: "2B3E5D6E8B56E8BB"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "21BBEDE9FB03D447"
+			tasks: [{
+				id: "2F3A7202AECA93EA"
+				item: { count: 1, id: "ars_nouveau:worn_notebook" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["21BBEDE9FB03D447"]
+			id: "5750E25528ABB85C"
+			tasks: [{
+				id: "6A27C117AE20BEC5"
+				item: { count: 1, id: "ars_nouveau:novice_spell_book" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5750E25528ABB85C"
+				"1E6F3C2742211FA8"
+			]
+			id: "4C5DF2EA2602D2A9"
+			tasks: [{
+				id: "50EFE0ADE9009941"
+				item: { count: 1, id: "ars_nouveau:scribes_table" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6141EA8359F2BA7D"]
+			id: "58DE851CD9578153"
+			tasks: [{
+				id: "039C0BF08B021BEF"
+				item: { count: 1, id: "ars_nouveau:annotated_codex" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 11.5d
+		}
+		{
+			id: "1E6F3C2742211FA8"
+			tasks: [{
+				id: "73CEC69AE2924335"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:logs/archwood)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			id: "296F35B2982F74C4"
+			tasks: [{
+				id: "2154B1DB773E01FF"
+				item: { count: 1, id: "ars_nouveau:sourceberry_bush" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E6F3C2742211FA8"]
+			id: "718AC2EDE439484F"
+			tasks: [{
+				id: "6C809E700A39E1CE"
+				item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["718AC2EDE439484F"]
+			id: "308098E9634265F0"
+			tasks: [{
+				id: "7781239DB7B6C329"
+				item: { count: 1, id: "ars_nouveau:source_gem" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3476E6DF114A1001"]
+			id: "6141EA8359F2BA7D"
+			tasks: [{
+				count: 2L
+				id: "054AD9D33B1DD3F9"
+				item: { count: 2, id: "ars_nouveau:magebloom_crop" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["43FBFDF482DFC417"]
+			id: "0DB837437D997D54"
+			tasks: [{
+				id: "66F03D9B81207BA7"
+				item: { count: 1, id: "ars_nouveau:abjuration_essence" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["43FBFDF482DFC417"]
+			id: "7390558791E2806C"
+			tasks: [{
+				id: "3BE930D72E01422E"
+				item: { count: 1, id: "ars_nouveau:water_essence" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["43FBFDF482DFC417"]
+			id: "6B6523EEC9C78A63"
+			tasks: [{
+				id: "45CAD6F53BEA6CD9"
+				item: { count: 1, id: "ars_nouveau:manipulation_essence" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["43FBFDF482DFC417"]
+			id: "6D4C868F0503F34F"
+			tasks: [{
+				id: "39603FB20FD8D038"
+				item: { count: 1, id: "ars_nouveau:fire_essence" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["43FBFDF482DFC417"]
+			id: "215E57DFF5862C09"
+			tasks: [{
+				id: "60240F8DF2D0E73B"
+				item: { count: 1, id: "ars_nouveau:earth_essence" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["43FBFDF482DFC417"]
+			id: "67BFB6F525CC2842"
+			tasks: [{
+				id: "5600673CC2B733B6"
+				item: { count: 1, id: "ars_nouveau:air_essence" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["43FBFDF482DFC417"]
+			id: "59099406119E1A23"
+			tasks: [{
+				id: "03C04C89E306BF78"
+				item: { count: 1, id: "ars_nouveau:conjuration_essence" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["308098E9634265F0"]
+			id: "43FBFDF482DFC417"
+			tasks: [{
+				id: "59B43D776E461A9D"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3946FA56BFBE4C4C"]
+			id: "0E83A5E1B38BC5EF"
+			tasks: [{
+				id: "3295AE57546294E0"
+				item: { count: 1, id: "ars_nouveau:agronomic_sourcelink" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3946FA56BFBE4C4C"]
+			id: "48DC25C0975506FD"
+			tasks: [{
+				id: "407C8E02070561B4"
+				item: { count: 1, id: "ars_nouveau:volcanic_sourcelink" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3946FA56BFBE4C4C"]
+			id: "678DD52529698DE4"
+			tasks: [{
+				id: "7E81B171664FD82D"
+				item: { count: 1, id: "ars_nouveau:alchemical_sourcelink" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3946FA56BFBE4C4C"]
+			id: "760015A8E61B210A"
+			tasks: [{
+				id: "253BEAA560CA9B16"
+				item: { count: 1, id: "ars_nouveau:vitalic_sourcelink" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3946FA56BFBE4C4C"]
+			id: "6B56735FE657E8D0"
+			tasks: [{
+				id: "7BF208BA2C3A9639"
+				item: { count: 1, id: "ars_nouveau:mycelial_sourcelink" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["308098E9634265F0"]
+			id: "3946FA56BFBE4C4C"
+			tasks: [{
+				id: "5733CBC7B63AE4B4"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3946FA56BFBE4C4C"]
+			id: "4FAA09555470797D"
+			tasks: [{
+				id: "34C0D348128065BB"
+				item: { count: 1, id: "ars_nouveau:source_jar" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["678DD52529698DE4"]
+			id: "775639CF9CC8C4C7"
+			tasks: [{
+				id: "3D58CACA3FC8D9D4"
+				item: { count: 1, id: "ars_nouveau:potion_jar" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["308098E9634265F0"]
+			id: "3476E6DF114A1001"
+			tasks: [
+				{
+					id: "135B7B0C61A82393"
+					item: { count: 1, id: "ars_nouveau:enchanting_apparatus" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4406DC95B7A7D0DA"
+					item: { count: 4, id: "ars_nouveau:arcane_pedestal" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 9.5d
+		}
+	]
+}

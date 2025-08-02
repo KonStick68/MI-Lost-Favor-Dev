@@ -17,6 +17,7 @@ const early_mobs = [
     {id:"husk", mob: "minecraft:husk"},
     {id:"bogged", mob: "minecraft:bogged"},
     {id:"drowned", mob: "minecraft:drowned"},
+    {id:"wandering_trader", mob: "minecraft:wandering_trader"},
 ]
 
 early_mobs.forEach(mob => {

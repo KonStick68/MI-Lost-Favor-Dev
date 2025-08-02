@@ -1,0 +1,16 @@
+filename = 'immersive_aircraft-1.3.3+1.21.1-neoforge.jar'
+name = 'Immersive Aircraft [Fabric/Forge]'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'cc199c72139b2314f2c4bb91e7da7a29d39bb1da'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6742186
+project-id = 666014

@@ -1,0 +1,16 @@
+filename = 'suppsquared-1.21-1.2.10-neoforge.jar'
+name = 'Supplementaries Squared'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = 'bdd252f0bf72b72f99778caab1adda528407a5ee'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6796090
+project-id = 838411

@@ -215,11 +215,6 @@
 			id: "1C0F24C077FF849F"
 			tasks: [
 				{
-					id: "328913C07FB842D8"
-					item: { count: 1, id: "modern_industrialization:silver_ingot" }
-					type: "item"
-				}
-				{
 					id: "4C4A8640C7DC7503"
 					item: { count: 1, id: "minecraft:gold_ingot" }
 					type: "item"
@@ -237,6 +232,11 @@
 				{
 					id: "175D9EEB44BF58FA"
 					item: { components: { "occultism:spirit_name": "urSpiritName" }, count: 1, id: "occultism:book_of_binding_bound_foliot" }
+					type: "item"
+				}
+				{
+					id: "60264CE441BFFA6F"
+					item: { count: 1, id: "modern_industrialization:silver_ingot" }
 					type: "item"
 				}
 			]

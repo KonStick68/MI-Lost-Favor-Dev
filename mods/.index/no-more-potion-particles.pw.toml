@@ -1,0 +1,16 @@
+filename = 'nomorepotionparticles-neoforge-1.21-1.0.1.jar'
+name = 'No More Potion Particles'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'e941679988812233c01e83abe5bdfb8d82c965eb'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5780989
+project-id = 1082967

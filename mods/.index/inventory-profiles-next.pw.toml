@@ -1,0 +1,16 @@
+filename = 'InventoryProfilesNext-neoforge-1.21-2.1.10.jar'
+name = 'Inventory Profiles Next'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'a8731ce04b73451af3a2b4043c6d24ae43e677c3'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6768034
+project-id = 495267

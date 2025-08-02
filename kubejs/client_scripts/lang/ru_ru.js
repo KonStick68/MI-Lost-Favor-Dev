@@ -4,4 +4,7 @@ ClientEvents.lang('ru_ru', event => {
     event.add('milf.text.entity.interact.part1', ' не хочет взаимодействовать с тобой')
     event.add('milf.text.entity.interact.part2', 'Что-то магическое запрещает вам использовать ')
     event.add('milf.text.block.interact.part0', 'Странная магия мешает вам использовать этот блок')
+    event.add('milf.stage.saturation', 'Эффект насыщения удалён')
+    event.add('milf.stage.xaeromap', 'Разблокированы: мини-карта, радар, метки')
+    event.add('milf.cannot.mine.block', 'Вы не можете добыть блок на данный момент')
 })

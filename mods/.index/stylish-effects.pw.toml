@@ -1,0 +1,16 @@
+filename = 'StylishEffects-v21.1.1-1.21.1-NeoForge.jar'
+name = 'Stylish Effects'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'ea7467617f907ed6b5e185f2e71ae882c6aafc82'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6177797
+project-id = 543661

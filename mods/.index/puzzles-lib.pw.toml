@@ -1,0 +1,16 @@
+filename = 'PuzzlesLib-v21.1.36-1.21.1-NeoForge.jar'
+name = 'Puzzles Lib [Forge & Fabric]'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'd290ef52d4977a6fd33d9ba1ec40e12914e59dce'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6494827
+project-id = 495476
