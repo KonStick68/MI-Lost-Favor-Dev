@@ -1,16 +1,16 @@
-filename = 'Storage Drawers-neoforge-1.21.1-13.8.11.jar'
-name = 'Storage Drawers'
+filename = 'animal_pen-neoforge-1.21-1.5.1.jar'
+name = 'Animal Pens'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = 'd69affc6ee72a4324a35cc8b64dede8ec8e6fc10'
+hash = '5e99e4099563193d8635a63fb5ef33fe42b75370'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6834654
-project-id = 223852
+file-id = 6688902
+project-id = 1206722
