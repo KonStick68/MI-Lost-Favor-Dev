@@ -30,6 +30,7 @@ item_interact_block.forEach(element => {
         .setCanBePlaced(false)
         .setCanItemBeLeftClicked(false)
         .setCanItemBeRightClicked(false)
+        .setHideInJEI(true)
         .setCanInteractWithBlock(false)
         .setUsageMessage(() => Text.of(
             [
