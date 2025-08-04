@@ -1,8 +1,13 @@
 ServerEvents.recipes(event => {
 
-    var tier1bp = "Strange Blueprint"
+    var tier1bp = "Mysterious Blueprint"
+    var tier2bp = "Storage Blueprint"
+    var tier3bp = "Automation Blueprint"
+    var tier4bp = "Quantum Blueprint"
+    var tier5bp = "Divine Blueprint"
 
-    event.custom({
+//tier 1
+  event.custom({
         "type": "immersiveengineering:blueprint",
         "inputs": [
             {
@@ -46,7 +51,6 @@ ServerEvents.recipes(event => {
           }
     })
 
-
   event.custom({
             "type": "immersiveengineering:blueprint",
             "inputs": [
@@ -77,6 +81,9 @@ ServerEvents.recipes(event => {
                 "item": "ae2:crafting_terminal"
             }
       })
+
+
+
 })
 
 

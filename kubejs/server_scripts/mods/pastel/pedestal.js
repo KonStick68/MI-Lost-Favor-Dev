@@ -1,6 +1,4 @@
 ServerEvents.recipes(event => {
-
-
     event.custom({
          "type": "pastel:pedestal",
          "time": 40,
@@ -20,7 +18,7 @@ ServerEvents.recipes(event => {
          ],
          "key": {
            "S": "pastel:shimmerstone_gem",
-           "B": "kubejs:blueprint_pack",
+           "B": "kubejs:mostly_unreadable_blueprint",
          },
          "result": {
            "components": {

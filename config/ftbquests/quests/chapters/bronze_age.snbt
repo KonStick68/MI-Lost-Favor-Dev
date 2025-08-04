@@ -2749,7 +2749,7 @@
 			shape: "rsquare"
 			tasks: [{
 				id: "0EAEAB1A14C2A180"
-				item: { count: 1, id: "storagedrawers:framing_table" }
+				item: { components: { "ftbquests:missing_item": "storagedrawers:framing_table" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 5.0d
@@ -2764,7 +2764,7 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "39E6414AD8924B69"
-				item: { count: 1, id: "storagedrawers:controller" }
+				item: { components: { "ftbquests:missing_item": "storagedrawers:controller" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 3.0d
@@ -2778,7 +2778,7 @@
 			id: "7B1641B7970C8BAC"
 			tasks: [{
 				id: "53887A4EC791BFD0"
-				item: { count: 1, id: "storagedrawers:controller_io" }
+				item: { components: { "ftbquests:missing_item": "storagedrawers:controller_io" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 3.0d
@@ -2792,7 +2792,7 @@
 			id: "1C9A5CCDDB126501"
 			tasks: [{
 				id: "33EB14E8C8F3E9BC"
-				item: { count: 1, id: "storagedrawers:compacting_drawers_2" }
+				item: { components: { "ftbquests:missing_item": "storagedrawers:compacting_drawers_2" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 5.0d
@@ -2806,7 +2806,7 @@
 			id: "49A2B52A2538342C"
 			tasks: [{
 				id: "0AEBCE3A62DDE866"
-				item: { count: 1, id: "storagedrawers:compacting_drawers_3" }
+				item: { components: { "ftbquests:missing_item": "storagedrawers:compacting_drawers_3" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 5.0d

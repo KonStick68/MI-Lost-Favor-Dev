@@ -5,7 +5,9 @@
 	chapter.126830F3CB1F8DDD.title: "aluminum"
 	chapter.1DE9AF77B4D50480.title: "First steps"
 	chapter.2B3E5D6E8B56E8BB.title: "Ars NOJDGIODHFIOSBV"
+	chapter.535EA14E4BC77614.title: "Applied Energistics"
 	chapter.561B8642F13079C1.title: "Bronze Age"
+	chapter.6FC19708C8D5F0F0.title: "Applied Energistics"
 	chapter_group.414DFD996A564669.title: "Early"
 	chapter_group.4602108FDD7051BD.title: "Primitive"
 	chapter_group.786FFA1BEC14E223.title: "Midgame"
@@ -200,7 +202,6 @@
 		"Лаванда: Регенерация"
 		"Рута: Увеличение скорости роста растений"
 	]
-	quest.19A7F1A6EEC302DE.quest_desc: ["Heart of ME system. Whatever black magic going on inside, system won't work without it"]
 	quest.19E126BBEF648662.quest_desc: [
 		"However, there is a catch to mutagens. Not all of them are the same, and the one I get greatly depends on the INGREDIENTS I CONSUME. As such when eating substances or making blends, I must be mindful of which ones I eat, as each ingredient contains an affinity for one aspect of the world that another may not share."
 		""
@@ -297,7 +298,6 @@
 		"Если я почувствую себя ОСОБЕННО плохо, я могу изготовить это пахучее и НЕ приятное на ощупь масло. Им могут заинтересоваться местные врачи."
 	]
 	quest.30DFEC80A6406BBF.quest_desc: ["Saw/bolts in recipe?"]
-	quest.3174BF34DCC9BB5E.quest_desc: ["8 channels/cable"]
 	quest.3256F857783BB7AA.quest_desc: ["Takes items from system"]
 	quest.3375DE99A86D3CB4.quest_desc: ["Item pipes will normally prefer the closest inventory. An inhibitor increases the length of a connection by 1000 for pathfinding purposes, which makes item pipes avoid that connection if possible."]
 	quest.338029494A6F98B3.quest_desc: ["Only deer with antlers drops correct item"]
@@ -432,7 +432,6 @@
 		"• +2.5x Power Capacity"
 		"• +3x Recharge Rate"
 	]
-	quest.4546847E27695973.quest_desc: ["Connects any type of storage to your system"]
 	quest.454D157B4C9AF35E.quest_desc: [
 		"Simpliest ME system is made out of ME terminal, any form of items storage and acces point, all of them connected via fluix cables and provided with energy (either directly to ME terminal or via energy acceptors)"
 		"Each ME terminal as well as each cable has limited channels, each connected system element (such as import bus, storage bus etc.) takes one channel to operate, so you a little bit limited in that regard, but ME terminals could be stacked to provide more channels to operate."
@@ -658,7 +657,6 @@
 		""
 		"Можно использовать вместе с поясом для масел, зелье будет копать руду по области как гранаты, при этом копание будет происходит словно вы копаете с киркой зачарованной на удачу 2."
 	]
-	quest.6AB3FC93EDD641B3.quest_desc: ["System access point. Could be upgraded to crafting terminal with... crafting table"]
 	quest.6B56735FE657E8D0.quest_desc: ["даёт сурс за еду либо кидать либо класть на платформу. Вокруг 3х3 будет превращать землю в мицелий и выращивать грибы"]
 	quest.6CB0342958887169.quest_desc: ["Furnace, but better!"]
 	quest.6E57514B8D09F6D8.quest_desc: [
