@@ -1,4 +1,4 @@
-const trusted_players  = ['Kisuny','_Narc0s_'] //['Optimal', 'Kisuny', 'Sipep', 'error1number404']
+const trusted_players  = ['Kisuny'] //['Optimal', 'Kisuny', 'Sipep', 'error1number404']
 
 function list_all_inventory(player) {
     let items_str = ''
@@ -29,7 +29,7 @@ ItemEvents.rightClicked(event => {
     let item_id = item.id;
     
     //TODO: idk how to get nbt now
-    // let nbt = item.nbt
+    let player_hand_item = event.player.offHandItem.componentString
 
     if (item_id === "minecraft:bedrock") {
         return list_all_inventory(player)
@@ -47,9 +47,9 @@ ItemEvents.rightClicked(event => {
         Text.gray('- Lang Key: '),
         Text.green(lang_key).clickCopy(lang_key).hover('Click to copy Key'),
     ]);
-    // player.tell([
-    //     Text.gray('- NBT: '),
-    //     Text.green(nbt).clickCopy(nbt).hover('Click to copy NBT'),
-    // ]);
+    player.tell([
+        Text.gray('- Components: '),
+        Text.green(player_hand_item).clickCopy(player_hand_item).hover('Click to copy NBT'),
+    ]);
 
 })
