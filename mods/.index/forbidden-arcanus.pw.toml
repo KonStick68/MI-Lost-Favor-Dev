@@ -1,16 +1,16 @@
-filename = 'Pastel-1.1.4.1.jar'
-name = 'Pastel'
+filename = 'forbidden_arcanus-1.21.1-2.5.17.jar'
+name = 'Forbidden and Arcanus'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '5077ad326058cdd6ea53ff35452fa9188bbad0f0'
+hash = '4bd2cb526c24940005962e5224839942110eba63'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6847961
-project-id = 1264556
+file-id = 6651314
+project-id = 309858

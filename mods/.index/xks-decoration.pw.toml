@@ -1,16 +1,16 @@
-filename = 'Pastel-1.1.4.1.jar'
-name = 'Pastel'
+filename = "XeKr's Decoration-1.21.1-NeoForge-1.1.5.jar"
+name = "XK's Decoration"
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '5077ad326058cdd6ea53ff35452fa9188bbad0f0'
+hash = 'c4c1f94043c8eea73b52de39a4c6d5c2c2447b2e'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6847961
-project-id = 1264556
+file-id = 6710779
+project-id = 497637

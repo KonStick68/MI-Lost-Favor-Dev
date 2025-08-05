@@ -1,4 +1,4 @@
-filename = 'balm-neoforge-1.21.1-21.0.48.jar'
+filename = 'balm-neoforge-1.21.1-21.0.49.jar'
 name = 'Balm'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = 'a8467c9e97722b0d2602082785e8e890da54c7b4'
+hash = 'f7ed2be5f60c85cfce66c853e3baeb10d93d7e23'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6784122
+file-id = 6841890
 project-id = 531761

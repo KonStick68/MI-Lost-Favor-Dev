@@ -1,16 +1,16 @@
-filename = 'Pastel-1.1.4.1.jar'
-name = 'Pastel'
-side = 'both'
+filename = 'enchdesc-neoforge-1.21.1-21.1.7.jar'
+name = 'Enchantment Descriptions'
+side = 'client'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '5077ad326058cdd6ea53ff35452fa9188bbad0f0'
+hash = '82119b6b25258bf16399a175a952e06cd9169682'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6847961
-project-id = 1264556
+file-id = 6348560
+project-id = 250419

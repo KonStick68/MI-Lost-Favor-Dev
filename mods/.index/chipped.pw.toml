@@ -1,16 +1,16 @@
-filename = 'Pastel-1.1.4.1.jar'
-name = 'Pastel'
+filename = 'chipped-neoforge-1.21.1-4.0.2.jar'
+name = 'Chipped'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '5077ad326058cdd6ea53ff35452fa9188bbad0f0'
+hash = '6f5395f58139802edfde7cb9170279f92f291971'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6847961
-project-id = 1264556
+file-id = 5813117
+project-id = 456956

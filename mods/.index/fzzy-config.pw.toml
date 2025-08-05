@@ -1,16 +1,16 @@
-filename = 'waystones-neoforge-1.21.1-21.1.21.jar'
-name = 'Waystones'
+filename = 'fzzy_config-0.7.2+1.21+neoforge.jar'
+name = 'Fzzy Config'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '4067568ea1fe78a14aa9572b0d48170964ff90e2'
+hash = 'c6461086edbb70354ae91a4a559d3adc7188c787'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6849785
-project-id = 245755
+file-id = 6843496
+project-id = 1005914

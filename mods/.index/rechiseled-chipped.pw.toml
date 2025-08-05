@@ -1,16 +1,16 @@
-filename = 'Pastel-1.1.4.1.jar'
-name = 'Pastel'
+filename = 'rechiseled_chipped-1.3-1.21.1.jar'
+name = 'Rechiseled: Chipped'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '5077ad326058cdd6ea53ff35452fa9188bbad0f0'
+hash = '605bd907e4218a782ce51fb447bfead9c792d5b0'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6847961
-project-id = 1264556
+file-id = 6357945
+project-id = 1007578

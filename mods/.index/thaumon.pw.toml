@@ -1,16 +1,16 @@
-filename = 'waystones-neoforge-1.21.1-21.1.21.jar'
-name = 'Waystones'
+filename = 'thaumon-neoforge-2.3.0+1.21.jar'
+name = 'Thaumon'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '4067568ea1fe78a14aa9572b0d48170964ff90e2'
+hash = '8a1a3508b88e78cc427333db9973f9837d5f7437'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6849785
-project-id = 245755
+file-id = 5492714
+project-id = 926511

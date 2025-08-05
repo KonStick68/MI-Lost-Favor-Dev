@@ -1,16 +1,16 @@
-filename = 'waystones-neoforge-1.21.1-21.1.21.jar'
-name = 'Waystones'
+filename = 'fusion-1.2.10-neoforge-mc1.21.jar'
+name = 'Fusion (Connected Textures)'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '4067568ea1fe78a14aa9572b0d48170964ff90e2'
+hash = '461fe05a3552951afa5a3f06f55ab3143c4780be'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6849785
-project-id = 245755
+file-id = 6826913
+project-id = 854949
