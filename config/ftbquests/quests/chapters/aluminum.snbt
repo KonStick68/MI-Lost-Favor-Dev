@@ -1055,8 +1055,8 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: -10.5d
+			x: 6.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["0BCD76587F2DB00F"]
@@ -1069,6 +1069,18 @@
 			}]
 			x: 3.5d
 			y: 2.5d
+		}
+		{
+			dependencies: ["50A40FAE189C817D"]
+			id: "38177928F82DE59A"
+			shape: "heart"
+			tasks: [{
+				id: "2ED3B2E19BD39545"
+				item: { count: 1, id: "extended_industrialization:nano_saber" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -11.0d
 		}
 	]
 }

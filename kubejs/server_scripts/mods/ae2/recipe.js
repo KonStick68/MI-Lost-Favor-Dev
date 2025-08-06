@@ -2,6 +2,17 @@ ServerEvents.recipes(event => {
     const removing_by_recipe_id = [
         "extendedae:cutter/engineering_processor",
         "ae2:inscriber/engineering_processor_print",
+        "ae2:inscriber/certus_quartz_dust",
+        "ae2:inscriber/logic_processor_press",
+
+        /*
+        "ae2:inscriber/logic_press",
+        "ae2:inscriber/logic_circuit",
+        "ae2:inscriber/printed_logic_processor",
+        "ae2:inscriber/silicon_press",
+        "ae2:inscriber/printed_silicon",
+        "ae2:inscriber/sky_dust",
+        */
     ]
     removing_by_recipe_id.forEach(id => {
         event.remove({ id: id })

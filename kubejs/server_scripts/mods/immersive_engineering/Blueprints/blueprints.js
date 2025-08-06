@@ -7,7 +7,7 @@ ServerEvents.recipes(event => {
     var tier5bp = "Divine Blueprint"
 
 //tier 1
-  event.custom({
+    event.custom({
         "type": "immersiveengineering:blueprint",
         "inputs": [
             {
@@ -24,9 +24,9 @@ ServerEvents.recipes(event => {
         "result": {
             "item": "ae2:fluix_glass_cable"
         }
-  })
+    })
 
-  event.custom({
+    event.custom({
           "type": "immersiveengineering:blueprint",
           "inputs": [
               {
@@ -51,7 +51,7 @@ ServerEvents.recipes(event => {
           }
     })
 
-  event.custom({
+    event.custom({
             "type": "immersiveengineering:blueprint",
             "inputs": [
                 {
@@ -82,7 +82,157 @@ ServerEvents.recipes(event => {
             }
       })
 
+//tier 2
 
+    event.custom({
+        "type": "immersiveengineering:blueprint",
+        "inputs": [
+            {
+                "basePredicate": {
+                    "tag": "c:plates/aluminum"
+                },
+                "count": 4
+            },
+            {
+                 "basePredicate": {
+                    "item": "modern_industrialization:certus_quartz_rod"
+                 },
+                 "count": 8
+            },
+            {
+                "basePredicate": {
+                    "tag": "c:ingots/steel"
+                },
+                "count": 2
+            },
+            {
+                "basePredicate": {
+                    "tag": "c:dusts/silicon"
+                },
+                "count": 2
+            },
+        ],
+        "category": tier2bp,
+        "result": {
+            "item": "ae2:silicon_press"
+        }
+    })
+
+    event.custom({
+        "type": "immersiveengineering:blueprint",
+        "inputs": [
+            {
+                "basePredicate": {
+                    "tag": "c:plates/aluminum"
+                },
+                "count": 4
+            },
+            {
+                 "basePredicate": {
+                    "item": "modern_industrialization:certus_quartz_rod"
+                 },
+                 "count": 8
+            },
+            {
+                "basePredicate": {
+                    "tag": "c:ingots/steel"
+                },
+                "count": 2
+            },
+            {
+                "basePredicate": {
+                    "tag": "c:dusts/gold"
+                },
+                "count": 2
+            },
+        ],
+        "category": tier2bp,
+        "result": {
+            "item": "ae2:logic_processor_press"
+        }
+    })
+
+//tier 3
+
+    event.custom({
+        "type": "immersiveengineering:blueprint",
+        "inputs": [
+            {
+                "basePredicate": {
+                    "tag": "c:plates/aluminum"
+                },
+                "count": 4
+            },
+            {
+                 "basePredicate": {
+                    "item": "modern_industrialization:certus_quartz_rod"
+                 },
+                 "count": 8
+            },
+            {
+                "basePredicate": {
+                    "item": "forbidden_arcanus:obsidiansteel_ingot"
+                },
+                "count": 4
+            },
+            {
+                "basePredicate": {
+                    "item": "forbidden_arcanus:corrupti_dust"
+                },
+                "count": 16
+            },
+            {
+                "basePredicate": {
+                    "item": "ae2:certus_quartz_dust"
+                },
+                "count": 2
+            },
+        ],
+        "category": tier3bp,
+        "result": {
+            "item": "ae2:calculation_processor_press"
+        }
+    })
+
+    event.custom({
+            "type": "immersiveengineering:blueprint",
+            "inputs": [
+                {
+                    "basePredicate": {
+                        "tag": "c:plates/aluminum"
+                    },
+                    "count": 4
+                },
+                {
+                     "basePredicate": {
+                        "item": "modern_industrialization:certus_quartz_rod"
+                     },
+                     "count": 8
+                },
+                {
+                    "basePredicate": {
+                        "item": "forbidden_arcanus:obsidiansteel_ingot"
+                    },
+                    "count": 4
+                },
+                {
+                    "basePredicate": {
+                        "item": "forbidden_arcanus:corrupti_dust"
+                    },
+                    "count": 16
+                },
+                {
+                    "basePredicate": {
+                        "tag": "c:dusts/aluminum"
+                    },
+                    "count": 2
+                },
+            ],
+            "category": tier3bp,
+            "result": {
+                "item": "ae2:engineering_processor_press"
+            }
+        })
 
 })
 

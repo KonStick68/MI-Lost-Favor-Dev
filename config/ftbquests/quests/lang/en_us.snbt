@@ -4,11 +4,9 @@
 	chapter.0EF0C5F1BD4103BF.title: "paganbless"
 	chapter.126830F3CB1F8DDD.title: "aluminum"
 	chapter.1DE9AF77B4D50480.title: "First steps"
-	chapter.293EE18185540114.title: "Forbidden Arcanus"
 	chapter.2B3E5D6E8B56E8BB.title: "Ars NOJDGIODHFIOSBV"
 	chapter.535EA14E4BC77614.title: "Applied Energistics"
 	chapter.561B8642F13079C1.title: "Bronze Age"
-	chapter.6FC19708C8D5F0F0.title: "Applied Energistics"
 	chapter_group.414DFD996A564669.title: "Early"
 	chapter_group.4602108FDD7051BD.title: "Primitive"
 	chapter_group.786FFA1BEC14E223.title: "Midgame"
@@ -32,29 +30,6 @@
 		"{@pagebreak}"
 		"Факел, канделябр или свеча могут стать эффективным средством для увеличения скорости перезарядки вашего алтаря."
 	]
-	quest.026821F02D50FE0D.quest_desc: [
-		"It might look a bit overwhelming at first, but it's very straightforward once you get used to it. Each ritual has one main ingredient that goes into the big slot in the middle. The four slots surrounding it can be used for enhancers. Some enhancers are required to start certain rituals while many enhancers are optional and provide useful advantages such as reduced essence costs. "
-		""
-		"You might have noticed that the menu contains 4 different bars. These all represent a different essence type. To fill these bars, you can use the slots on the side of the screen. "
-		""
-		"The four essence types are:"
-		""
-		"• Aureal — If you want to use items to provide the needed Aureal you'll need to use normal Aureal Bottles(35) or their Splash variant(30). Alternatively, the Aureal production can be automated using Arcane Crystal Obelisks. "
-		""
-		"• Souls — There are currently two ways to acquire souls, but both need a Soul Extractor."
-		" 1 — Suck the Souls out of their beloved Sand with the Soul Extractor and turn Soul Sand into Soulless Sand."
-		""
-		" 2 — In your world, you may occasionally run across the path of a Lost Soul. These poor little fellows got lost and now wander aimlessly through the world. They are pretty adorable and get easily scared. However, if you want you can catch them with your Soul Extractor. "
-		""
-		"• Blood — For this essence you'll need to get your fingers dirty and sacrifice entities. Either directly hurt entities near the forge and their blood will directly fill the essence bar or craft a any weapon and damage entities while having a Test Tube in offhand. "
-		""
-		"• Experience — Gaining experience is usually pretty simple, but you'll now need it in item form now. Alternatively, did you know that the Hephaestus Forge can also remove enchantments from your tools to gain experience? Simply put your tools in the experience slot and all enchantments on that item will be magically turned into experience to fill the bar. "
-		""
-		""
-		""
-		""
-		"Each ritual requires a different set of essences to start."
-	]
 	quest.02AE8C2723A731E7.quest_desc: [
 		"The acid was already potent. LETS MAKE IT MORE! Now with access to stronger ingredients, I can reformulate the acid oil using toxin. As such, the acid effect has been amplified, making it reduce armor strength even more, while gaining the ability to dissolve diamond level ores."
 		"{@pagebreak}"
@@ -66,7 +41,6 @@
 		"Так же можно держать горшок в второй руке а оружие в основной, все эти действия используют немного масла, быть может есть способ пополнять масло бесконечно?…"
 	]
 	quest.02BDC1FB8AC8485D.title: "Oil pot"
-	quest.02DD191C0682BFD6.quest_desc: ["You can put water/lava/essences in Utrem Jars with a bucket or any other similar items in hand, allowing you to store lava without taking up space in chests."]
 	quest.046EAAF7665E1DB4.quest_desc: [
 		"Using glass vials, I can create a container that's reinforced with Copper. This larger much heavier container is a valuable part. A presage to the grand creation of..."
 		"{@pagebreak}"
@@ -80,7 +54,6 @@
 	quest.0528A7114DC06152.quest_desc: ["позволяет рубить деерво на доски 1 к 2, вместо 1 к 1 в верстаке с топором."]
 	quest.05C4AA05CA0E6F80.quest_desc: ["add rubber to recipe just so you couldn't craft them in early game, but still could easily made later?"]
 	quest.06793C23D00355A7.quest_desc: ["Magnet? And configurable??? I'll take 2 please"]
-	quest.07B3FFC9267C5861.quest_desc: ["The Maledictus Pact Enhancer allows the creation of cursed items in the Hephaestus Forge. It can be found as loot in bastion treasure rooms with a chance of 18% per chest. "]
 	quest.07E78D29C898CE55.quest_desc: ["Wild sheep"]
 	quest.085A58908A521A63.quest_desc: [
 		"The ancients lacked vision. They stopped at just blends without realizing what these poisons can really do. I've felt the changes. Every night I feel the toxins pulsing in my blood. I'm changing, I feel much stronger, feel more alert. Its revelating."
@@ -111,7 +84,6 @@
 		""
 		"&6A&r&0t&r&6t&r&0e&r&6n&r&0t&r&6i&r&0o&r&6n&r&0!&r&6!&r&0!&r We are not responsible for all the lost limbs during this machine utilization!"
 	]
-	quest.0C1A0D4E0DF5CE9C.quest_desc: ["The Quantum Catcher can be used to capture and transport entities. To obtain it, you can combine Spawner Scrap and an Arcane Crystal Block in a Smithing Table"]
 	quest.0C79F086A3EA30BA.quest_desc: [
 		"I've almost done it! The material to be used to unlock the full potential of poison. I have formulated this concoction to prepare the final creation of the ultimate substance! But I'll need to enter the nether one more time."
 		"{@pagebreak}"
@@ -160,7 +132,6 @@
 		""
 		"можно разводить оцелотов"
 	]
-	quest.1183EEDA65D3180C.quest_desc: ["To get it, you need to right click normal Farmland with Arcane Bone Meal. Magical Farmland doubles the quantity of crop drops."]
 	quest.11AEAD046E2353E6.quest_desc: [
 		"I will need a tool to administrator the solution into an unfortunate specimen. Luckily with the help of another doctoral tool, I can make a simple copper needle. One especially capable of handling dangerous solutions."
 		""
@@ -186,7 +157,6 @@
 		"{@pagebreak}"
 		"Имея в своем арсенале токсичную пасту, я могу усовершенствовать технику древних. С ее помощью я могу создать более мощную смесь. Но я должен быть невероятно осторожен. Мой организм может не выдержать, если я еще не привык."
 	]
-	quest.14BA9A5CAC394A27.quest_desc: ["Allows the plant on which it is used to fully grow with only one compared to the Bone Meal. You can also make Magical Farm Land with it."]
 	quest.14D2170A0424A902.quest_desc: [
 		"Toxic paste is extremely unstable. But its volatility will be the highlight of my next alchemical instrument! Potions are too refined, too narrow. By creating a flask that yields greater capacity and putting a little bit of the paste inside, I can make a much more efficient and possibly renewable potion container."
 		""
@@ -245,17 +215,14 @@
 		"Редстоун довольно чувствителен к токсинам, что можно понять из принципа работы измерителя токсичности. Но сначала я должен превратить его в смесь."
 	]
 	quest.19E4B6C663F63DC4.quest_desc: ["Smallest item holding cell for ME drive."]
-	quest.1A36B71E5CE7D1BF.quest_desc: ["Just for endgame tier 5 pedestal without crafts for now"]
 	quest.1AE0400A3C0AF316.quest_desc: ["Looks OP for such an easy craft, so idk where to put it :p"]
 	quest.1BCEB13A38CE4D8E.quest_desc: ["позволяет искать руду в чанках"]
-	quest.1BFC38890CBCF4F4.quest_desc: ["The magnetized modifier can only be used on Boots. When boots with this modifier are equipped, the item pick-up range of the player will increase by one and a half blocks."]
 	quest.1E195026745014C0.quest_desc: [
 		"Turns ingots into rods and rods into bolts when provided with lubricant"
 		""
 		"PIPES"
 	]
 	quest.1EE1B8261F4D85A0.quest_desc: ["Свечение при ударе на 30 сек."]
-	quest.1FD668D64C10EA51.quest_desc: ["You can create a Block Hole by throwing Dark Matter together with Corrupti Dust on the ground. It will attract items and small entities like Arrows or Experience Orbs and delete them. Once it absorbed enough experience points, it will throw out a Xpetrified Orb."]
 	quest.203B742A5DB473FA.quest_desc: ["Simply smash a piece of flint into a stone to sharpen it"]
 	quest.2071CE16FAA3FDEE.quest_desc: [
 		"Bronze barrels can be used to store and move 32 stacks of one item. "
@@ -300,11 +267,6 @@
 		"- You can also place an Atlas on a Lectern and access the worldmap from there"
 	]
 	quest.27DF75B7564C37A4.quest_desc: ["Place an attractor on an item pipe to allow it to pull from connected inventories. Place an attractor on a fluid pipe to increase the speed at which it pulls fluids from the network."]
-	quest.27F5E8BA17C7EA2E.quest_desc: [
-		"The eternal modifier is probably the strongest of the currently implemented modifiers. However, the advantage of completely removing durability from an item and making it truly eternal comes with a high cost: the ritual that creates the  Eternal Stella item in the Blocks requires a Stellarite Piece as an ingredient."
-		""
-		"The Eternal Stella is applicable to all items with a durability bar."
-	]
 	quest.286CADEC3AB44CCE.quest_desc: ["Use your newly acquired sharp flint to harvest some grass"]
 	quest.28A2FCBC095F291E.quest_desc: ["пастой на почву, позволяет выращивать культуры из мода"]
 	quest.29A43713F3DD703F.quest_desc: ["How to use this thing"]
@@ -320,7 +282,6 @@
 	]
 	quest.2BB85B5FB4A2E943.quest_desc: ["Находится в Dark forest"]
 	quest.2CCA1CEC324FE789.quest_desc: ["Bends things with double the speed of compressor!"]
-	quest.2D26EA473D256B54.quest_desc: ["An upgraded variant that allows catching boss entities"]
 	quest.2E5638B2207FCCBF.quest_desc: [
 		"&lChalice (Filled)&r:"
 		"• +2x Power Capacity"
@@ -336,12 +297,10 @@
 		"Если я почувствую себя ОСОБЕННО плохо, я могу изготовить это пахучее и НЕ приятное на ощупь масло. Им могут заинтересоваться местные врачи."
 	]
 	quest.30DFEC80A6406BBF.quest_desc: ["Saw/bolts in recipe?"]
-	quest.30FA92F29B6D0477.quest_desc: ["Same effect as Aqua Affinity, but it allows you to have a normal breaking block speed while moving"]
 	quest.3256F857783BB7AA.quest_desc: ["Takes items from system"]
 	quest.3375DE99A86D3CB4.quest_desc: ["Item pipes will normally prefer the closest inventory. An inhibitor increases the length of a connection by 1000 for pathfinding purposes, which makes item pipes avoid that connection if possible."]
 	quest.338029494A6F98B3.quest_desc: ["Only deer with antlers drops correct item"]
 	quest.33D177C9C103372D.quest_desc: ["Позволяет бросаться маслами, очень полезно в будущем."]
-	quest.34D0D56BD238BC1A.quest_desc: ["Place this block near your Hephaestus Forge and it will automatically transfer essences from nearby Utrem Jars into the forge"]
 	quest.35450D58651AF44B.quest_desc: ["Allows you to access your system from any point in the world when linked to quantum ring"]
 	quest.35A512DACA56FF16.quest_desc: [
 		"The Alembic. An old device in the academy that will help purify liquids similar to how the crucible purifies solids. However, they are fragile. In order for this to work, I need a stronger glassy material. I know located in the Nether. I must find it!"
@@ -387,7 +346,6 @@
 		"Когда варево испортится, оно станет коричневым, и его нужно будет удалить с помощью пустого ведра."
 	]
 	quest.3844F342D000826A.quest_desc: ["Copper mesh can catch tin, lead and copper "]
-	quest.39C79097C7355375.quest_desc: ["The Crimson Stone is all about Souls. When used it the Hephaestus Forge it will half the Souls essence cost and when used in the Clibano it will increase the burn duration of inputted Souls (Soon). Crimson Stones can be found in Pillager Outpost loot chests (18% chance)."]
 	quest.3A5FB1474CC41CED.quest_desc: ["Можно найти в таёжных биомах(там где холодно)"]
 	quest.3AA1D61583B592AC.quest_desc: [
 		"Now for those empty pots. They can be filled with replacement oil without recreating the composition in the pot. Just by making this base, we can refill all our oil containers and even sashes BEAUTIFUL."
@@ -406,27 +364,12 @@
 		"{@pagebreak}"
 		"Как только у меня будет достаточно данных об ингредиенте, я могу взять в руку лупу и посмотреть в своем инвентаре, с каким свойством ассоциируется этот ядовитый ингредиент. О, прекрасное искусство экспериментальной науки!"
 	]
-	quest.3BA2CB4907E139B5.quest_desc: [
-		"The Divine Pact Enhancer allows the creation of celestial items in the Hephaestus Forge. "
-		""
-		"This enhancer is currently not obtainable in survival."
-	]
-	quest.3D661614AB8A295E.quest_desc: [
-		"The Cresent Moon Enhancer reduces the Aureal cost of rituals when used in the Hephaestus Forge. Depending on the time of the day the reduced amount differs between 10% during the night and 1% during the day. "
-		""
-		"This enhancer is currently not obtainable in survival."
-	]
 	quest.3DD74B48583DB8C0.quest_desc: [
 		"Many parts of a mob, including ourselves, react differently when toxins are introduced in their bodies. This makes unique ingredients when certain mobs are afflicted. As such, we should extract them. When a mob dies while being afflicted with poison, they can drop special ingredients. However, a sword is too crude to extract them. As such, they must die by a scalpel in order to carefully extract these valuable ingredients."
 		"{@pagebreak}"
 		"Многие части мобов, включая нас самих, по-разному реагируют на попадание токсинов в их организм. Таким образом, при поражении определенных мобов получаются уникальные ингредиенты. Поэтому мы должны добыть их. "
 		""
 		"Когда моб умирает, будучи пораженным ядом, с него могут выпасть особые предметы. Однако меч слишком груб для их извлечения. Чтобы аккуратно извлечь эти ценные ингредиенты, их нужно умертвить скальпелем."
-	]
-	quest.3EA4DF00F5156F2E.quest_desc: [
-		"The Hephaestus Forge is needed for every player that wants to dive deep into the world of forbidden magic. Gathering the required material for creating it might take a while, but it's worth the effort as it will open up the possibility of executing powerful rituals which can have various outcomes. "
-		""
-		"After having built the above pattern, place the Smithing Table in the central spot above the Gilded Chiseled Polished Darkstone block. In order to transform it into the desired Hephaestus Forge you'll now only need to sneak and right-click with the Mundabitur Dust on the Smithing Table. A bolt of corrupted lightning will strike the block and transform it. "
 	]
 	quest.3EB7176D4C776E9D.quest_desc: ["Выпадает из сквида если он под Ядом"]
 	quest.3F3D4E142EEE7C6B.quest_desc: [
@@ -474,7 +417,6 @@
 		"Отключает спавн мобов в области"
 	]
 	quest.428850B1426EB3D4.quest_desc: ["Wild cow"]
-	quest.430D38FF55DB4445.quest_desc: [" Use it to apply a new Soulbound item modifier."]
 	quest.43141E73595BA04F.quest_desc: [
 		"A broom can be used to sweep chalk away quickly, without having to spend time erasing it."
 		""
@@ -502,13 +444,6 @@
 		"Добавление вытяжных воронок слева и справа от вашей ведьминой печи может значительно повысить ее производительность."
 		""
 		"Третью вытяжную воронку можно разместить на вершине ведьминой печи в качестве декоративного дымохода."
-	]
-	quest.476DA0252473C6EE.quest_desc: [
-		"Currently, there are seven different Enhancers implemented that can be found by exploring the world. Each one has one or multiple effects that will help you advance quicker or improve your setup. "
-		""
-		"Some Enhancers are not accessible in survival mode right now. The methods of obtaining them will be implemented in future updates. We decided to include them nonetheless to give modpack authors the chance to already use them in a creative way if desired. "
-		""
-		"Furthermore, their uses are currently unlimited. In a future update, we intend to add a renewable way of acquiring them. Once this happens, they will receive a use limit."
 	]
 	quest.47ECA2AA01DBE0C5.quest_desc: [""]
 	quest.4821B8BFF0FEE06B.quest_desc: [
@@ -575,18 +510,11 @@
 	]
 	quest.498922D593321422.quest_desc: ["Better furnace, but bigger!"]
 	quest.49F633AB8533C593.quest_desc: ["Позволяет чинить предметы ценой масла"]
-	quest.4ADB796A7EC14DE4.quest_desc: [
-		"The Soul Crimson Stone is an upgraded version of the normal Crimson Stone. Due to the power of the harnessed souls, this enhancer is able to completely remove the essence cost of one Hephaestus Forge ritual. After one use it loses its power and becomes a normal Crimson Stone."
-		""
-		"This enhancer is currently not obtainable in survival."
-	]
 	quest.4B1F758CB8DB73F5.quest_desc: [
 		"The Chalice works like a bottomless milk bucket curing you whenever you require. The Lapis Lazuli Ritual will grant you this boon"
 		"{@pagebreak}"
 		"Чаша работает как бездонное ведро с молоком, исцеляя вас, когда вы этого потребуете. Ритуал Лазурита даст вам это чудо."
 	]
-	quest.4B62E3D7B166D33F.quest_desc: ["The Elementarium Enhancer combines the power of the four elements and allows the creation of elemental items in the Hephaestus Forge. For example, it is required to create elemental prisms. With a chance of 18% this enhancer can be found in the following structures: Jungle Temples, Desert Pyramids, and Underwater Ruins."]
-	quest.4D80BF0416C5EFD2.quest_desc: ["The demolishing modifier can unlock the true power out of your tools (Pickaxes, Shovels, Axes, Hoes). Tools with this modifier will be able to break a 3x3 area."]
 	quest.4E56E1DDA10FCFE6.quest_desc: [
 		"The Coille Slat grants growth to plants and can be obtained by using the Emerald Ritual"
 		"{@pagebreak}"
@@ -603,7 +531,6 @@
 		"Unlock next stage after this?(because unlocking it in the middle of quest line is kinda weird to me, but IDK)"
 	]
 	quest.58DE851CD9578153.quest_desc: ["позволяет шарить глифы за опыт, чем больше глифово - тратит больше опыта"]
-	quest.58E8A03E6BB037C5.quest_desc: ["Applies the Glowing effect to all entities near the player when it's in your inventory."]
 	quest.590167B593FE267A.quest_desc: [
 		"All the bronze machines use steam to operate"
 		"Automatically outputs steam from the top"
@@ -618,8 +545,6 @@
 		""
 		"В отличие от печи, эта печь не может перерабатывать руды. Поместите глиняный кувшин в центральный слот, чтобы собирать дым."
 	]
-	quest.5AEBD2E96FA53366.quest_desc: ["The fiery modifier can be applied to all tool items (Pickaxes, Shovels, Axes, Hoes) and will automatically smelt all mined blocks if they have a smelting recipe. "]
-	quest.5AEEF8055EA6AE88.quest_desc: ["Use a Splash Aureal Bottle on a normal soul for getting"]
 	quest.5C1A95780908F901.quest_desc: [
 		"The old methods of mortar and pestle are slow. As such I have created through miraculous engineering a machine to automate the process. Using redstone as its activator, this can take away the monotony of manual pestling off your hands."
 		"{@pagebreak}"
@@ -632,7 +557,6 @@
 	]
 	quest.5D07A7818DC2BC1B.quest_desc: ["Used to make coke coal and creosote"]
 	quest.5DDA25EB563D52A6.quest_desc: ["Redstone works quite differently when you use aluuminum to transfer its signals, looks like the strengh of the signal remains the same no matter the distance traveled and you could do little adjustments inside relays to send different signal types, which opens great possibilities..."]
-	quest.5E6040C8BC8CAE0F.quest_desc: ["The Artisan Relic can be used as an Enhancer in the Hephaestus Forge. It will reduce the required Experience essence cost by 25%. With a chance of 18% it can be found in the chests of Armorer, Toolsmith, or Weaponsmith villager buildings.  "]
 	quest.5ECC8454B6CFAD89.quest_desc: [
 		"&lCandle&r"
 		"• +1x Recharge Rate"
@@ -734,29 +658,16 @@
 	]
 	quest.6B56735FE657E8D0.quest_desc: ["даёт сурс за еду либо кидать либо класть на платформу. Вокруг 3х3 будет превращать землю в мицелий и выращивать грибы"]
 	quest.6CB0342958887169.quest_desc: ["Furnace, but better!"]
-	quest.6CE13F93E085DABB.quest_desc: ["The Edelwood Ladder can be climbed twice as fast as a vanilla Ladder"]
-	quest.6D1F116F28F30039.quest_desc: [
-		"Gathering the required essences for a ritual can be tedious - luckily Aureal can be automated with the help of Obelisks. When placed in one of the spots where normally a Pedestal would go, it will slowly fill up the Aureal bar in the Hephaestus Forge. "
-		""
-		"In order to create an Obelisk you'll have to place 2 Arcane Crystal Blocks on top of an Arcane Polished Darkstone Block. To complete the transformation, you'll have to once again use Mundabitur Dust. "
-	]
-	quest.6D62B6D792D203BA.quest_desc: [
-		"Mundabitur Dust can be used to craft Arcane Gold Ingots or to transform various different things."
-		""
-		"It can for example be used to charge a Creeper or to create an Arcane Crystal Obelisk. It it also needed to activate the Hephaestus Forge."
-	]
 	quest.6E57514B8D09F6D8.quest_desc: [
 		"nearby pets teleport with you"
 		""
 		"leashed mobs teleport with you"
 	]
-	quest.6E69C3F456FD1C3D.quest_desc: ["Every ritual you execute will require you to sacrifice certain items which need to be placed on Pedestals. Obtaining these Pedestals should be your next step. Most rituals will only need 6 Pedestals while others may require you to use all 8 available spots for Pedestals. "]
 	quest.6E99902F01ED8483.quest_desc: [
 		"Blaze power was already as VOLATILE as toxin. It burns just like toxin does. So a thought came to me. Was there a way to mix these substances together to create the ultimate purifying effect. That's when I created this miraculous fusion. WITCHFIRE."
 		"{@pagebreak}"
 		"Однажды мне пришла идея смешать огненный порошок с ядом, они и по отдельности сильны, но вместе... ДА ЭТО ЧЁРТОВ ВЕДЬМИН ОГОНЬ!!!"
 	]
-	quest.6F85911351916741.quest_desc: ["An Edelwood Bucket can hold multiple fluids at once (4 buckets for water and 3buckets for lava). Can also hold stews and some small entities. The Edelwood Bucket will require the Permafrost enchantment in order to hold lava safely."]
 	quest.70798A5B74FDB203.quest_desc: ["На болоте"]
 	quest.70E46A04581CCAC3.quest_desc: [""]
 	quest.714992905CA44375.quest_desc: [
@@ -794,15 +705,7 @@
 		"{@pagebreak}"
 		"Чаша может быть помещена на вершину алтаря, чтобы увеличить его энергоемкость. Чашу можно наполнить, использовав на ней Redstone Soup."
 	]
-	quest.73A5D237B167B47E.quest_desc: [
-		"Blacksmith Gavels are a new tool type like Pickaxes or Shovels. Just like Pickaxes they can be used to mine stone-related blocks at a higher speed. Furthermore, they have pretty high attack damage making them a viable weapon, though, at the cost of a lower attack speed."
-		""
-		"Due to their enhanced mining technique Gavels have a 30% chance of duplicating mined Ores."
-		""
-		"Besides the use as a normal tool Blacksmith Gavels are also needed to start rituals in the Hephaestus Forge. Every Gavel has a remaining ritual uses counter in their tooltip that shows how many rituals this item can still be used for. More advanced Gavel variants can be used more often. "
-	]
 	quest.750F4699E092121D.quest_desc: ["Overclocks all the steam dependent machines to 2x the speed"]
-	quest.7591497746DA17AC.quest_desc: ["Just for endgame tier 5 pedestal without crafts for now"]
 	quest.760015A8E61B210A.quest_desc: ["Виталик за тики роста животных/размножение/убийство даёт сурс "]
 	quest.7635ED9379E95573.quest_desc: ["Even grass could become quite strong when you weave it properly"]
 	quest.76A00C0FCE2D91E1.quest_desc: [
@@ -821,12 +724,10 @@
 	]
 	quest.7787ABAA319FB651.quest_desc: ["Breaks and pickups blocks, can be enchanted with any pickaxe enchantment"]
 	quest.77E388F4525884E8.quest_desc: [""]
-	quest.787735496233A905.quest_desc: ["When drunk it will grant 35 Aureal to the player. It can also be used to input Aureal into the Hephaestus Forge."]
 	quest.7A5F66121C4BCC2B.quest_desc: ["Charges items. That's it"]
 	quest.7AA3CDBC6B160F86.quest_desc: ["Free furnaces"]
 	quest.7B3C8D21C9000197.quest_desc: ["Make quest for arrow out of every metal type just for funzies?"]
 	quest.7D5DCEA36FF46987.quest_desc: ["Daytime bed"]
-	quest.7E277FEC22A1924D.quest_desc: ["Spawner Scrap drops when breaking a Spawner"]
 	quest.7E9470BDDB0600F0.quest_desc: [
 		"11 без"
 		"35 с"
@@ -849,12 +750,9 @@
 	task.15F9629F86649AB6.title: "How to setup your network"
 	task.16FCEE60932380BD.title: "Any #minecraft:anvil"
 	task.274F98243AA9482F.title: "Animals breeding"
-	task.30EF11C70C08380B.title: "Enhancer Relics"
 	task.33FFDC1566305E62.title: "item/fluid transfer"
-	task.3B4C4E1225398BD9.title: "Black Hole"
 	task.4224A6EBD936625E.title: "Butcher?"
 	task.46CE431166A44610.title: "Oil pot"
-	task.4BBE7498A48891A8.title: "Any #forbidden_arcanus:blacksmith_gavel"
 	task.4E4DCBBCBFA389BB.title: "Any #c:files"
 	task.4FE41B7B9F6AAEE7.title: "!"
 	task.55A9AB2E43857E14.title: "Any #minecraft:beds"

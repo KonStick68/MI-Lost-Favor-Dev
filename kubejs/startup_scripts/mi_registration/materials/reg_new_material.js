@@ -43,4 +43,16 @@ MIMaterialEvents.addMaterials(event => {
             .addExternalPart('ingot', 'minecraft:netherite_ingot')
             .defaultRecipes()
     })
+
+    // Certus quartz
+    event.createMaterial('Certus quartz', 'certus_quartz', 0xd5f4f7,
+        builder => {
+        builder
+            .materialSet('shiny')
+            .addExternalPart('ingot', 'ae2:certus_quartz_crystal')
+            .addExternalPart('dust', 'ae2:certus_quartz_dust')
+            .addParts('rod')
+            .defaultRecipes()
+    })
+
 })
