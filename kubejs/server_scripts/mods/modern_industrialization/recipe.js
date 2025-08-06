@@ -21,6 +21,13 @@ ServerEvents.recipes(event => {
         event.remove({ id: id })
     });
 
+    //WIP, crutch solution
+
+    event.remove({ output: /ae2:*/, type: 'modern_industrialization:packer' })
+    event.remove({ output: /ae2:*/, type: 'modern_industrialization:assembler' })
+    event.remove({ output: /ae2:*/, type: 'modern_industrialization:electrolyzer' })
+
+
 
     event.custom({
         "type": "toxony:mortar_pestle",

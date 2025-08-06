@@ -1,33 +1,25 @@
 ServerEvents.recipes(event => {
 
-    event.custom({
-      "type": "immersiveengineering:metal_press",
-      "energy": 3200,
-      "input": {
-        "basePredicate": {
-            "tag": "c:ingots/gold",
-        },
-        "count": 2,
-      },
-      "mold": "ae2:logic_processor_press",
-      "result": {
-        "item": "ae2:printed_logic_processor",
-      },
-    });
-
-    event.custom({
-          "type": "immersiveengineering:metal_press",
-          "energy": 3200,
-          "input": {
-            "basePredicate": {
-                "tag": "c:ingots/silicon",
-            },
-            "count": 2,
-          },
-          "mold": "ae2:silicon_press",
-          "result": {
-            "item": "ae2:printed_silicon",
-          },
+    function printed_processor (input, press, output) {
+        event.custom({
+              "type": "immersiveengineering:metal_press",
+              "energy": 3200,
+              "input": {
+                "basePredicate": {
+                    "tag": input,
+                },
+                "count": 2,
+              },
+              "mold": press,
+              "result": {
+                "item": output,
+              },
         });
+    }
+
+    printed_processor("c:ingots/silicon","ae2:silicon_press","ae2:printed_silicon")
+    printed_processor("c:ingots/gold","ae2:logic_processor_press","ae2:printed_logic_processor")
+    printed_processor("c:gems/certus_quartz","ae2:calculation_processor_press","ae2:printed_calculation_processor")
+    printed_processor("c:ingots/aluminum","ae2:engineering_processor_press","ae2:printed_engineering_processor")
 
 })

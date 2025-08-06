@@ -18,11 +18,11 @@ ServerEvents.recipes(event => {
          ],
          "key": {
            "S": "pastel:shimmerstone_gem",
-           "B": "kubejs:mostly_unreadable_blueprint",
+           "B": "kubejs:mysterious_blueprint",
          },
          "result": {
            "components": {
-                            "immersiveengineering:blueprint": "Strange Blueprint"
+                            "immersiveengineering:blueprint": "Mysterious Blueprint"
                          },
            "id": "immersiveengineering:blueprint",
            "count": 1

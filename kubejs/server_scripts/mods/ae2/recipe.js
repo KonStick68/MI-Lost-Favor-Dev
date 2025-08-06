@@ -1,22 +1,22 @@
 ServerEvents.recipes(event => {
     const removing_by_recipe_id = [
-        "extendedae:cutter/engineering_processor",
-        "ae2:inscriber/engineering_processor_print",
-        "ae2:inscriber/certus_quartz_dust",
-        "ae2:inscriber/logic_processor_press",
 
-        /*
-        "ae2:inscriber/logic_press",
-        "ae2:inscriber/logic_circuit",
-        "ae2:inscriber/printed_logic_processor",
-        "ae2:inscriber/silicon_press",
-        "ae2:inscriber/printed_silicon",
-        "ae2:inscriber/sky_dust",
-        */
     ]
     removing_by_recipe_id.forEach(id => {
         event.remove({ id: id })
     })
+
+    event.remove({ type: 'ae2:inscriber' })
+
+    const remove_by_output = [
+    'ae2:charger',
+    'ae2:inscriber',
+
+    ]
+
+    remove_by_output.forEach(id => {
+            event.remove({ output: id })
+        })
 
     event.custom({
         "type": "extendedae:circuit_cutter",
@@ -31,6 +31,7 @@ ServerEvents.recipes(event => {
         }
     })
 
+    /*
     event.custom({
         "type": "ae2:inscriber",
         "ingredients": {
@@ -53,6 +54,7 @@ ServerEvents.recipes(event => {
         "minecraft:diamond",
         "modern_industrialization:aluminum_ingot"
     )
+    */
 
     const ingotToPlateAE2Replace = ["iron", "gold", ]
     ingotToPlateAE2Replace.forEach(element => {

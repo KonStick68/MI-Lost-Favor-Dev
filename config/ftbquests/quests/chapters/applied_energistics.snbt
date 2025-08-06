@@ -298,8 +298,8 @@
 			id: "2536DFBDF534E43B"
 			shape: "diamond"
 			tasks: [{
-				id: "1C7BB80087071FBB"
-				item: { components: { "immersiveengineering:blueprint": "Strange Blueprint" }, count: 1, id: "immersiveengineering:blueprint" }
+				id: "1F4BDF7148C0A1D5"
+				item: { components: { "immersiveengineering:blueprint": "Automation Blueprint" }, count: 1, id: "immersiveengineering:blueprint" }
 				type: "item"
 			}]
 			x: 0.5d
@@ -1330,6 +1330,7 @@
 		}
 		{
 			dependencies: ["685FA68A7D47018E"]
+			hide_dependent_lines: true
 			id: "1E9222AEFCF3FB00"
 			shape: "diamond"
 			tasks: [{
@@ -1539,6 +1540,17 @@
 			}]
 			x: 0.5d
 			y: 4.0d
+		}
+		{
+			id: "20E5D8E3BC27B0CB"
+			shape: "diamond"
+			tasks: [{
+				id: "27BC78C944EE6082"
+				item: { count: 1, id: "extendedae:circuit_cutter" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 5.5d
 		}
 	]
 }

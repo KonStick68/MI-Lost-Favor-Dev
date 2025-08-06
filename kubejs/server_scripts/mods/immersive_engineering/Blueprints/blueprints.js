@@ -80,7 +80,35 @@ ServerEvents.recipes(event => {
             "result": {
                 "item": "ae2:crafting_terminal"
             }
-      })
+    })
+
+    event.custom({
+            "type": "immersiveengineering:blueprint",
+            "inputs": [
+                {
+                    "basePredicate": {
+                        "item": "modern_industrialization:certus_quartz_rod"
+                    },
+                    "count": 4
+                },
+                {
+                    "item": "modern_industrialization:advanced_machine_hull"
+                },
+                {
+                    "item": "modern_industrialization:electronic_circuit"
+                },
+                {
+                    "basePredicate": {
+                        "item": "modern_industrialization:copper_wire"
+                    },
+                    "count": 16
+                },
+            ],
+            "category": tier1bp,
+            "result": {
+                "item": "ae2:charger"
+            }
+    })
 
 //tier 2
 
