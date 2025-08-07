@@ -1,4 +1,7 @@
 ServerEvents.recipes(event => {
+
+    //moved to data for the ease of overwrite
+    /*
     event.custom({
           "type": "modern_industrialization:electrolyzer",
           "duration": 600,
@@ -16,4 +19,6 @@ ServerEvents.recipes(event => {
             }
           ]
     })
+
+    */
 })

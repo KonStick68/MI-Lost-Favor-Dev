@@ -6,6 +6,4 @@ ServerEvents.recipes(event => {
     removing_by_recipe_id.forEach(id => {
         event.remove({ id: id })
     });
-
-
 })

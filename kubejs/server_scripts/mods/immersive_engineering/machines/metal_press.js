@@ -22,4 +22,18 @@ ServerEvents.recipes(event => {
     printed_processor("c:gems/certus_quartz","ae2:calculation_processor_press","ae2:printed_calculation_processor")
     printed_processor("c:ingots/aluminum","ae2:engineering_processor_press","ae2:printed_engineering_processor")
 
+    event.custom({
+          "type": "immersiveengineering:metal_press",
+          "energy": 3200,
+          "input": {
+            "basePredicate": {
+                "tag": "c:plates/iron",
+            },
+            "count": 2,
+          },
+          "mold": "modern_industrialization:cell_press",
+          "result": {
+            "item": "kubejs:cell_half",
+          },
+    });
 })

@@ -25,7 +25,7 @@ ServerEvents.recipes(event => {
 
     event.remove({ output: /ae2:*/, type: 'modern_industrialization:packer' })
     event.remove({ output: /ae2:*/, type: 'modern_industrialization:assembler' })
-    event.remove({ output: /ae2:*/, type: 'modern_industrialization:electrolyzer' })
+    // event.remove({ output: /ae2:*/, type: 'modern_industrialization:electrolyzer' })
 
 
 

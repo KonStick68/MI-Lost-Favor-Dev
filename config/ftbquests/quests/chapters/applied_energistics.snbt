@@ -71,7 +71,7 @@
 			dependencies: ["7460A2152BF3AEF2"]
 			id: "1F905B94015D7B5F"
 			shape: "octagon"
-			size: 3.0d
+			size: 2.0d
 			tasks: [{
 				id: "122C101864193BC7"
 				item: { count: 1, id: "modern_industrialization:enigma_machine" }
@@ -89,10 +89,14 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
-			dependencies: ["01161CA5FC3822D6"]
+			dependencies: [
+				"01161CA5FC3822D6"
+				"41D59A044D841532"
+			]
+			dependency_requirement: "one_completed"
 			id: "685FA68A7D47018E"
 			shape: "diamond"
 			tasks: [{
@@ -181,8 +185,8 @@
 				item: { count: 1, id: "pastel:liquid_crystal_bucket" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: -2.0d
+			x: -3.0d
+			y: -1.5d
 		}
 		{
 			id: "02F9C9866E4ECB53"
@@ -192,7 +196,7 @@
 				item: { count: 1, id: "pastel:midnight_solution_bucket" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: -2.5d
 			y: 0.0d
 		}
 		{
@@ -203,8 +207,8 @@
 				item: { count: 1, id: "pastel:bottle_of_ruin" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: 2.0d
+			x: -3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -279,10 +283,14 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 2.5d
+			y: 2.0d
 		}
 		{
-			dependencies: ["11F53F1C1499544D"]
+			dependencies: [
+				"11F53F1C1499544D"
+				"3D6D75B41F46E14E"
+			]
+			dependency_requirement: "one_completed"
 			id: "0AB4145A720562AD"
 			shape: "diamond"
 			tasks: [{
@@ -294,7 +302,11 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["6B67C202A239B0AA"]
+			dependencies: [
+				"6B67C202A239B0AA"
+				"12C12CCAB0DFA7B3"
+			]
+			dependency_requirement: "one_completed"
 			id: "2536DFBDF534E43B"
 			shape: "diamond"
 			tasks: [{
@@ -306,7 +318,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["62D84921B93F2FAE"]
+			dependencies: [
+				"62D84921B93F2FAE"
+				"044CD454485E4BAD"
+			]
+			dependency_requirement: "one_completed"
 			id: "6E426E8D686AD908"
 			shape: "diamond"
 			tasks: [{
@@ -398,8 +414,8 @@
 				item: { count: 1, id: "advanced_ae:printed_quantum_processor" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 4.5d
+			x: 0.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3246CBB843309CCD"]
@@ -422,8 +438,8 @@
 				item: { count: 1, id: "ae2:singularity" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 5.0d
+			x: 0.0d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -645,38 +661,6 @@
 			y: -4.0d
 		}
 		{
-			dependencies: [
-				"3663E19C03145651"
-				"75A7593F48CAA3CD"
-			]
-			dependency_requirement: "one_completed"
-			hide_dependent_lines: true
-			id: "19E4B6C663F63DC4"
-			shape: "diamond"
-			tasks: [{
-				id: "335E3C9B13C267E3"
-				item: { count: 1, id: "ae2:item_storage_cell_1k" }
-				type: "item"
-			}]
-			x: 2.5d
-			y: -5.0d
-		}
-		{
-			dependencies: [
-				"3663E19C03145651"
-				"75A7593F48CAA3CD"
-			]
-			id: "70E46A04581CCAC3"
-			shape: "diamond"
-			tasks: [{
-				id: "0CE162D097DEE33B"
-				item: { count: 1, id: "ae2:portable_fluid_cell_1k" }
-				type: "item"
-			}]
-			x: 1.5d
-			y: -4.0d
-		}
-		{
 			dependencies: ["75A7593F48CAA3CD"]
 			id: "1BE0EC7CC3C84287"
 			shape: "diamond"
@@ -686,7 +670,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -7.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -749,8 +733,8 @@
 				item: { count: 1, id: "ae2:redstone_card" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -9.0d
+			x: 4.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["12B05FD9B885507F"]
@@ -777,10 +761,7 @@
 			y: -9.0d
 		}
 		{
-			dependencies: [
-				"19E4B6C663F63DC4"
-				"75A7593F48CAA3CD"
-			]
+			dependencies: ["75A7593F48CAA3CD"]
 			id: "2FEB99107A0DACC6"
 			shape: "diamond"
 			tasks: [{
@@ -820,7 +801,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -6.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["1957F336D5673B59"]
@@ -1061,8 +1042,8 @@
 				item: { count: 1, id: "advanced_ae:reaction_chamber" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 3.5d
+			x: 0.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["037657CFBF2FA1C6"]
@@ -1523,8 +1504,8 @@
 				item: { count: 1, id: "ae2:condenser" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 4.5d
+			x: -0.5d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -1538,8 +1519,8 @@
 				item: { count: 1, id: "advanced_ae:quantum_alloy" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 4.0d
+			x: 1.0d
+			y: 4.5d
 		}
 		{
 			id: "20E5D8E3BC27B0CB"
@@ -1551,6 +1532,77 @@
 			}]
 			x: -6.5d
 			y: 5.5d
+		}
+		{
+			dependencies: ["0AB4145A720562AD"]
+			id: "41D59A044D841532"
+			shape: "pentagon"
+			tasks: [{
+				id: "7DEF8508FDF60C88"
+				item: { count: 1, id: "kubejs:mysterious_disk" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2536DFBDF534E43B"]
+			id: "3D6D75B41F46E14E"
+			shape: "pentagon"
+			tasks: [{
+				id: "45D9787E715645A9"
+				item: { count: 1, id: "kubejs:storage_disk" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6E426E8D686AD908"]
+			id: "12C12CCAB0DFA7B3"
+			shape: "pentagon"
+			tasks: [{
+				id: "3E3B02D7087F1ABD"
+				item: { count: 1, id: "kubejs:automation_disk" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["32BF1BBD35EF70BF"]
+			id: "044CD454485E4BAD"
+			shape: "pentagon"
+			tasks: [{
+				id: "57FD3401482B8514"
+				item: { count: 1, id: "kubejs:quantum_disk" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0AB4145A720562AD"]
+			id: "241DC7E11E0BCAE9"
+			shape: "diamond"
+			tasks: [{
+				id: "4F8D12D02202651C"
+				item: { count: 1, id: "kubejs:cell_half" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["12B05FD9B885507F"]
+			id: "4BE6D5F862DCDE5E"
+			tasks: [{
+				id: "7216B75B8D42D365"
+				item: { count: 1, id: "ae2:crafting_card" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -8.5d
 		}
 	]
 }

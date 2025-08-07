@@ -52,6 +52,7 @@ MIMaterialEvents.addMaterials(event => {
             .addExternalPart('ingot', 'ae2:certus_quartz_crystal')
             .addExternalPart('dust', 'ae2:certus_quartz_dust')
             .addParts('rod')
+            .specialCasing("Cell Press", "cell_press" , 6.0)
             .defaultRecipes()
     })
 
