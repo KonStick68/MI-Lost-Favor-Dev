@@ -116,6 +116,25 @@ ServerEvents.recipes(event => {
             }
     })
 
+    event.custom({
+        "type": "immersiveengineering:blueprint",
+        "inputs": [
+            {
+                "basePredicate": {
+                    "item": "ae2:fluix_crystal"
+                },
+                "count": 4
+            },
+            {
+                "item": "modern_industrialization:wrench"
+            },
+        ],
+        "category": tier1bp,
+        "result": {
+            "item": "ae2:certus_quartz_wrench"
+        }
+    })
+
 //tier 2
 
     event.custom({
@@ -216,7 +235,7 @@ ServerEvents.recipes(event => {
         ],
         "category": tier2bp,
         "result": {
-            "item": "modern_industrialization:cell_press"
+            "item": "kubejs:cell_press"
         }
     })
 
@@ -254,8 +273,61 @@ ServerEvents.recipes(event => {
             }
     })
 
+    event.custom({
+            "type": "immersiveengineering:blueprint",
+            "inputs": [
+                {
+                    "basePredicate": {
+                        "tag": "c:plates/aluminum"
+                    },
+                    "count": 2
+                },
+                {
+                     "basePredicate": {
+                        "item": "kubejs:cell_half"
+                     },
+                     "count": 2
+                },
+                {
+                    "basePredicate": {
+                        "tag": "c:bolts/aluminum"
+                    },
+                    "count": 8
+                },
+            ],
+            "category": tier2bp,
+            "result": {
+                "item": 'ae2:item_cell_housing'
+            }
+    })
 
-
+    event.custom({
+            "type": "immersiveengineering:blueprint",
+            "inputs": [
+                {
+                    "basePredicate": {
+                        "tag": "c:plates/copper"
+                    },
+                    "count": 2
+                },
+                {
+                     "basePredicate": {
+                        "item": "kubejs:cell_half"
+                     },
+                     "count": 2
+                },
+                {
+                    "basePredicate": {
+                        "tag": "c:bolts/copper"
+                    },
+                    "count": 8
+                },
+            ],
+            "category": tier2bp,
+            "result": {
+                "item": 'ae2:fluid_cell_housing'
+            }
+    })
 
 //tier 3
 
@@ -371,6 +443,40 @@ ServerEvents.recipes(event => {
             "result": {
                 "item": tier2token
             }
+    })
+
+    event.custom({
+        "type": "immersiveengineering:blueprint",
+        "inputs": [
+            {
+                "basePredicate": {
+                    "tag": "c:plates/aluminum"
+                },
+                "count": 16
+            },
+            {
+                 "basePredicate": {
+                    "item": "modern_industrialization:certus_quartz_rod"
+                 },
+                 "count": 12
+            },
+            {
+                "basePredicate": {
+                    "tag": "c:ingots/steel"
+                },
+                "count": 6
+            },
+            {
+                "basePredicate": {
+                    "tag": "c:dusts/certus_quartz"
+                },
+                "count": 4
+            },
+        ],
+        "category": tier3bp,
+        "result": {
+            "item": "kubejs:core_press"
+        }
     })
 
 })

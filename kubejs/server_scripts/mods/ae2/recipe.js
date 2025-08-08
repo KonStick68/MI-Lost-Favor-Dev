@@ -27,8 +27,8 @@ ServerEvents.recipes(event => {
     ⠀⠀⠀⠀⠀⠙⢆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠁⠀⡇⠀⠀⠀⠀⠠
     ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠁⠀⠀⠀⠀⠈
     */
-    event.remove({ output: /ae2:*/, type: 'minecraft:crafting_shaped' })
-    event.remove({ output: /ae2:*/, type: 'minecraft:crafting_shapeless' })
+    //event.remove({ output: /ae2:*/, type: 'minecraft:crafting_shaped' })
+    //event.remove({ output: /ae2:*/, type: 'minecraft:crafting_shapeless' })
 
 
     const remove_by_output = [

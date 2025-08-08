@@ -34,6 +34,7 @@ ServerEvents.recipes(event => {
         .itemIn(cellComponent)
         .itemIn(token, 0)
         .fluidIn("modern_industrialization:molten_redstone" , 250)
+        .fluidIn("modern_industrialization:soldering_alloy" , 100)
         .itemOut(output)
     }
 
@@ -45,6 +46,7 @@ ServerEvents.recipes(event => {
         .itemIn(cellComponent)
         .itemIn(token, 0)
         .fluidIn("modern_industrialization:molten_redstone" , 250)
+        .fluidIn("modern_industrialization:soldering_alloy" , 100)
         .itemOut(output)
     }
 
@@ -75,6 +77,15 @@ ServerEvents.recipes(event => {
         .itemOut(output)
     }
 
+    function cell_upgrade (baseCell, nextCellComponent, upgradeMaterial, output, token) {
+        event.recipes.modern_industrialization.assembler(32,200)
+        .itemIn(baseCell)
+        .itemIn(nextCellComponent)
+        .itemIn("2x " + upgradeMaterial)
+        .itemIn(token, 0)
+        .itemOut(output)
+    }
+
     //cell components
     ae_cell_component("#c:plates/aluminum", "#c:dusts/certus_quartz", "ae2:logic_processor", "ae2:cell_component_1k", tier1token)
     ae_cell_component("ae2:cell_component_1k", "#c:dusts/fluix", "ae2:calculation_processor", "ae2:cell_component_4k", tier2token)
@@ -95,6 +106,16 @@ ServerEvents.recipes(event => {
     ae_fluid_cell("ae2:cell_component_64k", "ae2:fluid_storage_cell_64k", tier3token)
     ae_fluid_cell("ae2:cell_component_256k", "ae2:fluid_storage_cell_256k", tier3token)
 
+    cell_upgrade("ae2:item_storage_cell_1k", "ae2:cell_component_4k", "#c:dusts/fluix", "ae2:item_storage_cell_4k", tier3token)
+    cell_upgrade("ae2:item_storage_cell_4k", "ae2:cell_component_16k", "#c:dusts/aluminum", "ae2:item_storage_cell_16k", tier3token)
+    cell_upgrade("ae2:item_storage_cell_16k", "ae2:cell_component_64k", "#c:dusts/corrupti", "ae2:item_storage_cell_64k", tier3token)
+    cell_upgrade("ae2:item_storage_cell_64k", "ae2:cell_component_256k", "#c:dusts/ruby", "ae2:item_storage_cell_256k", tier3token)
+
+    cell_upgrade("ae2:fluid_storage_cell_1k", "ae2:cell_component_4k", "#c:dusts/fluix", "ae2:fluid_storage_cell_4k", tier3token)
+    cell_upgrade("ae2:fluid_storage_cell_4k", "ae2:cell_component_16k", "#c:dusts/aluminum", "ae2:fluid_storage_cell_16k", tier3token)
+    cell_upgrade("ae2:fluid_storage_cell_16k", "ae2:cell_component_64k", "#c:dusts/corrupti", "ae2:fluid_storage_cell_64k", tier3token)
+    cell_upgrade("ae2:fluid_storage_cell_64k", "ae2:cell_component_256k", "#c:dusts/ruby", "ae2:fluid_storage_cell_256k", tier3token)
+
     //tier 2 recipes
     ae_processor("ae2:printed_logic_processor", "ae2:logic_processor", tier2token)
 
@@ -110,6 +131,31 @@ ServerEvents.recipes(event => {
     .itemIn("4x ae2:logic_processor")
     .itemIn(tier1token, 0)
     .itemOut("ae2:cell_workbench")
+
+    event.recipes.modern_industrialization.assembler(8, 100)
+    .itemIn("ae2:import_bus")
+    .itemIn("ae2:export_bus")
+    .itemIn("ae2:logic_processor")
+    .itemIn(tier1token, 0)
+    .itemOut("advanced_ae:import_export_bus_part")
+
+    event.recipes.modern_industrialization.assembler(8, 100)
+    .itemIn("6x #c:rods/aluminum")
+    .itemIn("8x #c:wires/electrum")
+    .itemIn("4x #c:plates/iron")
+    .itemIn("2x ae2:fluix_crystal")
+    .itemIn("ae2:logic_processor")
+    .itemIn(tier1token, 0)
+    .itemOut("extendedae:me_packing_tape")
+
+    event.recipes.modern_industrialization.assembler(8, 100)
+    .itemIn("ae2:fluid_storage_cell_1k")
+    .itemIn("ae2:item_storage_cell_1k")
+    .itemIn("2x ae2:logic_processor")
+    .itemIn("4x #c:plates/aluminum")
+    .itemIn("ae2:quartz_glass")
+    .itemIn(tier1token, 0)
+    .itemOut("extendedae:ingredient_buffer")
 
     event.recipes.modern_industrialization.assembler(8, 100)
     .itemIn("6x modern_industrialization:aluminum_large_plate")
@@ -154,18 +200,19 @@ ServerEvents.recipes(event => {
     .itemOut("ae2:basic_card")
 
     event.recipes.modern_industrialization.assembler(8, 100)
-    .itemIn("2x #c:plates/aluminum")
-    .itemIn("6x ae2:fluix_glass_cable")
-    .itemIn("18x modern_industrialization:rubber_sheet")
-    .itemIn("ae2:logic_processor")
-    .itemIn(tier1token, 0)
-    .itemOut("4x ae2:fluix_smart_dense_cable")
-
-    event.recipes.modern_industrialization.assembler(8, 100)
     .itemIn("moderndynamics:item_pipe")
     .itemIn("2x ae2:fluix_crystal")
     .itemIn(tier1token, 0)
     .itemOut("2x ae2:fluix_glass_cable")
+
+    event.recipes.modern_industrialization.assembler(8, 100)
+    .itemIn("4x ae2:fluix_crystal")
+    .itemIn("8x #c:wires/electrum")
+    .itemIn("ae2:quartz_glass")
+    .itemIn("ae2:logic_processor")
+    .itemIn("8x modern_industrialization:redstone_battery")
+    .itemIn(tier2token, 0)
+    .itemOut("ae2:energy_cell")
 
     //tier 3 recipes
     ae_processor("ae2:printed_engineering_processor", "ae2:engineering_processor", tier3token)
@@ -182,7 +229,47 @@ ServerEvents.recipes(event => {
     .itemIn("4x modern_industrialization:aluminum_wire")
     .itemIn("2x #c:plates/diamond")
     .itemIn("ae2:calculation_processor")
+    .itemIn("ae2:engineering_processor")
     .itemIn(tier2token, 0)
     .itemOut("ae2:advanced_card")
+
+    event.recipes.modern_industrialization.assembler(8, 100)
+    .itemIn("3x ae2:quartz_vibrant_glass")
+    .itemIn("4x modern_industrialization:aluminum_wire")
+    .itemIn("modern_industrialization:aluminum_large_plate")
+    .itemIn("ae2:engineering_processor")
+    .itemIn(tier2token, 0)
+    .itemOut("ae2:semi_dark_monitor")
+
+    event.recipes.modern_industrialization.assembler(8, 100)
+    .itemIn("3x ae2:fluix_crystal")
+    .itemIn("ae2:semi_dark_monitor")
+    .itemIn("ae2:formation_core")
+    .itemIn(tier2token, 0)
+    .itemOut("ae2:formation_plane")
+
+    event.recipes.modern_industrialization.assembler(8, 100)
+    .itemIn("3x ae2:fluix_crystal")
+    .itemIn("ae2:semi_dark_monitor")
+    .itemIn("ae2:annihilation_core")
+    .itemIn(tier2token, 0)
+    .itemOut("ae2:annihilation_plane")
+
+    event.recipes.modern_industrialization.assembler(8, 100)
+    .itemIn("2x #c:plates/aluminum")
+    .itemIn("6x ae2:fluix_glass_cable")
+    .itemIn("18x modern_industrialization:rubber_sheet")
+    .itemIn("ae2:calculation_processor")
+    .itemIn(tier1token, 0)
+    .itemOut("4x ae2:fluix_smart_dense_cable")
+
+    event.recipes.modern_industrialization.assembler(8, 100)
+    .itemIn("4x ae2:fluix_crystal")
+    .itemIn("8x #c:wires/aluminum")
+    .itemIn("ae2:quartz_glass")
+    .itemIn("ae2:calculation_processor")
+    .itemIn("8x modern_industrialization:silicon_battery")
+    .itemIn(tier2token, 0)
+    .itemOut("ae2:dense_energy_cell")
 
 })

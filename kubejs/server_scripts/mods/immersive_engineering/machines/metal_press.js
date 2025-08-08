@@ -31,9 +31,24 @@ ServerEvents.recipes(event => {
             },
             "count": 2,
           },
-          "mold": "modern_industrialization:cell_press",
+          "mold": "kubejs:cell_press",
           "result": {
             "item": "kubejs:cell_half",
+          },
+    });
+
+    event.custom({
+          "type": "immersiveengineering:metal_press",
+          "energy": 3200,
+          "input": {
+            "basePredicate": {
+                "tag": "c:plates/iron",
+            },
+            "count": 2,
+          },
+          "mold": "kubejs:core_press",
+          "result": {
+            "item": "kubejs:core_hull",
           },
     });
 })
