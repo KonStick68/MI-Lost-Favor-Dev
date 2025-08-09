@@ -125,12 +125,12 @@ ServerEvents.recipes(event => {
         },
         {
           "basePredicate": {
-            "item": "kubejs:core_hull",
+            "item": "ae2:calculation_processor",
           },
-          "count" : 1
+          "count" : 2
         },
         {
-          "item": "ae2:calculation_processor",
+          "item": "kubejs:core_hull",
         }
       ],
       "results": [
@@ -156,12 +156,12 @@ ServerEvents.recipes(event => {
         },
         {
           "basePredicate": {
-            "item": "kubejs:core_hull",
+            "item": "ae2:engineering_processor",
           },
-          "count" : 1
+          "count" : 2
         },
         {
-          "item": "ae2:engineering_processor",
+          "item": "kubejs:core_hull",
         }
       ],
       "results": [

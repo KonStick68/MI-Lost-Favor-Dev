@@ -12,7 +12,49 @@ ServerEvents.recipes(event => {
     var tier4token = "kubejs:quantum_disk"
 
 
-//tier 1
+    function token_bp(plates, rods, dust, output, bpTier) {
+        event.custom({
+            "type": "immersiveengineering:blueprint",
+            "inputs": [
+                {
+                    "basePredicate": {
+                        "tag": plates
+                    },
+                    "count": 2
+                },
+                {
+                     "basePredicate": {
+                        "tag": rods
+                     },
+                     "count": 4
+                },
+                {
+                    "basePredicate": {
+                        "tag": "c:dusts/certus_quartz"
+                    },
+                    "count": 6
+                },
+                {
+                    "basePredicate": {
+                        "tag": dust
+                    },
+                    "count": 6
+                },
+            ],
+            "category": tier2bp,
+            "result": {
+                "item": output
+            }
+        })
+    }
+
+    //tokens
+    token_bp("c:plates/aluminum", "c:rods/certus_quartz", "c:dusts/fluix", tier1token, tier2bp)
+    token_bp("c:plates/aluminum", "c:rods/certus_quartz", "c:dusts/gold", tier2token, tier3bp)
+    token_bp("c:plates/aluminum", "c:rods/certus_quartz", "c:dusts/aluminum", tier3token, tier4bp)
+    token_bp("c:plates/aluminum", "c:rods/certus_quartz", "c:dusts/shattered_singularity", tier4token, tier5bp)
+
+    //tier 1
     event.custom({
         "type": "immersiveengineering:blueprint",
         "inputs": [
@@ -135,8 +177,7 @@ ServerEvents.recipes(event => {
         }
     })
 
-//tier 2
-
+    //tier 2
     event.custom({
         "type": "immersiveengineering:blueprint",
         "inputs": [
@@ -250,40 +291,6 @@ ServerEvents.recipes(event => {
                 },
                 {
                      "basePredicate": {
-                        "item": "modern_industrialization:certus_quartz_rod"
-                     },
-                     "count": 4
-                },
-                {
-                    "basePredicate": {
-                        "tag": "c:dusts/certus_quartz"
-                    },
-                    "count": 6
-                },
-                {
-                    "basePredicate": {
-                        "tag": "c:dusts/aluminum"
-                    },
-                    "count": 6
-                },
-            ],
-            "category": tier2bp,
-            "result": {
-                "item": tier1token
-            }
-    })
-
-    event.custom({
-            "type": "immersiveengineering:blueprint",
-            "inputs": [
-                {
-                    "basePredicate": {
-                        "tag": "c:plates/aluminum"
-                    },
-                    "count": 2
-                },
-                {
-                     "basePredicate": {
                         "item": "kubejs:cell_half"
                      },
                      "count": 2
@@ -329,7 +336,7 @@ ServerEvents.recipes(event => {
             }
     })
 
-//tier 3
+    //tier 3
 
     event.custom({
         "type": "immersiveengineering:blueprint",
@@ -408,40 +415,6 @@ ServerEvents.recipes(event => {
             "category": tier3bp,
             "result": {
                 "item": "ae2:engineering_processor_press"
-            }
-    })
-
-    event.custom({
-            "type": "immersiveengineering:blueprint",
-            "inputs": [
-                {
-                    "basePredicate": {
-                        "tag": "c:plates/aluminum"
-                    },
-                    "count": 2
-                },
-                {
-                     "basePredicate": {
-                        "item": "modern_industrialization:certus_quartz_rod"
-                     },
-                     "count": 4
-                },
-                {
-                    "basePredicate": {
-                        "tag": "c:dusts/gold"
-                    },
-                    "count": 6
-                },
-                {
-                    "basePredicate": {
-                        "tag": "c:dusts/aluminum"
-                    },
-                    "count": 6
-                },
-            ],
-            "category": tier3bp,
-            "result": {
-                "item": tier2token
             }
     })
 

@@ -124,7 +124,7 @@ ServerEvents.recipes(event => {
                 },
                 {
                     "basePredicate": {
-                        "tag": "c:dusts/glowstone",
+                        "item": "pastel:shimmerstone_gem",
                     },
                     "count": 12
                 }            ],
