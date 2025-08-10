@@ -1,0 +1,16 @@
+filename = 'swashbucklers! 2.6.6C 1.21.1 neoforge.jar'
+name = 'Swashbucklers!'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'cf0f8176110a2ec14ed552ecab8890f78d4e6889'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6536682
+project-id = 746320

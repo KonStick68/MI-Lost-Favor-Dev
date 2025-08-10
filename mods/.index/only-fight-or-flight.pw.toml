@@ -1,0 +1,16 @@
+filename = 'onlyfightorflight-0.2.1-neoforge-1.21.1.jar'
+name = 'Only Fight Or Flight'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = 'c5ff29f393ca0a7acfb8a71be3517963ad66bf07'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6803134
+project-id = 1295859

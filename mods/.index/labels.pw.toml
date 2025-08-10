@@ -1,0 +1,16 @@
+filename = 'labels-1.21-2.0.1-neoforge.jar'
+name = 'Storage Labels'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'c171dfada42c38d8d5d4664e951140190ca8f925'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6274087
+project-id = 688223
