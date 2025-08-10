@@ -12,3 +12,10 @@ ServerEvents.tags('block', event => {
     event.remove('minecraft:mineable/pickaxe', ['ae2:sky_stone_block', 'ae2:mysterious_cube'])
     
 })
+
+LootJS.modifiers(event => {
+    event
+    .addTableModifier("ae2:blocks/mysterious_cube")
+    .removeLoot("*")
+    .addLoot("ae2:mysterious_cube")
+})
