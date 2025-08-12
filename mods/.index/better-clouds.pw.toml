@@ -1,0 +1,16 @@
+filename = 'better-clouds-1.7.17+1.21.1-neoforge.jar'
+name = 'Better Clouds'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '3b545234fca34056554922bf2ce4d037cf6837de'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6857123
+project-id = 1285973
