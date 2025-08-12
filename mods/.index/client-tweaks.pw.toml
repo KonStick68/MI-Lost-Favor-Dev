@@ -1,0 +1,16 @@
+filename = 'clienttweaks-neoforge-1.21.1-21.1.8.jar'
+name = 'Client Tweaks'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '3fbbc4f2aa90b8193bcdfc7a42ad939c80a3d165'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6778909
+project-id = 251407
