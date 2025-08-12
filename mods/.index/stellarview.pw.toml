@@ -1,0 +1,16 @@
+filename = 'Stellar View-1.21.1-0.4.6-NeoForge.jar'
+name = 'Stellar View'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'e9e31815ae06399d21eccc96c650b0d2c24f2ba6'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6538686
+project-id = 865273
