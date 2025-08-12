@@ -100,8 +100,8 @@
 			id: "685FA68A7D47018E"
 			shape: "diamond"
 			tasks: [{
-				id: "29B548D88C78BE54"
-				item: { components: { "immersiveengineering:blueprint": "Mysterious Blueprint" }, count: 1, id: "immersiveengineering:blueprint" }
+				id: "000A6CCFFBB40F36"
+				item: { components: { "immersiveengineering:blueprint": "Mysterious Blueprint", "minecraft:item_name": "{\"color\":\"#84B9FF\",\"text\":\"Mysterious Blueprint\"}" }, count: 1, id: "immersiveengineering:blueprint" }
 				type: "item"
 			}]
 			x: -4.5d
@@ -295,7 +295,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "6550AEC99FF3FD5C"
-				item: { components: { "immersiveengineering:blueprint": "Storage Blueprint" }, count: 1, id: "immersiveengineering:blueprint" }
+				item: { components: { "immersiveengineering:blueprint": "Storage Blueprint", "minecraft:item_name": "{\"color\":\"#FFF678\",\"text\":\"Storage Blueprint\"}" }, count: 1, id: "immersiveengineering:blueprint" }
 				type: "item"
 			}]
 			x: -0.5d
@@ -311,7 +311,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "1F4BDF7148C0A1D5"
-				item: { components: { "immersiveengineering:blueprint": "Automation Blueprint" }, count: 1, id: "immersiveengineering:blueprint" }
+				item: { components: { "immersiveengineering:blueprint": "Automation Blueprint", "minecraft:item_name": "{\"color\":\"#8DE8FF\",\"text\":\"Automation Blueprint\"}" }, count: 1, id: "immersiveengineering:blueprint" }
 				type: "item"
 			}]
 			x: 0.5d
@@ -327,7 +327,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "0A95C313F000758C"
-				item: { components: { "immersiveengineering:blueprint": "Strange Blueprint" }, count: 1, id: "immersiveengineering:blueprint" }
+				item: { components: { "immersiveengineering:blueprint": "Quantum Blueprint", "minecraft:item_name": "{\"color\":\"#C795FF\",\"text\":\"Quantum Blueprint\"}" }, count: 1, id: "immersiveengineering:blueprint" }
 				type: "item"
 			}]
 			x: -0.5d
@@ -339,7 +339,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "068365116011D18D"
-				item: { components: { "immersiveengineering:blueprint": "Strange Blueprint" }, count: 1, id: "immersiveengineering:blueprint" }
+				item: { components: { "immersiveengineering:blueprint": "Divine Blueprint", "minecraft:item_name": "{\"color\":\"#ABFFC0\",\"text\":\"Divine Blueprint\"}" }, count: 1, id: "immersiveengineering:blueprint" }
 				type: "item"
 			}]
 			x: -4.5d

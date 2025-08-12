@@ -1,4 +1,23 @@
 ServerEvents.recipes(event => {
+    //MI compat
+    event.forEachRecipe({ type: 'modern_industrialization:cutting_machine', output: '#c:rods', input:'#c:ingots' }, r => {
+        let ingredients = r.json.get("item_inputs").get(0)
+        let output = r.originalRecipeResult    
+        event.custom({
+              "type": "immersiveengineering:metal_press",
+              "energy": 3200,
+              "input": {
+                "basePredicate": {
+                    "tag": ingredients.get("tag"),
+                },
+                "count": 2,
+              },
+              "mold": 'immersiveengineering:mold_rod',
+              "result": {
+                "item": output.id,
+              },
+        });
+  })
 
     //ae stuff
     function printed_processor (input, press, output) {

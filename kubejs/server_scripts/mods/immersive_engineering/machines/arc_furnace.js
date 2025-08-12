@@ -153,5 +153,57 @@ ServerEvents.recipes(event => {
             "time": 200
     })
 
+    //???
+    event.custom({
+            "type": "immersiveengineering:arc_furnace",
+            "additives": [
+                {
+                    "basePredicate": {
+                        "item": "pastel:horse_head"
+                    },
+                    "count": 4
+                },
+                {
+                    "basePredicate": {
+                        "tag": "immersiveengineering:treated_wood",
+                    },
+                    "count": 16
+                },
+                {
+                    "basePredicate": {
+                        "tag": "c:nuggets/copper",
+                    },
+                    "count": 6
+                },
+                {
+                    "basePredicate": {
+                        "item": "minecraft:netherite_block",
+                    },
+                    "count": 4
+                }            ],
+            "energy": 500163,
+            "input": {
+                "basePredicate": {
+                    "item": "minecraft:netherite_helmet"
+                },
+                "count" : 1
+            },
+            "results": [
+                {
+                    "basePredicate": {
+                        "item": "kubejs:meze_109"
+                    },
+                    "count" : 1
+                },
+            ],
+
+            "slag": {
+                "basePredicate": {
+                    "item": "pastel:skeleton_horse_head"
+                },
+                "count": 4
+            },
+            "time": 200
+    })
 
 })
