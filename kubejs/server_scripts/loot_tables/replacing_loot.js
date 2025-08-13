@@ -19,9 +19,4 @@ LootJS.modifiers(event => {
             .replaceLoot(item.item, item.replace_item, true)
     });
 
-
-    // removing all artifacts from loot tables
-    event
-        .addTableModifier(LootType.CHEST, LootType.ENTITY)
-        .removeLoot(/artifacts:.*/)
 })
