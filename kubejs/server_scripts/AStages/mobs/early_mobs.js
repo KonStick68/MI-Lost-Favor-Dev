@@ -18,6 +18,10 @@ const early_mobs = [
     {id:"bogged", mob: "minecraft:bogged"},
     {id:"drowned", mob: "minecraft:drowned"},
     {id:"wandering_trader", mob: "minecraft:wandering_trader"},
+    {id:"cave_spider", mob: "minecraft:cave_spider"},
+    {id:"corrupt_lost_soul", mob: "forbidden_arcanus:corrupt_lost_soul"},
+    {id:"lost_soul", mob: "forbidden_arcanus:lost_soul"},
+    {id:"enchanted_lost_soul", mob: "forbidden_arcanus:enchanted_lost_soul"},
 ]
 
 early_mobs.forEach(mob => {

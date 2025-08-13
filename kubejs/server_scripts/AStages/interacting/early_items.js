@@ -4,7 +4,8 @@ const item_interact_block = [
     { id: "lootr_shulker", item: "lootr:lootr_shulker" },
     { id: "lootr_trapped_chest", item: "lootr:lootr_trapped_chest" },
     { id: "blast_furnace", item: "minecraft:blast_furnace" },
-    { id: "crate", item: "immersiveengineering:crate" }
+    { id: "crate", item: "immersiveengineering:crate" },
+    { id: "spawner", item: "minecraft:spawner" }
 ]
 
 const entity_interact_block = [
