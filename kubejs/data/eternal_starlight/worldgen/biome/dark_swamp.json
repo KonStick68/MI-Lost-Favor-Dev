@@ -56,7 +56,13 @@
       "eternal_starlight:glowing_nightfall_mud_ore",
       "eternal_starlight:ore_brilliant",
       "eternal_starlight:cthonic_gold_ore",
-      "eternal_starlight:ore_soulstone"
+      "eternal_starlight:ore_soulstone",
+      "eternal_starlight:arcane_crystal_ore",
+      "eternal_starlight:darkstone",
+      "eternal_starlight:runic_stone",
+      "eternal_starlight:stella_arcanum",
+      "eternal_starlight:azurite_ore",
+      "eternal_starlight:shimmerstone_ore"
     ],
     [
       "eternal_starlight:stellagmite"
