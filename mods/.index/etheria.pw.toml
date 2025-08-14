@@ -1,4 +1,4 @@
-filename = 'etheria-0.2.5.jar'
+filename = 'etheria-0.2.6.2.jar'
 name = 'Etheria'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '0db6e455fb7459daa82258c6b092c253dbb2e73e'
+hash = 'dc2ecdaf150fc3db1e69e4447ead87ef7e62ab60'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6850135
+file-id = 6883260
 project-id = 1100499

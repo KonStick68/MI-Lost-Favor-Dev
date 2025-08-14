@@ -1,4 +1,4 @@
-filename = 'relicsofrain-0.3.0+1.21.1.jar'
+filename = 'relicsofrain-0.3.1+1.21.1.jar'
 name = 'Relics of Rain'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = 'c8ba403f0244c724d22c589838ec97e5155aaa14'
+hash = '2b48e08a4cddc60b95769fe5e6d7fe46a70a0486'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6282209
+file-id = 6883563
 project-id = 1186656
