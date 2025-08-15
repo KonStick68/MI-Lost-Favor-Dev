@@ -472,6 +472,10 @@
 		"Отключает спавн мобов в области"
 	]
 	quest.428850B1426EB3D4.quest_desc: ["Wild cow"]
+	quest.42B6798C0C2BD9E5.quest_desc: [
+		"All the bronze machines use steam to operate"
+		"Automatically outputs steam from the top"
+	]
 	quest.430D38FF55DB4445.quest_desc: [" Use it to apply a new Soulbound item modifier."]
 	quest.43141E73595BA04F.quest_desc: [
 		"A broom can be used to sweep chalk away quickly, without having to spend time erasing it."
@@ -602,10 +606,7 @@
 	]
 	quest.58DE851CD9578153.quest_desc: ["позволяет шарить глифы за опыт, чем больше глифово - тратит больше опыта"]
 	quest.58E8A03E6BB037C5.quest_desc: ["Applies the Glowing effect to all entities near the player when it's in your inventory."]
-	quest.590167B593FE267A.quest_desc: [
-		"All the bronze machines use steam to operate"
-		"Automatically outputs steam from the top"
-	]
+	quest.590167B593FE267A.quest_desc: [""]
 	quest.5984DB66549B9040.quest_desc: ["Отравление на оружие"]
 	quest.5A4BB58AB11D4B81.quest_desc: [
 		"The witch's oven is a modified furnace used to collect byproducts and fumes made from burning materials."
@@ -718,7 +719,7 @@
 	quest.6728D3D62F6812D6.quest_desc: [
 		"Automatic farm with 2 configurable sizes."
 		""
-		"Will turn grass into farmland around itself, hydrate soil when provoded with water, plant crops when provided with seeds and harvest all the crops if there's enough output room for ewerything that could be harvested from plants (e.g. for wheat you need 2 output slots: one for seeds and one for wheat itself)"
+		"Will turn grass into farmland around itself, hydrate soil when provoded with water, plant crops when provided with seeds and harvest all the crops if there's enough output room for everything that could be harvested from plants (e.g. for wheat you need 2 output slots: one for seeds and one for wheat itself)"
 	]
 	quest.6728D3D62F6812D6.quest_subtitle: "Your ultimate farming solution!"
 	quest.672EEF1A13EC159D.quest_desc: ["90~"]
@@ -798,7 +799,6 @@
 		""
 		"Besides the use as a normal tool Blacksmith Gavels are also needed to start rituals in the Hephaestus Forge. Every Gavel has a remaining ritual uses counter in their tooltip that shows how many rituals this item can still be used for. More advanced Gavel variants can be used more often. "
 	]
-	quest.750F4699E092121D.quest_desc: ["Overclocks all the steam dependent machines to 2x the speed"]
 	quest.7591497746DA17AC.quest_desc: ["Just for endgame tier 5 pedestal without crafts for now"]
 	quest.760015A8E61B210A.quest_desc: ["Виталик за тики роста животных/размножение/убийство даёт сурс "]
 	quest.7635ED9379E95573.quest_desc: ["Even grass could become quite strong when you weave it properly"]

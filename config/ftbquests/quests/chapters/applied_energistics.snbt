@@ -446,7 +446,10 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["6DCE76F4CC875612"]
+			dependencies: [
+				"6E426E8D686AD908"
+				"6DCE76F4CC875612"
+			]
 			icon: {
 				id: "advanced_ae:quantum_processor_press"
 			}

@@ -1,10 +1,5 @@
 ServerEvents.recipes(event => {
-
-    //there's some black magic involved in MI oil plant recipes, i have no idea how to fetch them,
-    //  they're dont even show up when you go thru ALL of the modern industrialization recipes
-
-
-        /*
+    /*
     event.remove({ type: 'immersiveengineering:squeezer' })
     function mi_squeezer(ingredients, result){
 
@@ -30,8 +25,9 @@ ServerEvents.recipes(event => {
 
     }
 
-    event.forEachRecipe({ mod: "modern_industrialization"}, r => {
+    event.forEachRecipe({ id: /modern_industrialization:.*to_plant_oil/}, r => {
         try{
+            console.log(r);
             let ingredients = r.json.get("item_inputs")
             let outputs = r.json.get("fluid_outputs")
             mi_squeezer(ingredients,outputs)
@@ -42,5 +38,4 @@ ServerEvents.recipes(event => {
 
     })
     */
-
 })

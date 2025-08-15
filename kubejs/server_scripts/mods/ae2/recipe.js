@@ -7,8 +7,8 @@ ServerEvents.recipes(event => {
         event.remove({ id: id })
     })
 
-    event.remove({ type: 'ae2:inscriber' })
-    event.remove({ output: /ae2:.*item_storage_cell/ })
+    //event.remove({ type: 'ae2:inscriber' })
+    //event.remove({ output: /ae2:.*item_storage_cell/ })
     /*
     ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢣⣀⠐⢄⠀⠀⠀⠀⠀⠀⠀⠀⠀
     ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⣄⠀⣀⡑⠫⡀⡆⢀⣤⠀⠀⠀⠀⠀⠀
@@ -32,9 +32,6 @@ ServerEvents.recipes(event => {
 
 
     const remove_by_output = [
-    'ae2:charger',
-    'ae2:inscriber',
-    'ae2:drive',
 
     ]
 

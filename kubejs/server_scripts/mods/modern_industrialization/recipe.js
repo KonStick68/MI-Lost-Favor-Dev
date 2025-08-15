@@ -52,6 +52,49 @@ ServerEvents.recipes(event => {
     })
 
 
+    //bronze_glass_recipes
+    event.shaped(
+        Item.of('kubejs:bronze_glass', 8),
+        [
+            'BRB',
+            'RGR', 
+            'BRB'
+        ],
+        {
+            R: '#c:rods/bronze',
+            B: '#c:bolts/bronze', 
+            G: '#c:glass_blocks'
+        }
+    )
+
+    event.recipes.modern_industrialization.assembler(32,200)
+    .itemIn("#c:glass_blocks")
+    .itemIn("4x #c:rods/bronze")
+    .fluidIn("modern_industrialization:soldering_alloy" , 100)
+    .itemOut('8x kubejs:bronze_glass')
+
+
+    event.shaped(
+        Item.of('kubejs:bronze_machine_bit', 16),
+        [
+            'BRB',
+            'RGR', 
+            'BRB'
+        ],
+        {
+            R: '#c:rods/bronze',
+            B: '#c:bolts/bronze', 
+            G: 'modern_industrialization:bronze_machine_casing'
+        }
+    )
+
+    event.recipes.modern_industrialization.assembler(32,200)
+    .itemIn("modern_industrialization:bronze_machine_casing")
+    .itemIn("4x #c:rods/bronze")
+    .fluidIn("modern_industrialization:soldering_alloy" , 100)
+    .itemOut('16x kubejs:bronze_machine_bit')
+
+
     event.replaceOutput(
         { output: 'modern_industrialization:steel_block' },
         'modern_industrialization:steel_block',
@@ -72,9 +115,6 @@ ServerEvents.recipes(event => {
     )
 
     const craftWithFluidPipes = [
-        'extended_industrialization:bronze_bending_machine',
-        'extended_industrialization:bronze_composter',
-        'extended_industrialization:bronze_waste_collector',
         'extended_industrialization:electric_canning_machine',
         'extended_industrialization:electric_composter',
         'extended_industrialization:machine_chainer_relay',
@@ -88,11 +128,16 @@ ServerEvents.recipes(event => {
         'extended_industrialization:lv_solar_panel', 
         'modern_industrialization:pump', 
         'modern_industrialization:advanced_pump', 
+        /*
         'modern_industrialization:bronze_compressor', 
         'modern_industrialization:bronze_cutting_machine', 
         'modern_industrialization:bronze_macerator', 
         'modern_industrialization:bronze_mixer', 
         'modern_industrialization:bronze_water_pump', 
+        'extended_industrialization:bronze_bending_machine',
+        'extended_industrialization:bronze_composter',
+        'extended_industrialization:bronze_waste_collector',
+        */
         'modern_industrialization:electric_water_pump', 
         'modern_industrialization:electric_mixer', 
         'modern_industrialization:distillery', 

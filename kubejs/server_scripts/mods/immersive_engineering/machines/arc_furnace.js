@@ -1,209 +1,129 @@
 ServerEvents.recipes(event => {
 
-    event.custom({
-        "type": "immersiveengineering:arc_furnace",
-        "additives": [],
-        "energy": 102400,
-        "input": {
-            "tag": "c:ores/aluminum"
-        },
-        "results": [
-            {
-                "basePredicate": {
-                    "tag": "c:ingots/aluminum"
-                },
-                "count": 2
+    function arc_furnace_recipe(inputs, outputs, energy, time, slag) {
+        let recipe = {
+            type: "immersiveengineering:arc_furnace",
+            additives: [],
+            results: [],
+            secondaries: [],
+            energy: energy,
+            time: time
+        };
+        inputs.forEach((input,index) => {
+            if(index == 0){
+                recipe.input = {
+                    basePredicate: input[0],
+                    count: input[1]
+                };
             }
+            else{
+                recipe.additives.push({
+                    basePredicate: input[0],
+                    count: input[1]
+                })
+            }
+        });
+        outputs.forEach(output => {
+            let o = {
+                basePredicate: output[0],
+                count: output[1],
+            };
+            if(output[2] != undefined){recipe.secondaries.push({
+                chance: output[2],
+                output: o
+            })}
+            else{
+                recipe.results.push(o);
+            }
+
+        });
+        if (slag != undefined){recipe.slag = {
+            basePredicate: slag[0],
+            count: slag[1]
+        }}
+        event.custom(recipe);
+    }
+
+    arc_furnace_recipe(
+        [
+            [{"tag": "c:ores/aluminum"}, 1]
         ],
-        "slag": {
-            "tag": "c:slag"
-        },
-        "time": 200
-    })
-    //ae2 stuff
+        [
+            [{"tag": "c:ingots/aluminum"}, 1],
+            [{"tag": "c:ingots/aluminum"}, 1, 0.5]
 
-    //starter pack
-    event.custom({
-            "type": "immersiveengineering:arc_furnace",
-            "additives": [
-                {
-                    "basePredicate": {
-                        "item": "pastel:bottle_of_fading"
-                    },
-                    "count": 4
-                },
-                {
-                    "basePredicate": {
-                        "item": "pastel:light_blue_pigment",
-                    },
-                    "count": 32
-                }
-            ],
-            "energy": 500163,
-            "input": {
-                "item": "ae2:mysterious_cube"
-            },
-            "results": [
-                {
-                    "item": "ae2:controller"
-                },
-                {
-                    "item": "ae2:terminal"
-                },
-                {
-                    "item" : "kubejs:blueprint_pack"
-                }
-            ],
+        ],
+        102400,
+        200,
+        [{"tag": "c:slag"}, 1]
+    );
 
-            "slag": {
-                "basePredicate": {
-                    "item": "pastel:vegetal"
-                },
-                "count": 4
-            },
-            "time": 200
-    })
+    //ae stuff
+    //#region
+    //ae starter pack
+    arc_furnace_recipe(
+        [
+            [{"item": "ae2:mysterious_cube"}, 1],
+            [{"item": "pastel:bottle_of_fading"}, 4],
+            [{"item": "pastel:light_blue_pigment"}, 32]
+        ],
+        [
+            [{"item": "ae2:controller"}, 1],
+            [{"item": "ae2:terminal"}, 1],
+            [{"item": "kubejs:blueprint_pack"}, 1]
+        ],
+        500163,
+        200,
+        [{"item": "pastel:vegetal"}, 4]
+    );
 
     //quartz_glass
-    event.custom({
-            "type": "immersiveengineering:arc_furnace",
-            "additives": [
-                {
-                    "basePredicate": {
-                        "tag": "c:dusts/certus_quartz"
-                    },
-                    "count": 7
-                },
-                {
-                    "basePredicate": {
-                        "tag": "c:dusts/quartz",
-                    },
-                    "count": 2
-                }
-            ],
-            "energy": 500163,
-            "input": {
-                "basePredicate": {
-                    "tag": "c:glass_blocks"
-                },
-                "count" : 6
-            },
-            "results": [
-                {
-                    "basePredicate": {
-                        "item": "ae2:quartz_glass"
-                    },
-                    "count" : 6
-                },
-            ],
-
-            "slag": {
-                "basePredicate": {
-                    "item": "extendedae:quartz_blend"
-                },
-                "count": 3
-            },
-            "time": 200
-    })
+    arc_furnace_recipe(
+        [
+            [{"tag": "c:glass_blocks"}, 6],
+            [{"tag": "c:dusts/certus_quartz"}, 7],
+            [{"tag": "c:dusts/quartz"}, 2]
+        ],
+        [
+            [{"item": "ae2:quartz_glass"}, 6]
+        ],
+        102400,
+        200,
+        [{"item": "extendedae:quartz_blend"}, 3]
+    );
 
     //vibrant_quartz_glass
-    event.custom({
-            "type": "immersiveengineering:arc_furnace",
-            "additives": [
-                {
-                    "basePredicate": {
-                        "tag": "c:dusts/certus_quartz"
-                    },
-                    "count": 7
-                },
-                {
-                    "basePredicate": {
-                        "tag": "c:dusts/quartz",
-                    },
-                    "count": 2
-                },
-                {
-                    "basePredicate": {
-                        "item": "pastel:shimmerstone_gem",
-                    },
-                    "count": 12
-                }            ],
-            "energy": 500163,
-            "input": {
-                "basePredicate": {
-                    "tag": "c:glass_blocks"
-                },
-                "count" : 6
-            },
-            "results": [
-                {
-                    "basePredicate": {
-                        "item": "ae2:quartz_vibrant_glass"
-                    },
-                    "count" : 6
-                },
-            ],
+    arc_furnace_recipe(
+        [
+            [{"tag": "c:glass_blocks"}, 6],
+            [{"tag": "c:dusts/certus_quartz"}, 7],
+            [{"tag": "c:dusts/quartz"}, 2],
+            [{"item": "pastel:shimmerstone_gem"}, 12]
+        ],
+        [
+            [{"item": "ae2:quartz_vibrant_glass"}, 6]
+        ],
+        102400,
+        200,
+        [{"item": "extendedae:quartz_blend"}, 3]
+    );
 
-            "slag": {
-                "basePredicate": {
-                    "item": "extendedae:quartz_blend"
-                },
-                "count": 3
-            },
-            "time": 200
-    })
+    //wth
+    arc_furnace_recipe(
+        [
+            [{"item": "minecraft:netherite_helmet"}, 1],
+            [{"item": "pastel:horse_head"}, 4],
+            [{"tag": "immersiveengineering:treated_wood"}, 16],
+            [{"tag": "c:nuggets/copper"}, 6],
+            [{"item": "minecraft:netherite_block"}, 4]
+        ],
+        [
+            [{"item": "kubejs:meze_109"}, 1]
+        ],
+        109109,
+        109,
+        [{"item": "pastel:skeleton_horse_head"}, 4]
+    );
+    //#endregion
 
-    //???
-    event.custom({
-            "type": "immersiveengineering:arc_furnace",
-            "additives": [
-                {
-                    "basePredicate": {
-                        "item": "pastel:horse_head"
-                    },
-                    "count": 4
-                },
-                {
-                    "basePredicate": {
-                        "tag": "immersiveengineering:treated_wood",
-                    },
-                    "count": 16
-                },
-                {
-                    "basePredicate": {
-                        "tag": "c:nuggets/copper",
-                    },
-                    "count": 6
-                },
-                {
-                    "basePredicate": {
-                        "item": "minecraft:netherite_block",
-                    },
-                    "count": 4
-                }            ],
-            "energy": 500163,
-            "input": {
-                "basePredicate": {
-                    "item": "minecraft:netherite_helmet"
-                },
-                "count" : 1
-            },
-            "results": [
-                {
-                    "basePredicate": {
-                        "item": "kubejs:meze_109"
-                    },
-                    "count" : 1
-                },
-            ],
-
-            "slag": {
-                "basePredicate": {
-                    "item": "pastel:skeleton_horse_head"
-                },
-                "count": 4
-            },
-            "time": 200
-    })
-
-})
+});

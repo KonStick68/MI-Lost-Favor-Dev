@@ -10,7 +10,8 @@ ServerEvents.recipes(event => {
         'modern_industrialization:electric_furnace', 
         'modern_industrialization:bronze_furnace'
     ]})
-
+    //replaced with ytech recipe
+    /*
     event.shaped('modern_industrialization:bronze_mi_furnace', [
         'PPP',
         'PEP',
@@ -20,6 +21,8 @@ ServerEvents.recipes(event => {
         E: 'minecraft:furnace',
         R: 'modern_industrialization:fire_clay_bricks'
     })
+    */
+
     event.recipes.modern_industrialization.assembler(8, 200)
     .itemIn("5x #c:plates/bronze")
     .itemIn("minecraft:furnace")

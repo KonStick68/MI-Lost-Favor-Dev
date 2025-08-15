@@ -1,94 +1,71 @@
 ServerEvents.recipes(event => {
 
+    function bottling_recipe(inputs, fluid, outputs) {
+        let recipe = {
+            type: "immersiveengineering:bottling_machine",
+            inputs: [],
+            results: []
+        };
+        recipe.fluid = {
+            fluid : fluid[0],
+            amount : fluid[1]
+        }
+        inputs.forEach(input => {
+            let i = {
+                basePredicate: input[0],
+                count: input[1]
+            };
+            recipe.inputs.push(i);
+        });
+        outputs.forEach(output => {
+            let o = {
+                basePredicate: output[0],
+                count: output[1]
+            };
+            recipe.results.push(o);
+        });
+        event.custom(recipe);
+    }
 
     function ae_processor (printedCircuit, output) {
-        event.custom({
-          "type": "immersiveengineering:bottling_machine",
-          "fluid": {
-            "amount": 250,
-            "fluid": "modern_industrialization:molten_redstone",
-          },
-          "inputs": [
-            {
-              "item": "ae2:printed_silicon",
-            },
-            {
-              "item": printedCircuit,
-            }
-          ],
-          "results": [
-            {
-              "id": output,
-            },
-
-          ]
-        })
+        bottling_recipe(
+            [
+                [ { "item": "ae2:printed_silicon" }, 1 ],
+                [ { "item": printedCircuit }, 1 ]
+            ],
+            [ "modern_industrialization:molten_redstone", 250 ],
+            [
+                [ { "item": output }, 1 ]
+            ]
+        );
     }
 
     function ae_item_cell (cellComponent, output) {
-        event.custom({
-          "type": "immersiveengineering:bottling_machine",
-          "fluid": {
-            "amount": 500,
-            "fluid": "modern_industrialization:molten_redstone",
-          },
-          "inputs": [
-            {
-              "basePredicate": {
-                "item": "ae2:quartz_glass",
-              },
-              "count" : 2
-            },
-            {
-              "basePredicate": {
-                "item": "ae2:item_cell_housing",
-              },
-              "count" : 1
-            },
-            {
-              "item": cellComponent,
-            }
-          ],
-          "results": [
-            {
-              "id": output,
-            },
-
-          ]
-        })
+        bottling_recipe(
+            [
+                [ { "item": "ae2:quartz_glass" }, 2 ],
+                [ { "item": "ae2:item_cell_housing" }, 1 ],
+                [ { "item": cellComponent }, 1 ]
+            ],
+            [ "modern_industrialization:molten_redstone", 500 ],
+            [
+                [ { "item": output }, 1 ]
+            ]
+        );
     }
 
     function ae_fluid_cell (cellComponent, output) {
-        event.custom({
-          "type": "immersiveengineering:bottling_machine",
-          "fluid": {
-            "amount": 500,
-            "fluid": "modern_industrialization:molten_redstone",
-          },
-          "inputs": [
-            {
-              "basePredicate": {
-                "item": "ae2:quartz_glass",
-              },
-              "count" : 2
-            },
-            {
-              "basePredicate": {
-                "item": "ae2:fluid_cell_housing",
-              },
-              "count" : 1
-            },
-            {
-              "item": cellComponent,
-            }
-          ],
-          "results": [
-            {
-              "id": output,
-            },
-
-          ]
-        })
+        bottling_recipe(
+            [
+                [ { "item": "ae2:quartz_glass" }, 2 ],
+                [ { "item": "ae2:fluid_cell_housing" }, 1 ],
+                [ { "item": cellComponent }, 1 ]
+            ],
+            [ "modern_industrialization:molten_redstone", 500 ],
+            [
+                [ { "item": output }, 1 ]
+            ]
+        );
     }
 
     ae_processor("ae2:printed_logic_processor", "ae2:logic_processor")
@@ -107,69 +84,29 @@ ServerEvents.recipes(event => {
     ae_fluid_cell("ae2:cell_component_64k", "ae2:fluid_storage_cell_64k")
     ae_fluid_cell("ae2:cell_component_256k", "ae2:fluid_storage_cell_256k")
 
+    // AE Cores
+    bottling_recipe(
+        [
+            [ { "item": "ae2:quartz_glass" }, 4 ],
+            [ { "item": "ae2:calculation_processor" }, 2 ],
+            [ { "item": "kubejs:core_hull" }, 1 ]
+        ],
+        [ "modern_industrialization:polyethylene", 500 ],
+        [
+            [ { "item": "ae2:annihilation_core" }, 1 ]
+        ]
+    );
 
+    bottling_recipe(
+        [
+            [ { "item": "ae2:quartz_glass" }, 4 ],
+            [ { "item": "ae2:engineering_processor" }, 2 ],
+            [ { "item": "kubejs:core_hull" }, 1 ]
+        ],
+        [ "modern_industrialization:polyethylene", 500 ],
+        [
+            [ { "item": "ae2:formation_core" }, 1 ]
+        ]
+    );
 
-    //ae cores
-    event.custom({
-      "type": "immersiveengineering:bottling_machine",
-      "fluid": {
-        "amount": 500,
-        "fluid": "modern_industrialization:polyethylene",
-      },
-      "inputs": [
-        {
-          "basePredicate": {
-            "item": "ae2:quartz_glass",
-          },
-          "count" : 4
-        },
-        {
-          "basePredicate": {
-            "item": "ae2:calculation_processor",
-          },
-          "count" : 2
-        },
-        {
-          "item": "kubejs:core_hull",
-        }
-      ],
-      "results": [
-        {
-          "id": "ae2:annihilation_core",
-        },
-
-      ]
-    })
-
-    event.custom({
-      "type": "immersiveengineering:bottling_machine",
-      "fluid": {
-        "amount": 500,
-        "fluid": "modern_industrialization:polyethylene",
-      },
-      "inputs": [
-        {
-          "basePredicate": {
-            "item": "ae2:quartz_glass",
-          },
-          "count" : 4
-        },
-        {
-          "basePredicate": {
-            "item": "ae2:engineering_processor",
-          },
-          "count" : 2
-        },
-        {
-          "item": "kubejs:core_hull",
-        }
-      ],
-      "results": [
-        {
-          "id": "ae2:formation_core",
-        },
-
-      ]
-    })
-
-})
+});

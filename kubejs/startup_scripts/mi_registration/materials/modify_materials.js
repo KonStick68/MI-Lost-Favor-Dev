@@ -17,5 +17,3 @@ MIMaterialEvents.modifyMaterial('lead', event => {
     event.builder
         .addParts('wire')
 })
-
-

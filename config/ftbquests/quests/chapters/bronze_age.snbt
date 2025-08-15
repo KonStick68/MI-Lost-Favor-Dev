@@ -11,8 +11,8 @@
 	quest_links: [{
 		id: "243A57B9EE4118A6"
 		linked_quest: "1A029535714421E5"
-		x: 0.0d
-		y: -8.0d
+		x: -1.0d
+		y: -9.0d
 	}]
 	quests: [
 		{
@@ -31,21 +31,37 @@
 		{
 			dependencies: [
 				"6FABBCC7CB80AF62"
-				"6698E9FBE3C24DE8"
+				"127F92D0F2CC923C"
+				"34EEB03ED7EEE16F"
 			]
+			icon: {
+				id: "kubejs:bronze_machine_bit"
+			}
 			id: "590167B593FE267A"
 			shape: "gear"
 			size: 2.0d
-			tasks: [{
-				id: "3F31A4EF6B55AED4"
-				item: { count: 1, id: "modern_industrialization:bronze_boiler" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2C30858936ECEBA9"
+					item: { count: 1, id: "kubejs:bronze_machine_bit" }
+					type: "item"
+				}
+				{
+					id: "14D42635C6CEF543"
+					item: { count: 1, id: "minecraft:gunpowder" }
+					type: "item"
+				}
+				{
+					id: "13E5231D7A1227A4"
+					item: { count: 1, id: "kubejs:bronze_glass" }
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: -3.0d
 		}
 		{
-			dependencies: ["37362392F6BB746F"]
+			dependencies: ["590167B593FE267A"]
 			id: "6698E9FBE3C24DE8"
 			tasks: [{
 				id: "191F5BABFEAB6F2C"
@@ -56,14 +72,14 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["1A029535714421E5"]
+			dependencies: ["590167B593FE267A"]
 			id: "2071CE16FAA3FDEE"
 			tasks: [{
 				id: "58C024EC81255327"
 				item: { count: 1, id: "modern_industrialization:bronze_barrel" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.0d
 			y: -6.5d
 		}
 		{
@@ -143,7 +159,10 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["1A029535714421E5"]
+			dependencies: [
+				"1A029535714421E5"
+				"5A2308CC4234B497"
+			]
 			id: "127F92D0F2CC923C"
 			shape: "heart"
 			tasks: [{
@@ -151,8 +170,8 @@
 				item: { count: 1, id: "modern_industrialization:wrench" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: -8.0d
+			x: 0.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["0A085734E03F68AC"]
@@ -1671,8 +1690,8 @@
 				item: { count: 1, id: "extended_industrialization:bronze_waste_collector" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -6.0d
+			x: -3.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["590167B593FE267A"]
@@ -1697,17 +1716,6 @@
 			}]
 			x: 0.0d
 			y: 10.5d
-		}
-		{
-			dependencies: ["1A029535714421E5"]
-			id: "37362392F6BB746F"
-			tasks: [{
-				id: "27461176864ACD2A"
-				item: { count: 1, id: "minecraft:glass" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: -8.0d
 		}
 		{
 			dependencies: [
@@ -2546,26 +2554,14 @@
 		}
 		{
 			dependencies: ["590167B593FE267A"]
-			id: "750F4699E092121D"
-			shape: "rsquare"
-			tasks: [{
-				id: "28E3CA037FC478FB"
-				item: { count: 1, id: "minecraft:gunpowder" }
-				type: "item"
-			}]
-			x: -3.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["590167B593FE267A"]
 			id: "2CCA1CEC324FE789"
 			tasks: [{
 				id: "17E483A9F6AD4992"
 				item: { count: 1, id: "extended_industrialization:bronze_bending_machine" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: -6.5d
+			x: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["65DB2546A83972B8"]
@@ -2826,6 +2822,60 @@
 			}]
 			x: 0.0d
 			y: 8.0d
+		}
+		{
+			dependencies: [
+				"6FABBCC7CB80AF62"
+				"590167B593FE267A"
+			]
+			id: "42B6798C0C2BD9E5"
+			shape: "pentagon"
+			tasks: [{
+				id: "6891D41B11F8CDCA"
+				item: { count: 1, id: "modern_industrialization:bronze_boiler" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"1A029535714421E5"
+				"5A2308CC4234B497"
+			]
+			id: "34EEB03ED7EEE16F"
+			tasks: [{
+				id: "5D09DD486DB02D5F"
+				item: { count: 1, id: "modern_industrialization:bronze_machine_casing" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			icon: {
+				id: "paganbless:winch"
+			}
+			id: "5A2308CC4234B497"
+			tasks: [
+				{
+					id: "1A283C68CA9C048D"
+					item: { count: 1, id: "paganbless:winch" }
+					type: "item"
+				}
+				{
+					id: "3A72659F07A83CB5"
+					item: { count: 1, id: "paganbless:crank" }
+					type: "item"
+				}
+				{
+					id: "19F84CAE190B2C1D"
+					item: { count: 1, id: "paganbless:rope" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -9.0d
 		}
 	]
 }
