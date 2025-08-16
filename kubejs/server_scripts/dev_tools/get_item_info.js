@@ -1,9 +1,9 @@
-const trusted_players  = ['Kisuny'] //['Optimal', 'Kisuny', 'Sipep', 'error1number404']
+const trusted_players = ['Kisuny', 'saeta_'] //['Optimal', 'Kisuny', 'Sipep', 'error1number404']
 
 function list_all_inventory(player) {
     let items_str = ''
     for (let item of player.inventory.getAllItems()) {
-        if (item.id == "minecraft:bedrock" || item.id === undefined){
+        if (item.id == "minecraft:bedrock" || item.id === undefined) {
             continue;
         }
         let item_str = `${item.id}`
@@ -20,17 +20,15 @@ function list_all_inventory(player) {
 }
 
 ItemEvents.rightClicked(event => {
-    
-    if (event.hand == 'main_hand' ) return;
+
+    if (event.hand == 'main_hand') return;
     if (!trusted_players.includes(event.player.getName().getString())) return;
     const { item, player } = event;
     let lang_key = item.item.getDescriptionId();
     let item_name = Text.translate(lang_key);
     let item_id = item.id;
-    
-    //TODO: idk how to get nbt now
     let player_hand_item = event.player.offHandItem.componentString
-
+    if (item_id === "minecraft:golden_shovel") return
     if (item_id === "minecraft:bedrock") {
         return list_all_inventory(player)
     }
@@ -51,5 +49,20 @@ ItemEvents.rightClicked(event => {
         Text.gray('- Components: '),
         Text.green(player_hand_item).clickCopy(player_hand_item).hover('Click to copy NBT'),
     ]);
+})
+
+ItemEvents.rightClicked(event => {
+
+    if (event.hand == 'main_hand') return;
+    if (!trusted_players.includes(event.player.getName().getString())) return;
+    const { item, player, target } = event;
+    let item_id = item.id;
+    if (item_id !== "minecraft:golden_shovel") return
+    let x = target.block.x
+    let y = target.block.y
+    let z = target.block.z
+    player.runCommand(`/data get block ${x} ${y} ${z}`)
+    
+
 
 })
