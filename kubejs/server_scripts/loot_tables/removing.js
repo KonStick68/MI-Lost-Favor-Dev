@@ -2,6 +2,7 @@ LootJS.modifiers(event => {
 
     const removed_items = [
         /artifacts:.*/,
+        /ars_additions:.*/,
         "forbidden_arcanus:aureal_bottle",
         "ars_nouveau:source_gem",
         "ars_nouveau:sourceberry_bush",
@@ -9,6 +10,7 @@ LootJS.modifiers(event => {
         "ars_nouveau:starbuncle_shards",
         "ars_nouveau:wilden_horn",
         "ars_nouveau:whirlisprig_shards",
+        "ars_nouveau:wilden_spike",
         "ars_nouveau:wilden_wing",
         "ars_nouveau:wixie_shards",
         "ars_elemental:siren_shards",
