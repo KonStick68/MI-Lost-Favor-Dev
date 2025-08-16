@@ -38,6 +38,13 @@
 				id: "kubejs:bronze_machine_bit"
 			}
 			id: "590167B593FE267A"
+			rewards: [{
+				icon: {
+					id: "minecraft:stone"
+				}
+				id: "41C8354D477A8899"
+				type: "custom"
+			}]
 			shape: "gear"
 			size: 2.0d
 			tasks: [

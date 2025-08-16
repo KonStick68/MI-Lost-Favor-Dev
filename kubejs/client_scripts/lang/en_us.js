@@ -7,6 +7,8 @@ ClientEvents.lang('en_us', event => {
   event.add('desc.immersiveengineering.info.mineral.nether_silt', 'Strange magic prevents you from using this block')
   event.add('milf.stage.saturation', 'Saturation effect is removed')
   event.add('milf.stage.xaeromap', 'Unlocked: mini-map, radar, waypoints')
+  event.add('milf.stage.tier_1_access_ore', 'Unlocked: quartz / debris / emerald / diamond / lapis / gold / antimony / bauxite / lead / monazite / nickel / salt ore')
+  event.add('milf.stage.tier_2_access_ore', 'Unlocked: iridium / platinum / titanium / tungsten / uranium ore')
+
   event.add('milf.cannot.mine.block', 'You cannot mine this block for now')
-  
 })
