@@ -33,8 +33,7 @@ ServerEvents.recipes(event => {
         craft_removal_list.push(output.item)
     }
 
-    // tokens
-    //#region
+    // #region tokens
     blueprint_recipe(
         [
             [{ "tag": "c:plates/aluminum" }, 2],
@@ -80,8 +79,7 @@ ServerEvents.recipes(event => {
     );
     //#endregion
 
-    // tier 1
-    //#region
+    // #region tier 1
     blueprint_recipe(
         [
             [{ "item": "ae2:fluix_crystal" }, 3],
@@ -135,8 +133,7 @@ ServerEvents.recipes(event => {
     );
     //#endregion
 
-    // tier 2
-    //#region
+    // #region tier 2
     blueprint_recipe(
         [
             [{ "tag": "c:plates/aluminum" }, 4],
@@ -191,8 +188,7 @@ ServerEvents.recipes(event => {
     );
     //#endregion
 
-    // tier 3
-    //#region
+    // #region tier 3
     blueprint_recipe(
         [
             [{ "tag": "c:plates/aluminum" }, 4],
@@ -229,8 +225,7 @@ ServerEvents.recipes(event => {
     );
     //#endregion
 
-    // tier 4
-    //#region
+    // #region tier 4
     blueprint_recipe(
         [
             [{ "tag": "c:plates/stainless_steel" }, 4],

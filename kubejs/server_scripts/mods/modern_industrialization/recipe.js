@@ -5,6 +5,7 @@ ServerEvents.recipes(event => {
             'modern_industrialization:steel_hammer',
             'modern_industrialization:diamond_hammer',
             'modern_industrialization:iron_hammer',
+            "modern_industrialization:diamond_tiny_dust"
         ]
     })
 
@@ -93,6 +94,40 @@ ServerEvents.recipes(event => {
     .itemIn("4x #c:rods/bronze")
     .fluidIn("modern_industrialization:soldering_alloy" , 100)
     .itemOut('16x kubejs:bronze_machine_bit')
+
+
+    event.custom({
+            "type": "minecraft:crafting_shaped",
+            "category": "misc",
+            "key": {
+                "i": {
+                "tag": "c:ingots/aluminum"
+                },
+                "d": {
+                "tag": "c:dyes/blue"
+                },
+                "r": {
+                "tag": "c:rods/aluminum"
+                },
+                "p": {
+                "tag": "c:paper"
+                }
+            },
+            "pattern": [
+                "rir",
+                "ddd",
+                "ppp"
+            ],
+            "result": {
+                "components": {
+                "immersiveengineering:blueprint": "MI components"
+                },
+                "count": 1,
+                "id": "immersiveengineering:blueprint"
+            },
+            "show_notification": false
+        })
+
 
 
     event.replaceOutput(

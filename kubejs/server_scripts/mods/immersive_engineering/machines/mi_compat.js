@@ -1,7 +1,8 @@
 ServerEvents.tags('item', event => {
     var remove = [
         //item outputs that will not be converted
-
+        /.*fine_wire/,
+        "modern_industrialization:diamond_tiny_dust"
     ]
 
     remove.forEach(output => {

@@ -83,7 +83,7 @@ ServerEvents.recipes(event => {
             "modern_industrialization:aluminum_plate",
             "modern_industrialization:steel_plate"
         )
-    
+    /*
     event.remove({id: "immersiveengineering:crafting/component_iron"})
     event.shaped("4x immersiveengineering:component_iron", [
         "QTQ",
@@ -106,6 +106,32 @@ ServerEvents.recipes(event => {
         R: "modern_industrialization:robot_arm",
         T: "modern_industrialization:conveyor"
     });
+    */
+
+
+    event.remove({id: "immersiveengineering:crafting/component_iron"})
+    event.shaped("2x immersiveengineering:component_iron", [
+        "QTQ",
+        "RWR",
+        "QTQ"
+    ], {
+        Q: "#c:plates/iron",
+        W: "#c:gears/steel",
+        R: "modern_industrialization:rubber_sheet",
+        T: "#c:ingots/copper"
+    });
+    event.remove({id: "immersiveengineering:crafting/component_steel"})
+    event.shaped("2x immersiveengineering:component_steel", [
+        "QTQ",
+        "RWR",
+        "QTQ"
+    ], {
+        Q: "#c:plates/steel",
+        W: "#c:gears/steel",
+        R: "modern_industrialization:rubber_sheet",
+        T: "#c:ingots/bronze"
+    });
+
     event.remove({output: "immersiveengineering:rs_engineering"})
     event.shaped("4x immersiveengineering:rs_engineering", [
         "WQW",

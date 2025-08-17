@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
 
-     event.recipes.modern_industrialization.enigma_machine(42, 100)
+     event.recipes.modern_industrialization.enigma_machine(42, 1000)
             .itemIn('kubejs:blueprint_pack', 0)
             .itemIn('16x pastel:shimmerstone_gem')
             .itemIn('minecraft:paper')

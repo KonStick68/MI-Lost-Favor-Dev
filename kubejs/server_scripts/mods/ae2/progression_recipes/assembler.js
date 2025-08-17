@@ -42,13 +42,12 @@ ServerEvents.recipes(event => {
         fluids.forEach((fluid) => {recipe.fluidIn(fluid[0], fluid[1])})
         outputs.forEach((out) => {
             recipe.itemOut(out)
-            craft_removal_list.push(out)
+            craft_removal_list.push(out.split(" ").length == 2 ? out.split(" ")[1] : out)
         })
         if (token != undefined){recipe.itemIn(token, 0)}
     }
 
-    //helper functions
-    //#region
+    //#region helper functions
     function ae_item_cell (cellComponent, output, token) {
         var inputs = [
             "2x ae2:quartz_glass",
@@ -154,8 +153,8 @@ ServerEvents.recipes(event => {
     }
     //#endregion
 
-    //cell components
-    // #region
+    // #region cell components
+    
     ae_cell_component("#c:plates/aluminum", "#c:dusts/certus_quartz", "ae2:logic_processor", "ae2:cell_component_1k", tier1token)
     ae_cell_component("ae2:cell_component_1k", "#c:dusts/fluix", "ae2:calculation_processor", "ae2:cell_component_4k", tier2token)
     ae_cell_component("ae2:cell_component_4k", "#c:dusts/aluminum", "ae2:calculation_processor", "ae2:cell_component_16k", tier2token)
@@ -163,8 +162,7 @@ ServerEvents.recipes(event => {
     ae_cell_component("ae2:cell_component_64k", "#c:dusts/ruby", "ae2:engineering_processor", "ae2:cell_component_256k", tier2token)
     // #endregion
 
-    //cells
-    // #region
+    // #region cells
     ae_item_cell("ae2:cell_component_1k", "ae2:item_storage_cell_1k", tier2token)
     ae_item_cell("ae2:cell_component_4k", "ae2:item_storage_cell_4k", tier3token)
     ae_item_cell("ae2:cell_component_16k", "ae2:item_storage_cell_16k", tier3token)
@@ -188,8 +186,7 @@ ServerEvents.recipes(event => {
     cell_upgrade("ae2:fluid_storage_cell_64k", "ae2:cell_component_256k", "#c:dusts/ruby", "ae2:fluid_storage_cell_256k", tier3token)
     // #endregion
 
-    //crafting storage
-    // #region
+    // #region crafting storage
     ae_crafting_storage("ae2:cell_component_1k", "electrum", "ae2:1k_crafting_storage", tier2token)
     ae_crafting_storage("ae2:cell_component_4k", "electrum", "ae2:4k_crafting_storage", tier2token)
     ae_crafting_storage("ae2:cell_component_16k", "electrum", "ae2:16k_crafting_storage", tier2token)
@@ -202,8 +199,7 @@ ServerEvents.recipes(event => {
     ae_crafting_storage_upgrade("ae2:cell_component_256k", "ae2:64k_crafting_storage", "electrum", "ae2:256k_crafting_storage", tier2token)
     // #endregion
 
-    //tier 2 recipes
-    // #region
+    // #region tier 2 recipes
     ae_processor("ae2:printed_logic_processor", "ae2:logic_processor", tier3token)
 
     ae_card("ae2:basic_card", "#c:dusts/redstone", "ae2:redstone_card", tier1token)
@@ -357,8 +353,7 @@ ServerEvents.recipes(event => {
     );
     // #endregion
 
-    //tier 3 recipes
-    // #region
+    // #region tier 3 recipes
     ae_processor("ae2:printed_engineering_processor", "ae2:engineering_processor", tier3token)
     ae_processor("ae2:printed_calculation_processor", "ae2:calculation_processor", tier3token)
 
@@ -648,11 +643,11 @@ ServerEvents.recipes(event => {
     );
     // #endregion
 
-    //tier 4 recipes
-    // #region
+    // #region tier 4 recipes
         ae_processor("advanced_ae:printed_quantum_processor", "advanced_ae:quantum_processor", tier3token)
 
     // #endregion
+
     //default recipes removal
     event.forEachRecipe({output:craft_removal_list}, r => {
         event.remove({output: r.getOriginalRecipeResult()})

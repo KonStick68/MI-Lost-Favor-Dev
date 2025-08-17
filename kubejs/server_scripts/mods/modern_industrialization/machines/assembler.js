@@ -1,22 +1,60 @@
 ServerEvents.recipes(event => {
+
+    let craft_removal_list = [
+
+    ]
     
-    event.recipes.modern_industrialization.assembler(8, 100)
-    .itemIn("modern_industrialization:electrum_wire")
-    .itemIn("modern_industrialization:analog_circuit_board")
-    .itemIn("minecraft:redstone")
-    .itemIn("#c:gems/quartz")
-    .itemOut("immersiveengineering:component_electronic")
-    event.recipes.modern_industrialization.assembler(8, 100)
-    .itemIn("2x modern_industrialization:iron_plate")
-    .itemIn("minecraft:copper_ingot")
-    .itemIn("modern_industrialization:piston")
-    .itemIn("modern_industrialization:conveyor")
-    .itemOut("4x immersiveengineering:component_iron")
-    event.recipes.modern_industrialization.assembler(8, 100)
-    .itemIn("2x modern_industrialization:steel_plate")
-    .itemIn("minecraft:copper_ingot")
-    .itemIn("modern_industrialization:robot_arm")
-    .itemIn("modern_industrialization:conveyor")
-    .itemOut("4x immersiveengineering:component_steel")
+    function assembler_recipe(energy,time,inputs,outputs,fluids,token){
+        fluids = fluids || [];
+        energy = energy + inputs.length * (energy / 4)
+        var recipe = event.recipes.modern_industrialization.assembler(energy, time);
+        inputs.forEach((input) => {
+            if (Array.isArray(input)) {
+                recipe.itemIn(input[0], input[1]);
+            } else {
+                recipe.itemIn(input);
+            }
+        })
+        fluids.forEach((fluid) => {recipe.fluidIn(fluid[0], fluid[1])})
+        outputs.forEach((out) => {
+            recipe.itemOut(out)
+            craft_removal_list.push(out.split(" ").length == 2 ? out.split(" ")[1] : out)
+        })
+        if (token != undefined){recipe.itemIn(token, 0)}
+    }
+        
+    assembler_recipe(
+        8, 200,
+        [
+            "4x #c:plates/iron",
+            "2x #c:ingots/copper",
+            "2x modern_industrialization:rubber_sheet",
+            "#c:gears/steel",
+        ],
+        ["2x immersiveengineering:component_iron"],
+    );
+
+    assembler_recipe(
+        8, 200,
+        [
+            "4x #c:plates/steel",
+            "2x #c:ingots/bronze",
+            "2x modern_industrialization:rubber_sheet",
+            "#c:gears/steel",
+        ],
+        ["2x immersiveengineering:component_steel"],
+    );
+
+    assembler_recipe(
+        8, 200,
+        [
+            "#c:wires/electrum",
+            "#c:gems/quartz",
+            "modern_industrialization:analog_circuit_board",
+            "#c:dusts/redstone",
+        ],
+        ["immersiveengineering:component_electronic"],
+    );
+
 
 })

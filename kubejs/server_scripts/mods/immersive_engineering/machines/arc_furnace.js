@@ -107,6 +107,21 @@ ServerEvents.recipes(event => {
         200,
         [{"item": "extendedae:quartz_blend"}, 3]
     );
+    //tempered_glass
+    arc_furnace_recipe(
+        [
+            [{"tag": "c:sands"}, 2],
+            [{"tag": "c:dusts/aluminum"}, 4],
+            [{"tag": "c:dusts/quartz"}, 2],
+            [{"tag": "c:dusts/lead"}, 2],
+        ],
+        [
+            [{"item": "kubejs:tempered_glass"}, 8]
+        ],
+        102400,
+        200,
+        [{"tag": "c:slag"}, 1]
+    );
 
     //wth
     arc_furnace_recipe(

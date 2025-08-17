@@ -14,7 +14,7 @@
 				item: { components: { "modonomicon:book_id": "paganbless:pagan_guide" }, count: 1, id: "paganbless:pagan_guide" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.5d
 			y: 0.0d
 		}
 		{
@@ -25,7 +25,7 @@
 				item: { count: 1, id: "paganbless:herbalist_bench" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: -3.0d
 			y: 1.5d
 		}
 		{
@@ -37,7 +37,7 @@
 				item: { count: 2, id: "paganbless:black_thorn_log" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.5d
 			y: 1.5d
 		}
 		{
@@ -48,7 +48,7 @@
 				item: { count: 1, id: "paganbless:boline" }
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.5d
 			y: 1.5d
 		}
 		{
@@ -62,7 +62,7 @@
 				item: { count: 1, id: "paganbless:essence_of_the_forest" }
 				type: "item"
 			}]
-			x: -4.5d
+			x: -6.0d
 			y: 1.5d
 		}
 		{
@@ -76,7 +76,7 @@
 				item: { count: 1, id: "paganbless:black_thorn_staff" }
 				type: "item"
 			}]
-			x: -5.25d
+			x: -6.75d
 			y: 1.5d
 		}
 		{
@@ -87,7 +87,7 @@
 				item: { count: 1, id: "paganbless:imbuing_cauldron" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 0.0d
 			y: 1.5d
 		}
 		{
@@ -98,7 +98,7 @@
 				item: { count: 1, id: "paganbless:rune_slab_inert" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: 1.5d
 			y: 1.5d
 		}
 		{
@@ -109,8 +109,8 @@
 				item: { count: 1, id: "paganbless:runic_charge" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.5d
+			x: 1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["5D020CF978246486"]
@@ -120,8 +120,8 @@
 				item: { count: 1, id: "paganbless:glazed_berries" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 2.5d
+			x: 1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["706F320EC1610C95"]
@@ -131,7 +131,7 @@
 				item: { count: 1, id: "paganbless:hanging_rue" }
 				type: "item"
 			}]
-			x: -4.0d
+			x: -5.5d
 			y: 1.0d
 		}
 		{
@@ -142,7 +142,7 @@
 				item: { count: 1, id: "paganbless:hanging_lavender" }
 				type: "item"
 			}]
-			x: -4.0d
+			x: -5.5d
 			y: 2.0d
 		}
 		{
@@ -153,7 +153,7 @@
 				item: { count: 1, id: "paganbless:dried_hanging_rue" }
 				type: "item"
 			}]
-			x: -5.0d
+			x: -6.5d
 			y: 0.5d
 		}
 		{
@@ -164,7 +164,7 @@
 				item: { count: 1, id: "paganbless:dried_hanging_lavender" }
 				type: "item"
 			}]
-			x: -5.0d
+			x: -6.5d
 			y: 2.5d
 		}
 		{
@@ -175,7 +175,7 @@
 				item: { count: 1, id: "paganbless:chopped_lavender" }
 				type: "item"
 			}]
-			x: -6.0d
+			x: -7.5d
 			y: 2.0d
 		}
 		{
@@ -186,7 +186,7 @@
 				item: { count: 1, id: "paganbless:chopped_rue" }
 				type: "item"
 			}]
-			x: -6.0d
+			x: -7.5d
 			y: 1.0d
 		}
 		{
@@ -211,7 +211,7 @@
 					type: "item"
 				}
 			]
-			x: -7.0d
+			x: -8.5d
 			y: 1.5d
 		}
 		{
@@ -222,8 +222,8 @@
 				item: { count: 1, id: "paganbless:rune_slab_diamond" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 1.0d
+			x: 5.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["0D25CAEE5110F2AE"]
@@ -233,8 +233,8 @@
 				item: { count: 1, id: "paganbless:rune_slab_cinnabar" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 2.0d
+			x: 5.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["0D25CAEE5110F2AE"]
@@ -244,8 +244,8 @@
 				item: { count: 1, id: "paganbless:rune_slab_emerald" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: 3.0d
+			x: 4.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["0D25CAEE5110F2AE"]
@@ -255,8 +255,8 @@
 				item: { count: 1, id: "paganbless:rune_slab_lapis" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 4.0d
+			x: 4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["0D25CAEE5110F2AE"]
@@ -266,8 +266,8 @@
 				item: { count: 1, id: "paganbless:rune_slab_amethyst" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: 0.0d
+			x: 4.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["0D25CAEE5110F2AE"]
@@ -277,8 +277,8 @@
 				item: { count: 1, id: "paganbless:rune_slab_quartz" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: -1.0d
+			x: 4.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["1F1DD5CA76B5E4CA"]
@@ -288,8 +288,8 @@
 				item: { count: 1, id: "paganbless:athame" }
 				type: "item"
 			}]
-			x: 8.5d
-			y: 1.0d
+			x: 6.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["67C0B671FD134FC2"]
@@ -299,8 +299,8 @@
 				item: { components: { "minecraft:entity_data": { id: "minecraft:pig" } }, count: 1, id: "paganbless:pentacle" }
 				type: "item"
 			}]
-			x: 8.5d
-			y: 2.0d
+			x: 6.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["558AC57D10E5E566"]
@@ -310,8 +310,8 @@
 				item: { count: 1, id: "paganbless:wand" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 3.0d
+			x: 6.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["38A7C1FB4B3CA7F4"]
@@ -321,8 +321,8 @@
 				item: { count: 1, id: "paganbless:wican_ward" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 0.0d
+			x: 6.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["5389665EEF98FAA2"]
@@ -332,8 +332,8 @@
 				item: { count: 1, id: "paganbless:eternal_snowball" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: -1.0d
+			x: 5.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4E31F25783F02AF0"]
@@ -343,26 +343,44 @@
 				item: { count: 1, id: "paganbless:chalice" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: 4.0d
+			x: 5.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["47DF3BB83B4C272F"]
 			id: "0D25CAEE5110F2AE"
+			tasks: [{
+				id: "2900E6E44D8C291F"
+				item: { count: 1, id: "paganbless:runic_core" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0D25CAEE5110F2AE"]
+			icon: {
+				id: "paganbless:winch"
+			}
+			id: "52E47CD2A5102410"
 			tasks: [
 				{
-					id: "2900E6E44D8C291F"
-					item: { count: 1, id: "paganbless:runic_core" }
+					id: "4DDAA420F884E0B3"
+					item: { count: 1, id: "paganbless:winch" }
 					type: "item"
 				}
 				{
-					id: "16FCEE60932380BD"
-					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:anvil)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-					optional_task: true
+					id: "5EEEA8F014465559"
+					item: { count: 1, id: "paganbless:crank" }
+					type: "item"
+				}
+				{
+					id: "15AA12D36C8B6085"
+					item: { count: 1, id: "paganbless:rope" }
 					type: "item"
 				}
 			]
-			x: 5.0d
+			x: 5.5d
 			y: 1.5d
 		}
 	]

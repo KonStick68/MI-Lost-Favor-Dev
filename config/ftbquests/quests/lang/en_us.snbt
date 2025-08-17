@@ -333,7 +333,6 @@
 		"{@pagebreak}"
 		"Если я почувствую себя ОСОБЕННО плохо, я могу изготовить это пахучее и НЕ приятное на ощупь масло. Им могут заинтересоваться местные врачи."
 	]
-	quest.30DFEC80A6406BBF.quest_desc: ["Saw/bolts in recipe?"]
 	quest.30FA92F29B6D0477.quest_desc: ["Same effect as Aqua Affinity, but it allows you to have a normal breaking block speed while moving"]
 	quest.3256F857783BB7AA.quest_desc: ["Takes items from system"]
 	quest.3375DE99A86D3CB4.quest_desc: ["Item pipes will normally prefer the closest inventory. An inhibitor increases the length of a connection by 1000 for pathfinding purposes, which makes item pipes avoid that connection if possible."]
@@ -630,7 +629,7 @@
 		"Какой бы моб ни был принесен в жертву для его получения, Пентакль будет вечно спавнить этого моба."
 	]
 	quest.5D07A7818DC2BC1B.quest_desc: ["Used to make coke coal and creosote"]
-	quest.5DDA25EB563D52A6.quest_desc: ["Redstone works quite differently when you use aluuminum to transfer its signals, looks like the strengh of the signal remains the same no matter the distance traveled and you could do little adjustments inside relays to send different signal types, which opens great possibilities..."]
+	quest.5DDA25EB563D52A6.quest_desc: ["Redstone works quite differently when you use aluminum to transfer its signals, looks like the strength of the signal remains the same no matter the distance traveled, and you could do little adjustments inside relays to send different signal types, which opens great possibilities..."]
 	quest.5E6040C8BC8CAE0F.quest_desc: ["The Artisan Relic can be used as an Enhancer in the Hephaestus Forge. It will reduce the required Experience essence cost by 25%. With a chance of 18% it can be found in the chests of Armorer, Toolsmith, or Weaponsmith villager buildings.  "]
 	quest.5ECC8454B6CFAD89.quest_desc: [
 		"&lCandle&r"
@@ -725,7 +724,6 @@
 	quest.672EEF1A13EC159D.quest_desc: ["90~"]
 	quest.678DD52529698DE4.quest_desc: ["Нужно кормить зельями даёт сурс"]
 	quest.68C1714F3E9B2CA2.quest_desc: ["Выпадает из волка если он отправлен в момент смерти"]
-	quest.692AA282548A4460.quest_desc: ["All of those ingots also could be made out of powder thru mixer ;)"]
 	quest.69D8F87655435203.quest_desc: [
 		"снижает эффективность его брони примерно на 25%."
 		""
@@ -821,7 +819,6 @@
 	quest.787735496233A905.quest_desc: ["When drunk it will grant 35 Aureal to the player. It can also be used to input Aureal into the Hephaestus Forge."]
 	quest.7A5F66121C4BCC2B.quest_desc: ["Charges items. That's it"]
 	quest.7AA3CDBC6B160F86.quest_desc: ["Free furnaces"]
-	quest.7B3C8D21C9000197.quest_desc: ["Make quest for arrow out of every metal type just for funzies?"]
 	quest.7D5DCEA36FF46987.quest_desc: ["Daytime bed"]
 	quest.7E277FEC22A1924D.quest_desc: ["Spawner Scrap drops when breaking a Spawner"]
 	quest.7E9470BDDB0600F0.quest_desc: [
@@ -841,16 +838,17 @@
 	task.068F277A6EC195B3.title: "Ore veins?"
 	task.08836B7AEB5DF9AF.title: "Energy generation"
 	task.0CB11BEA448FFB96.title: "Ore generation"
+	task.0EB4593433321D21.title: "Any #c:saws"
 	task.0F25C68A335172FD.title: "Ore generattion"
 	task.15F67DE3803CCA6C.title: "Poison?"
 	task.15F9629F86649AB6.title: "How to setup your network"
-	task.16FCEE60932380BD.title: "Any #minecraft:anvil"
 	task.1733FF25C74D58C6.title: "Any #sophisticatedstorage:all_storage"
 	task.274F98243AA9482F.title: "Animals breeding"
 	task.30EF11C70C08380B.title: "Enhancer Relics"
 	task.33FFDC1566305E62.title: "item/fluid transfer"
 	task.3B4C4E1225398BD9.title: "Black Hole"
 	task.4224A6EBD936625E.title: "Butcher?"
+	task.43199D58E9963367.title: "Any #c:ingots/silicon"
 	task.46CE431166A44610.title: "Oil pot"
 	task.4BBE7498A48891A8.title: "Any #forbidden_arcanus:blacksmith_gavel"
 	task.4E4DCBBCBFA389BB.title: "Any #c:files"
@@ -861,6 +859,7 @@
 	task.5D063D32D1C6BB2C.title: "Any #ytech:aqueducts"
 	task.5EC8E0E987CF862A.title: "More plants"
 	task.62D92EAF1C74E303.title: "Any #comforts:hammocks"
+	task.6719AA6DDAB0F823.title: "Any #minecraft:anvil"
 	task.6F9CD690878AEB29.title: "Any #toxony:scalpels"
 	task.73CEC69AE2924335.title: "Any #c:logs/archwood"
 	task.77C744B48E7A1B18.title: "Any #minecraft:beds"

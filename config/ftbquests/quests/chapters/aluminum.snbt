@@ -9,8 +9,8 @@
 	id: "126830F3CB1F8DDD"
 	order_index: 0
 	quest_links: [{
-		id: "62D52F1D27E0B802"
-		linked_quest: "0BCD76587F2DB00F"
+		id: "7CD61DE35B3F66C4"
+		linked_quest: "1C00BD0399683CCA"
 		x: 2.0d
 		y: 3.0d
 	}]
@@ -26,7 +26,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -11.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["1535DAA84E3E8980"]
@@ -38,7 +38,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -4.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["1535DAA84E3E8980"]
@@ -50,7 +50,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -2.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["1535DAA84E3E8980"]
@@ -62,7 +62,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -4.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["1535DAA84E3E8980"]
@@ -74,10 +74,13 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
-			dependencies: ["0BCD76587F2DB00F"]
+			dependencies: [
+				"0BCD76587F2DB00F"
+				"1C00BD0399683CCA"
+			]
 			id: "019A242810D414BA"
 			shape: "heart"
 			tasks: [{
@@ -99,7 +102,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["1535DAA84E3E8980"]
@@ -111,7 +114,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -5.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["1535DAA84E3E8980"]
@@ -123,7 +126,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -14.5d
+			y: -15.5d
 		}
 		{
 			dependencies: ["1535DAA84E3E8980"]
@@ -135,7 +138,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -6.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["1535DAA84E3E8980"]
@@ -148,7 +151,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -5.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["1535DAA84E3E8980"]
@@ -161,7 +164,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -5.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["1535DAA84E3E8980"]
@@ -173,7 +176,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -6.5d
+			y: -7.5d
 		}
 		{
 			dependencies: [
@@ -189,7 +192,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1535DAA84E3E8980"]
@@ -201,7 +204,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -215,7 +218,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -2.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["12D33FAA9C537EF8"]
@@ -229,7 +232,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1535DAA84E3E8980"]
@@ -242,7 +245,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -9.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["1535DAA84E3E8980"]
@@ -254,7 +257,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -8.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["22B7317BB018972A"]
@@ -266,7 +269,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -9.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["22B7317BB018972A"]
@@ -279,7 +282,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -9.0d
+			y: -10.0d
 		}
 		{
 			dependencies: [
@@ -294,7 +297,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -9.0d
+			y: -10.0d
 		}
 		{
 			dependencies: [
@@ -311,7 +314,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -10.5d
+			y: -11.5d
 		}
 		{
 			dependencies: [
@@ -326,7 +329,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -12.0d
+			y: -13.0d
 		}
 		{
 			dependencies: [
@@ -341,7 +344,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -12.0d
+			y: -13.0d
 		}
 		{
 			dependencies: [
@@ -356,10 +359,13 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -13.0d
+			y: -14.0d
 		}
 		{
-			dependencies: ["0BCD76587F2DB00F"]
+			dependencies: [
+				"0BCD76587F2DB00F"
+				"1C00BD0399683CCA"
+			]
 			icon: {
 				id: "immersiveengineering:chunk_loader"
 			}
@@ -447,7 +453,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -10.5d
+			y: -11.5d
 		}
 		{
 			dependencies: ["3FE921C660AB2665"]
@@ -459,7 +465,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: -10.0d
+			y: -11.0d
 		}
 		{
 			dependencies: [
@@ -476,7 +482,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -9.5d
+			y: -10.5d
 		}
 		{
 			dependencies: [
@@ -494,210 +500,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -14.5d
-		}
-		{
-			dependencies: ["41E80F2D1521D52D"]
-			id: "4C64489A737195EC"
-			shape: "diamond"
-			tasks: [{
-				id: "275683D42C2D8940"
-				item: { count: 1, id: "immersiveengineering:connector_hv" }
-				type: "item"
-			}]
-			x: 2.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["41E80F2D1521D52D"]
-			id: "1C35EB2CA01F09C8"
-			shape: "diamond"
-			tasks: [{
-				id: "1A4FEE3F15AE3CBC"
-				item: { count: 1, id: "immersiveengineering:connector_hv_relay" }
-				type: "item"
-			}]
-			x: 1.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["0BCD76587F2DB00F"]
-			id: "41E80F2D1521D52D"
-			shape: "rsquare"
-			tasks: [{
-				id: "407DDE5313EFEB2E"
-				item: { count: 1, id: "immersiveengineering:wirecoil_steel" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["41E80F2D1521D52D"]
-			id: "6748BBEF1E34A756"
-			shape: "diamond"
-			tasks: [{
-				id: "2D44824220A5696C"
-				item: { count: 1, id: "immersiveengineering:capacitor_hv" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["41E80F2D1521D52D"]
-			id: "5DDA25EB563D52A6"
-			shape: "octagon"
-			tasks: [{
-				id: "5806BB4D794F6460"
-				item: { count: 1, id: "immersiveengineering:wirecoil_redstone" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 8.5d
-		}
-		{
-			dependencies: ["5DDA25EB563D52A6"]
-			id: "7E3ADDC7181F7286"
-			shape: "diamond"
-			tasks: [{
-				id: "348B3ADB614A23AA"
-				item: { count: 1, id: "immersiveengineering:connector_redstone" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["5DDA25EB563D52A6"]
-			id: "344EAA66BB0A0CA0"
-			shape: "diamond"
-			tasks: [{
-				id: "6CDBE0A361E8D36F"
-				item: { count: 1, id: "immersiveengineering:redstone_timer" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 9.0d
-		}
-		{
-			dependencies: ["5DDA25EB563D52A6"]
-			id: "5F9914776F1A9C33"
-			shape: "diamond"
-			tasks: [{
-				id: "14EA64997DF2AE2B"
-				item: { count: 1, id: "immersiveengineering:redstone_switchboard" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["5DDA25EB563D52A6"]
-			id: "6E6F6A6AC7FE82E7"
-			shape: "diamond"
-			tasks: [{
-				id: "20354C93B8B869FA"
-				item: { count: 1, id: "immersiveengineering:redstone_state_cell" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 9.0d
-		}
-		{
-			dependencies: ["5DDA25EB563D52A6"]
-			id: "7C1EEA75AB2EF2C9"
-			tasks: [{
-				id: "2E0890A56E14DBC2"
-				item: { count: 1, id: "immersiveengineering:connector_bundled" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 10.5d
-		}
-		{
-			dependencies: ["7C1EEA75AB2EF2C9"]
-			id: "6EEFEB5DD10A329D"
-			shape: "diamond"
-			tasks: [{
-				id: "1A96A939E695211F"
-				item: { count: 1, id: "immersiveengineering:logic_unit" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 11.0d
-		}
-		{
-			dependencies: ["5DDA25EB563D52A6"]
-			id: "7A663BF0F927D37D"
-			shape: "diamond"
-			tasks: [{
-				id: "5EAEE2F6FE41FD13"
-				item: { count: 1, id: "immersiveengineering:conveyor_redstone" }
-				type: "item"
-			}]
-			x: 3.5d
-			y: 8.5d
-		}
-		{
-			dependencies: ["5DDA25EB563D52A6"]
-			id: "62175436FA348355"
-			shape: "diamond"
-			tasks: [{
-				id: "3E386BB12D0D2C96"
-				item: { count: 1, id: "immersiveengineering:machine_interface" }
-				type: "item"
-			}]
-			x: 0.5d
-			y: 8.5d
-		}
-		{
-			dependencies: ["6EEFEB5DD10A329D"]
-			id: "764B69FBE4283FD9"
-			shape: "diamond"
-			tasks: [{
-				id: "2F2BF6A6D01C7E50"
-				item: { count: 1, id: "immersiveengineering:circuit_table" }
-				type: "item"
-			}]
-			x: 2.5d
-			y: 11.5d
-		}
-		{
-			dependencies: ["7C1EEA75AB2EF2C9"]
-			id: "5D494B7A215617F0"
-			shape: "diamond"
-			tasks: [{
-				id: "0AB130A41E5973D2"
-				item: { count: 1, id: "immersiveengineering:item_batcher" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 11.0d
-		}
-		{
-			dependencies: ["764B69FBE4283FD9"]
-			id: "3D0E6086BCC4B89C"
-			shape: "diamond"
-			tasks: [{
-				id: "0B00344FCB1ACC4C"
-				item: { count: 1, id: "immersiveengineering:circuit_board" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 12.0d
-		}
-		{
-			dependencies: ["3D0E6086BCC4B89C"]
-			id: "5358DF16D7972129"
-			shape: "diamond"
-			tasks: [{
-				id: "3B4578BE3575BD64"
-				item: { count: 1, id: "immersiveengineering:logic_circuit" }
-				type: "item"
-			}]
-			x: 1.5d
-			y: 11.5d
+			y: -15.5d
 		}
 		{
 			dependencies: ["12D33FAA9C537EF8"]
@@ -711,7 +514,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1535DAA84E3E8980"]
@@ -724,7 +527,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -6.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["0B27BAA4F468BA8C"]
@@ -744,7 +547,7 @@
 				}
 			]
 			x: 2.5d
-			y: -5.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["1535DAA84E3E8980"]
@@ -763,7 +566,7 @@
 				}
 			]
 			x: 2.5d
-			y: -2.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["1535DAA84E3E8980"]
@@ -782,7 +585,7 @@
 				}
 			]
 			x: 1.5d
-			y: -2.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["1535DAA84E3E8980"]
@@ -802,19 +605,29 @@
 				}
 			]
 			x: 1.5d
-			y: -4.5d
+			y: -5.5d
 		}
 		{
-			dependencies: ["0BCD76587F2DB00F"]
+			dependencies: ["28F94A55BCC45243"]
+			icon: {
+				id: "modern_industrialization:silicon_ingot"
+			}
 			id: "4C286178F3A4A3FB"
 			shape: "diamond"
-			tasks: [{
-				id: "507AC060373D8215"
-				item: { count: 1, id: "modern_industrialization:silicon_dust" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "507AC060373D8215"
+					item: { count: 1, id: "modern_industrialization:silicon_dust" }
+					type: "item"
+				}
+				{
+					id: "43199D58E9963367"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:ingots/silicon)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
 			x: 2.0d
-			y: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1535DAA84E3E8980"]
@@ -827,7 +640,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -4.5d
+			y: -5.5d
 		}
 		{
 			dependencies: [
@@ -843,7 +656,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -5.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["0BCD76587F2DB00F"]
@@ -855,7 +668,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -870,7 +683,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 0.5d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -885,7 +698,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 0.5d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -902,7 +715,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -10.5d
+			y: -11.5d
 		}
 		{
 			dependencies: [
@@ -918,10 +731,13 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -17.0d
+			y: -18.0d
 		}
 		{
-			dependencies: ["0BCD76587F2DB00F"]
+			dependencies: [
+				"0BCD76587F2DB00F"
+				"1C00BD0399683CCA"
+			]
 			id: "45D7914DAECC1D03"
 			shape: "octagon"
 			tasks: [{
@@ -942,7 +758,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -7.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["36B3975E66261640"]
@@ -954,7 +770,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -7.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["36B3975E66261640"]
@@ -966,7 +782,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -6.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["36B3975E66261640"]
@@ -978,7 +794,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -7.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["36B3975E66261640"]
@@ -990,7 +806,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -7.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["4E0AD2567CC7B2BF"]
@@ -1002,7 +818,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -7.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["7AB02A37608496EE"]
@@ -1014,7 +830,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -7.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["7AB02A37608496EE"]
@@ -1027,7 +843,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -6.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["50A40FAE189C817D"]
@@ -1056,19 +872,7 @@
 				}
 			]
 			x: 6.5d
-			y: -9.0d
-		}
-		{
-			dependencies: ["0BCD76587F2DB00F"]
-			id: "640DC65E9255BECE"
-			shape: "heart"
-			tasks: [{
-				id: "1F0D6D058B31E805"
-				item: { count: 1, id: "hangglider:hang_glider" }
-				type: "item"
-			}]
-			x: 3.5d
-			y: 2.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["50A40FAE189C817D"]
@@ -1080,7 +884,33 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -11.0d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"0BCD76587F2DB00F"
+				"1C00BD0399683CCA"
+			]
+			id: "28F94A55BCC45243"
+			shape: "octagon"
+			tasks: [{
+				id: "58530225B3303D43"
+				item: { count: 1, id: "modern_industrialization:electric_blast_furnace" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			id: "2B42D796563B0125"
+			shape: "diamond"
+			tasks: [{
+				id: "55CEC1183D8B35DA"
+				item: { count: 1, id: "modern_industrialization:basic_upgrade" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
 		}
 	]
 }
