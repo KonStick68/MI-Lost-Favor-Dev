@@ -22,7 +22,7 @@
 		""
 		"Используя тэглок на игроке или его кровати, вы можете собрать образец для использования в магии."
 	]
-	quest.00DD7D7D33A1B40E.quest_desc: ["Passively produces various resources depending on mesh in it. Have to be placed in &9river&r or &9ocean&r biome"]
+	quest.00DD7D7D33A1B40E.quest_desc: ["Passively produces various resources depending on mesh in it. Has to be placed in &9river&r or &9ocean&r biome."]
 	quest.01DA1F605860E4CB.quest_desc: [
 		"A torch, candelabra or candle can be an effective means of increasing your altar's recharge rate."
 		""
@@ -60,11 +60,11 @@
 		"Кислота и так была мощной. ДАВАЙТЕ СДЕЛАЕМ ЕЕ ЕЩЕ СИЛЬНЕЕ! Теперь, имея доступ к более сильным ингредиентам, я могу переработать кислотное масло, используя токсин. Таким образом, эффект кислоты усилился, что позволило ей еще больше снизить прочность доспехов и получить способность растворять руды алмазного уровня.."
 	]
 	quest.02BDC1FB8AC8485D.quest_desc: [
-		"Oil pot можно поставить в мир Shift+ПКМ, используя оружие на горшке с маслом - оружие получит эффект масла на котором оно было использовано."
-		""
-		"Так же можно держать горшок в второй руке а оружие в основной, все эти действия используют немного масла, быть может есть способ пополнять масло бесконечно?…"
+		"You can use an oil pot by placing it with Shift + RMB and clicking it with a weapon. The weapon will gain the effect of the oil. "
+		"Alternatively, you can hold the oil pot in your offhand and the weapon in your main hand. "
+		"All of these actions consume a bit of oil... maybe there's a way to make it infinite?…"
 	]
-	quest.02BDC1FB8AC8485D.title: "Oil pot"
+	quest.02BDC1FB8AC8485D.title: "Oil pots"
 	quest.02DD191C0682BFD6.quest_desc: ["You can put water/lava/essences in Utrem Jars with a bucket or any other similar items in hand, allowing you to store lava without taking up space in chests."]
 	quest.046EAAF7665E1DB4.quest_desc: [
 		"Using glass vials, I can create a container that's reinforced with Copper. This larger much heavier container is a valuable part. A presage to the grand creation of..."
@@ -76,7 +76,7 @@
 		"• +2x Recharge Rate"
 	]
 	quest.0501BDB7ED850B47.quest_desc: [""]
-	quest.0528A7114DC06152.quest_desc: ["позволяет рубить деерво на доски 1 к 2, вместо 1 к 1 в верстаке с топором."]
+	quest.0528A7114DC06152.quest_desc: ["Gives a 1 to 2 ratio when chopping logs into planks, as opposed to the 1 to 1 in a crafting grid."]
 	quest.05C4AA05CA0E6F80.quest_desc: ["add rubber to recipe just so you couldn't craft them in early game, but still could easily made later?"]
 	quest.06793C23D00355A7.quest_desc: ["Magnet? And configurable??? I'll take 2 please"]
 	quest.07B3FFC9267C5861.quest_desc: ["The Maledictus Pact Enhancer allows the creation of cursed items in the Hephaestus Forge. It can be found as loot in bastion treasure rooms with a chance of 18% per chest. "]
@@ -86,7 +86,7 @@
 		""
 		"As I have always predicted, these toxins could DO WONDERS in evolving our weak and insolent species. My new discovery gas unveiled a new avenue of POWER and I must not lose focus! I must grab my toxicity gauge as I have seen its potential. I MUST GAIN MORE BLENDS! I MUST CONSUME MORE!"
 		""
-		"Looking at my gauge, I had initially set it up to display the total capacity I believed a person could consume. I WAS VERY WRONG! The gauge displays instead, the potential of POWER through MUTAGENS. When the green bar reaches the end of the gauge, a mutagen has been obtained, transforming me into something far more out-worldly!"
+		"Looking at my gauge, I had initially set it up to display the total capacity I believed a person could consume. I WAS VERY WRONG! The gauge displays instead, the potential of POWER through MUTAGENS. When the green bar reaches the end of the gauge, a mutagen has been obtained, transforming me into something far more otherworldly!"
 		""
 		"When a mutagen is obtained, I can see it within my toxicity gauge by right-clicking it in my hand. The gauge will display its information and what POWER it has given me. It also displays more precise readings of the toxins that have been collected in my system."
 		""
@@ -101,7 +101,7 @@
 		"Подробную информацию о полученном мутагене я могу узнать в измерителе, открыв на ПКМ. А именно, что это за мутаген и какую СИЛУ он мне дал."
 	]
 	quest.0A302433CAC7895F.quest_desc: [
-		"Toxin Oil! Like its predecessor but WAY MORE VOLATILE. Using toxin as a base we can use a deadly effect that produces a LETHAL result which poison has always lacked. My magnificent creation can now be offered to EVERYONE."
+		"Toxin Oil! Like its predecessor, but WAY MORE VOLATILE. Using toxin as a base, we can use a deadly effect that produces a LETHAL result, which poison has always lacked. My magnificent creation can now be offered to EVERYONE."
 		"{@pagebreak}"
 		"ТОКСИЧНОЕ МАСЛО! Ещё более летучий и опасный вариант! Оно уже может приводить к летальному исходу. Я КАЖДОМУ дам попробовать моё невероятное творение!"
 	]
@@ -112,7 +112,7 @@
 	]
 	quest.0C1A0D4E0DF5CE9C.quest_desc: ["The Quantum Catcher can be used to capture and transport entities. To obtain it, you can combine Spawner Scrap and an Arcane Crystal Block in a Smithing Table"]
 	quest.0C79F086A3EA30BA.quest_desc: [
-		"I've almost done it! The material to be used to unlock the full potential of poison. I have formulated this concoction to prepare the final creation of the ultimate substance! But I'll need to enter the nether one more time."
+		"I've almost done it! The material that can be used to unlock the full potential of poison. I have formulated this concoction to prepare the final creation of the ultimate substance! But I'll need to enter the nether one more time."
 		"{@pagebreak}"
 		"Я почти сделал это! Материал, который будет использоваться для раскрытия всего потенциала яда. Я приготовил это снадобье, чтобы подготовить окончательное создание высшего вещества! Но мне нужно еще раз войти в недра."
 	]
@@ -122,8 +122,8 @@
 		"• +2x Power Capacity"
 		"• +2x Recharge Rate"
 	]
-	quest.0D70E9CF33C567A7.quest_desc: ["Выпадает из ламы, если она отравлена"]
-	quest.0E432C3C0C5E9D1D.quest_desc: ["Защита от огня"]
+	quest.0D70E9CF33C567A7.quest_desc: ["Drops from a poisoned llama."]
+	quest.0E432C3C0C5E9D1D.quest_desc: ["Fire Resistance (duh)"]
 	quest.0E4BFAA97BD15447.quest_desc: [
 		"To construct an altar, a witch must place &lsix altar blocks&r to form a rectangular platform."
 		""
@@ -148,24 +148,24 @@
 		"{@pagebreak}"
 		"Атамэ - быстрое и смертоносное оружие, и чтобы получить его силу, вам придется использовать Алмазный ритуал."
 	]
-	quest.0F88E4776BED75CE.quest_desc: ["An infinite source of water"]
+	quest.0F88E4776BED75CE.quest_desc: ["An infinite source of water."]
 	quest.10EDC166831C6721.quest_desc: [
 		"With even greater potential in material, I can enhance both the capacity and the duration of the flask even further. Now I can keep the effect for triple the normal length. This power is UNBELIEVABLE!"
 		"{@pagebreak}"
 		"Благодаря этому металлу, я могу увеличить ёмкость колбы и длительность эффектов в 3 РАЗА. ЭТО - НЕВЕРОЯТНАЯ МОЩЬ!"
 	]
 	quest.10EEA65D3AC363CC.quest_desc: [
-		"Находится в джунглях"
+		"Grows in jungles."
 		""
-		"можно разводить оцелотов"
+		"Can be used to breed ocelots."
 	]
 	quest.1183EEDA65D3180C.quest_desc: ["To get it, you need to right click normal Farmland with Arcane Bone Meal. Magical Farmland doubles the quantity of crop drops."]
 	quest.11AEAD046E2353E6.quest_desc: [
-		"I will need a tool to administrator the solution into an unfortunate specimen. Luckily with the help of another doctoral tool, I can make a simple copper needle. One especially capable of handling dangerous solutions."
+		"I will need a tool to administer the solution into an unfortunate specimen. Luckily, with the help of another doctoral tool, I can make a simple copper needle. One especially capable of handling dangerous solutions."
 		""
-		"This process may be long but it is invaluable to know what these natural affinities are. I need to inject these solutions into a strong enough subject, and when its at its lowest point, the affinity associated with the poisonous ingredient will reveal itself to me!"
+		"This process may be long, but it is invaluable to know what these natural affinities are. I need to inject these solutions into a strong enough subject, and when its at its lowest point, the affinity associated with the poisonous ingredient will reveal itself to me!"
 		""
-		"By holding the solution in one and, and then the needle in the other, I can put the solution inside the needle. Then once I find a very strong subject, I must bring their life at the brink (poison should do the trick). Once its at an inch of its life, that's when I use the needle."
+		"By holding the solution in one hand and then the needle in the other, I can put the solution inside the needle. Then once I find a very strong subject, I must bring their life to the brink (poison should do the trick). Once its at an inch of its life, that's when I use the needle."
 		"{@pagebreak}"
 		"Теперь мне понадобится инструмент, чтобы вводить микстуру в подопытного. Им может стать медицинский шприц. Он просто идеален для этих целей!"
 		""
@@ -178,10 +178,10 @@
 		""
 		"Note that breaking a machine with the wrench will not drop it. Use a pickaxe for that!"
 	]
-	quest.12EA2728AD90FABD.quest_desc: ["Позволяет жарить еду и Шифт + ПКМ создавать зажённые факела"]
+	quest.12EA2728AD90FABD.quest_desc: ["Can cook food. You can also light torches by Shift-clicking it"]
 	quest.13134EE8E1631EBB.quest_desc: ["PIPES"]
 	quest.13C6412ED5BDC06F.quest_desc: [
-		"With toxic paste in my arsenal, I can improve on the techniques of the ancients. I can create a more powerful blend using it. But I must be incredibly careful. My system may not be able to handle it if I haven't already grown accustom."
+		"With toxic paste in my arsenal, I can improve on the techniques of the ancients. I can create a more powerful blend using it. But I must be incredibly careful. My system may not be able to handle it if I haven't already grown accustomed."
 		"{@pagebreak}"
 		"Имея в своем арсенале токсичную пасту, я могу усовершенствовать технику древних. С ее помощью я могу создать более мощную смесь. Но я должен быть невероятно осторожен. Мой организм может не выдержать, если я еще не привык."
 	]
@@ -191,7 +191,7 @@
 		""
 		"To fill the flask, I need another potion in my other hand and then use the flask to pour it inside. Because of how unstable the paste is, I will be able to create a toxic formula that can refill its contents without recompositing another potion. This makes the potions renewable! However, because of its toxins, it has a high toxicity level. Monitor your toxicity levels with the toxicity gauge after repeated use of the flask."
 		""
-		"What's even more curious is if I ever get my hands on an enchanting book that roughly translates to «Refill», then the contents of my empty flask will be refilled just by sleeping through the night! Although I have my qualms with enchanting, I cannot deny its utility in my experiments!"
+		"What's even more curious is, if I ever get my hands on an enchanting book that roughly translates to «Refill», then the contents of my empty flask will be refilled just by sleeping through the night! Although I have my qualms with enchanting, I cannot deny its utility in my experiments!"
 		"{@pagebreak}"
 		"Токсичная паста крайне нестабильна. Но ее нестабильность станет изюминкой моего следующего алхимического инструмента! Зелья слишком изысканны, слишком узки. Создав колбу большей вместимости и поместив внутрь немного пасты, я смогу сделать гораздо более эффективный и, возможно, возобновляемый сосуд для зелий."
 		""
@@ -206,9 +206,9 @@
 	]
 	quest.172C44614A53FAAF.quest_desc: ["Place an extractor on an item or fluid pipe to allow it to extract from adjacent inventories."]
 	quest.188484018F12E3B9.quest_desc: [
-		"We won't stop at simple oils. We have much more possibilities FOR MORE POTENCY! Toxin has opened new doors to its potential. AND WE WILL USE THEM GRACIOUSLY!"
+		"We won't stop at simple oils. We have many more possibilities FOR MORE POTENCY! Toxin has opened new doors to its potential. AND WE WILL USE THEM GRACIOUSLY!"
 		""
-		"Using my alembic we can INFUSE our pots from just basic clay to a BEAUTIFUL TOXIN POT. Many of my more potent oils will need this enhanced container. For the simple clay pot was WEAK and shattered under the effects of toxin."
+		"Using my alembic we can INFUSE our pots from just basic clay into a BEAUTIFUL TOXIN POT. Many of my more potent oils will need this enhanced container. For the simple clay pot was WEAK and shattered under the effects of toxin."
 		"{@pagebreak}"
 		"Мы не остановимся на простых маслах. У нас гораздо больше возможностей ДЛЯ ПОВЫШЕНИЯ ЭФФЕКТИВНОСТИ! Токсин открыл новые возможности для раскрытия их потенциала. И Я ИСПОЛЬЗУЮ ЕГО С ПОЛЬЗОЙ!"
 		""
@@ -235,7 +235,7 @@
 		""
 		"To discover these affinities within poisonous ingredients, I must do one of two things. Either I consume it in great quantities until I figure it out, which is quite painful. Or something much more efficient. I've learned a way to deconstruct an ingredients chemical makeup into a more pure substance. And watch its effects as a third party spectator."
 		""
-		"Redstone is quite sensitive to the toxic components of poisonous ingredients. As seen used by my toxicity gauge device. First I must turn it into a mixture."
+		"Redstone is quite sensitive to the toxic components of poisonous ingredients, as seen used by my toxicity gauge. First, I must turn it into a mixture."
 		"{@pagebreak}"
 		"Однако не все токсины одинаковы. Полученный мутаген зависит от ИНГИРЕДИЕНТОВ в смесях. Что значит, что я должен помнить какие ингредиенты я употребляю, ибо они могут иметь разные эффекты."
 		""
@@ -252,9 +252,9 @@
 		""
 		"PIPES"
 	]
-	quest.1EE1B8261F4D85A0.quest_desc: ["Свечение при ударе на 30 сек."]
+	quest.1EE1B8261F4D85A0.quest_desc: ["Glowing for 30 seconds."]
 	quest.1FD668D64C10EA51.quest_desc: ["You can create a Block Hole by throwing Dark Matter together with Corrupti Dust on the ground. It will attract items and small entities like Arrows or Experience Orbs and delete them. Once it absorbed enough experience points, it will throw out a Xpetrified Orb."]
-	quest.203B742A5DB473FA.quest_desc: ["Simply smash a piece of flint into a stone to sharpen it"]
+	quest.203B742A5DB473FA.quest_desc: ["Simply smash a piece of flint against a stone to sharpen it"]
 	quest.2071CE16FAA3FDEE.quest_desc: [
 		"Bronze barrels can be used to store and move 32 stacks of one item. "
 		""
@@ -280,20 +280,20 @@
 	]
 	quest.22F6F4D5CF2C2BE8.quest_desc: ["First things first, get some gravel to begin your journey, it'll surely be handy."]
 	quest.236748177AF3DD3A.quest_desc: [
-		"Можно привязать любого моба которого можно взять в поводок."
-		"Можно установить \"SPEED UPGRADE\" чтобы ускорить дробление, улучшением является взрывное зелье скорости "
+		"Any leashable mob will work for this."
+		"You can install a \"SPEED UPGRADE\" to accelerate the milling. The upgrade is a speed potion."
 	]
-	quest.24A65F3E0C177185.quest_desc: ["poisen slime"]
+	quest.24A65F3E0C177185.quest_desc: ["Drops from a poisoned slime."]
 	quest.26AAD3E138239666.quest_desc: ["с топ блоками 42 (21 за блоктипы)"]
 	quest.26D3721A292E8E8C.quest_desc: [
-		"- Можно надеть в слот безделушек, тогда появится миникарта слева сверху."
-		"- Когда в слоте безделушек - можно открыть кнопкой M"
-		"- Включен радар мобов, когда карта в слоте \"Рук\" "
-		"- Можно ставить метки на «B», а так же если нажать B на баннер - он добавиться как метка, а так же другие дополнительные блоки, например кровать, костёр и т.д."
-		"- Можно активировать метки в атласе нажатием ПКМ на метку, тогда она будет отображаться на миникарте"
-		"- Отображает координаты "
-		"- В атлас можно добавлять как карты так и простые листы бумаги для получения новых карт."
-		"- В каждом мире атлас будет рисовать свой димешен, это можно настроить."
+		"- Can be worn in a curio slot to unlock the minimap."
+		"- While worn, can be opened by using M"
+		"- When held, the entity radar is enabled "
+		"- By pressing B, you can place markers. You can also press B while looking at a fire pit, bed, banner etc. to add them as a marker."
+		"- To display a marker on the minimap, open the atlas and press RMB on it"
+		"- Displays the coordinates"
+		"- To expand the atlas, you can add maps or paper"
+		"- Every dimension will have its exclusive map"
 		"- You can lock the atlas by shift clicking it, preventing new maps from being created."
 		"- You can also place an Atlas on a Lectern and access the worldmap from there"
 	]
@@ -304,7 +304,7 @@
 		"The Eternal Stella is applicable to all items with a durability bar."
 	]
 	quest.286CADEC3AB44CCE.quest_desc: ["Use your newly acquired sharp flint to harvest some grass"]
-	quest.28A2FCBC095F291E.quest_desc: ["пастой на почву, позволяет выращивать культуры из мода"]
+	quest.28A2FCBC095F291E.quest_desc: ["Use the poison paste on farmland. Can farm plants from this mod."]
 	quest.29A43713F3DD703F.quest_desc: ["How to use this thing"]
 	quest.2B2F816ABE338A0C.quest_desc: [
 		"A fume filter can be added to fume funnels to further increase yield. With two filters, success is guaranteed."
@@ -316,7 +316,7 @@
 		"{@pagebreak}"
 		"Рунический заряд - это простой способ пополнить запасы рунных плит после того, как они истощились в ходе ритуала."
 	]
-	quest.2BB85B5FB4A2E943.quest_desc: ["Находится в Dark forest"]
+	quest.2BB85B5FB4A2E943.quest_desc: ["Grows in dark forests."]
 	quest.2CCA1CEC324FE789.quest_desc: ["Bends things with double the speed of compressor!"]
 	quest.2D26EA473D256B54.quest_desc: ["An upgraded variant that allows catching boss entities"]
 	quest.2E5638B2207FCCBF.quest_desc: [
@@ -336,16 +336,16 @@
 	quest.30FA92F29B6D0477.quest_desc: ["Same effect as Aqua Affinity, but it allows you to have a normal breaking block speed while moving"]
 	quest.3256F857783BB7AA.quest_desc: ["Takes items from system"]
 	quest.3375DE99A86D3CB4.quest_desc: ["Item pipes will normally prefer the closest inventory. An inhibitor increases the length of a connection by 1000 for pathfinding purposes, which makes item pipes avoid that connection if possible."]
-	quest.338029494A6F98B3.quest_desc: ["Only deer with antlers drops correct item"]
-	quest.33D177C9C103372D.quest_desc: ["Позволяет бросаться маслами, очень полезно в будущем."]
+	quest.338029494A6F98B3.quest_desc: ["Only deer with antlers will drop them"]
+	quest.33D177C9C103372D.quest_desc: ["Allows you to throw oils. Can become handy in the future."]
 	quest.34D0D56BD238BC1A.quest_desc: ["Place this block near your Hephaestus Forge and it will automatically transfer essences from nearby Utrem Jars into the forge"]
 	quest.35450D58651AF44B.quest_desc: ["Allows you to access your system from any point in the world when linked to quantum ring"]
 	quest.35A512DACA56FF16.quest_desc: [
-		"The Alembic. An old device in the academy that will help purify liquids similar to how the crucible purifies solids. However, they are fragile. In order for this to work, I need a stronger glassy material. I know located in the Nether. I must find it!"
+		"The Alembic. An old device in the academy that will help purify liquids similar to how the crucible purifies solids. However, they are fragile. In order for this to work, I need a stronger glassy material. I know one located in the Nether. I must find it!"
 		""
-		"The alembic can refine weaker potions into their stronger variants without the need of additional material. Purifying the liquid to a more concentrated form. Although the potion is not enough! The alembic has gotten them closer to binding with my paste, but its not pure enough."
+		"The alembic can refine weaker potions into their stronger variants without the need of additional material, purifying the liquid to a more concentrated form. Although this is not enough! The alembic has gotten them closer to binding with my paste, but its not pure enough."
 		""
-		"I think I can devise a solution that uses only the most concentrated form of Netherwart! To unlock what poison has to offer us! I've collected all my notes, stood through consecutive nights. My mind has been awake  past dusk more times than I can count. With the glass vials and my toxic paste..."
+		"I think I can devise a solution that uses only the most concentrated form of Netherwart! To unlock what poison has to offer us! I've collected all my notes, stood through consecutive nights. My mind has been awake past dusk more times than I can count. With the glass vials and my toxic paste..."
 		"{@pagebreak}"
 		"Алембик. Старый прибор в академии, который помогает очищать жидкости подобно тому, как тигель очищает твердые тела. Однако они хрупкие. Чтобы он работал, мне нужен более прочный стеклообразный материал. Я знаю, что он находится в Аду. Я должен найти его!"
 		""
@@ -353,7 +353,7 @@
 		""
 		"Думаю, я смогу придумать решение, в котором будет использована только самая концентрированная форма Бородавок! Чтобы открыть то, что может предложить нам яд! Я собрал все свои записи, простоял несколько ночей подряд. Мой разум бодрствовал до наступления сумерек больше раз, чем я могу сосчитать. Со стеклянными флаконами и ядовитой пастой..."
 	]
-	quest.360B3C7F848E2965.quest_desc: ["Находится в аду в Crimson Forests"]
+	quest.360B3C7F848E2965.quest_desc: ["Grows in crimson forests."]
 	quest.36ABE0F50C03A3AC.quest_desc: [
 		"Creating a brew, infusion or potion is a simple process, requiring either a witch's cauldron or kettle."
 		""
@@ -383,11 +383,11 @@
 		""
 		"Когда варево испортится, оно станет коричневым, и его нужно будет удалить с помощью пустого ведра."
 	]
-	quest.3844F342D000826A.quest_desc: ["Copper mesh can catch tin, lead and copper "]
+	quest.3844F342D000826A.quest_desc: ["A copper mesh can catch tin, lead and copper."]
 	quest.39C79097C7355375.quest_desc: ["The Crimson Stone is all about Souls. When used it the Hephaestus Forge it will half the Souls essence cost and when used in the Clibano it will increase the burn duration of inputted Souls (Soon). Crimson Stones can be found in Pillager Outpost loot chests (18% chance)."]
-	quest.3A5FB1474CC41CED.quest_desc: ["Можно найти в таёжных биомах(там где холодно)"]
+	quest.3A5FB1474CC41CED.quest_desc: ["Grows in taiga biomes (the cold ones)."]
 	quest.3AA1D61583B592AC.quest_desc: [
-		"Now for those empty pots. They can be filled with replacement oil without recreating the composition in the pot. Just by making this base, we can refill all our oil containers and even sashes BEAUTIFUL."
+		"Now, for those empty pots. They can be filled with replacement oil without recreating the composition in the pot. Just by making this base, we can refill all our oil containers and even sashes. BEAUTIFUL."
 		"{@pagebreak}"
 		"Теперь что касается пустых горшочков. Их можно заполнить, не меняя состав. Теперь, используя эту основу, я могу заполнять горшочки и даже патронаж!"
 	]
@@ -399,7 +399,7 @@
 		"{image:quest_pics:textures/machine_extender.png width:200 height:130 align:center}"
 	]
 	quest.3B8E12BA33DFD7AC.quest_desc: [
-		"Once I have enough data on a specific poisonous ingredient, I can hold my magnifying glass in my hand and hover over it in my inventory to see what affinity this poisonous ingredient is associated with. Oh the beautiful art of experimental science!"
+		"Once I have enough data on a specific poisonous ingredient, I can hold my magnifying glass in my hand and hover over it in my inventory to see what affinity this poisonous ingredient is associated with. Oh, the beautiful art of experimental science!"
 		"{@pagebreak}"
 		"Как только у меня будет достаточно данных об ингредиенте, я могу взять в руку лупу и посмотреть в своем инвентаре, с каким свойством ассоциируется этот ядовитый ингредиент. О, прекрасное искусство экспериментальной науки!"
 	]
@@ -414,7 +414,7 @@
 		"This enhancer is currently not obtainable in survival."
 	]
 	quest.3DD74B48583DB8C0.quest_desc: [
-		"Many parts of a mob, including ourselves, react differently when toxins are introduced in their bodies. This makes unique ingredients when certain mobs are afflicted. As such, we should extract them. When a mob dies while being afflicted with poison, they can drop special ingredients. However, a sword is too crude to extract them. As such, they must die by a scalpel in order to carefully extract these valuable ingredients."
+		"Many parts of a mob, including ourselves, react differently when toxins are introduced in their bodies. This makes unique ingredients when certain mobs are afflicted. As such, we should extract them. When a mob dies while being afflicted with poison, they can drop special ingredients. However, a sword is too crude to extract them. As such, they must die by a scalpel in order to carefully extract these valuable parts."
 		"{@pagebreak}"
 		"Многие части мобов, включая нас самих, по-разному реагируют на попадание токсинов в их организм. Таким образом, при поражении определенных мобов получаются уникальные ингредиенты. Поэтому мы должны добыть их. "
 		""
@@ -425,7 +425,7 @@
 		""
 		"After having built the above pattern, place the Smithing Table in the central spot above the Gilded Chiseled Polished Darkstone block. In order to transform it into the desired Hephaestus Forge you'll now only need to sneak and right-click with the Mundabitur Dust on the Smithing Table. A bolt of corrupted lightning will strike the block and transform it. "
 	]
-	quest.3EB7176D4C776E9D.quest_desc: ["Выпадает из сквида если он под Ядом"]
+	quest.3EB7176D4C776E9D.quest_desc: ["Drops from a poisoned squid."]
 	quest.3F3D4E142EEE7C6B.quest_desc: [
 		"When dealing with Mandrakes, Banshees and other loud creatures, protection for your ears is essential."
 		""
@@ -531,16 +531,16 @@
 		"И, наконец, с помощью перегонного аппарата я очищу ею ядовитый ингредиент, который я хочу исследовать. Эта смесь покажет свойство этого ингредиента. Теперь мне просто нужен достойный испытуемый."
 	]
 	quest.4861D8CA259A874D.quest_desc: [
-		"The Cyclebow can store and fire a sequence of bolts. As such, the order they are fired is determined by when they are placed into the Cyclebow. This trait can make it devastating with different combinations of bolts. However, manually adding each bolt can be cumbersome. It also makes for a terribly unorganized inventory. As a result, I have designed an inexpensive and ingenious method of loading them."
+		"The Cyclebow can store and fire a sequence of bolts. As such, the order they are fired is determined by when they are placed into the Cyclebow. This trait can make it devastating with different combinations of bolts. However, manually adding each bolt can be cumbersome. It also makes for a terribly unorganized inventory. As a result, I have designed an inexpensive and ingenious method for loading them."
 		""
-		"To load bolts into the cartridge, crouch and use it. The cartridge will grab different bolts in my inventory, which is determined just like how arrows are when using a bow. It will try to grab bolts from different stacks. If there isn't enough unique stacks, it will grab the same stacks. We can then load the Cyclebow like we do bolts. If I wish to get the bolts back, I only need to crouch and use the filled cartridge."
+		"To load bolts into the cartridge, crouch and use it. The cartridge will grab different bolts from your inventory, in the same order arrows would've been when using a bow. It will try to grab bolts from different stacks, but if there aren't enough unique stacks, it will grab the same stacks multiple times. We can then load the Cyclebow like we do bolts. If I wish to get the bolts back, I only need to crouch and use the filled cartridge."
 		"{@pagebreak}"
 		"Cyclebow может хранить и выпускать последовательность болтов. Порядок выстрела определяется тем, когда болты помещаются в Cyclebow. Эта особенность позволяет использовать различные комбинации болтов. Однако вручную добавлять каждый болт может быть обременительно. Кроме того, это делает инвентарь ужасно неорганизованным. В результате я разработал недорогой и оригинальный способ их загрузки."
 		""
 		"Чтобы зарядить болты в картридж, присядьте и используйте его. картридж будет захватывать различные болты в инвентаре, который определяется так же, как и стрелы при использовании лука. Он будет пытаться захватить болты из разных стаков. Если уникальных стаков недостаточно, он будет хватать одинаковые стаки. Затем мы можем загрузить Cyclebow, как и болты. Если я захочу вернуть болты из картриджа, мне нужно будет лишь присесть и использовать заполненный картридж."
 	]
 	quest.48D6F64AD6B17D08.quest_desc: [
-		"Next I must heat it in a crucible to remove any impurities."
+		"Next, I must heat it in a crucible to remove any impurities."
 		"{@pagebreak}"
 		"Затем выпарить все примеси в котелке."
 	]
@@ -575,7 +575,7 @@
 		"Этот &5прибор&r очень поможет мне в моих будущих исследованиях. Особенно когда я буду изучать &5древние ритуалы&r и &aсмеси ядов&r. Мне нужно следить за тем, чтобы не слишком увлекаться и постоянно держать устройство при себе, чтобы не выйти за рамки дозволенного. У меня есть ощущение, что этот прибор превратится из средства предосторожности в прекрасную перспективу на будущее."
 	]
 	quest.498922D593321422.quest_desc: ["Better furnace, but bigger!"]
-	quest.49F633AB8533C593.quest_desc: ["Позволяет чинить предметы ценой масла"]
+	quest.49F633AB8533C593.quest_desc: ["Mends the items at the cost of oil."]
 	quest.4ADB796A7EC14DE4.quest_desc: [
 		"The Soul Crimson Stone is an upgraded version of the normal Crimson Stone. Due to the power of the harnessed souls, this enhancer is able to completely remove the essence cost of one Hephaestus Forge ritual. After one use it loses its power and becomes a normal Crimson Stone."
 		""
@@ -593,12 +593,12 @@
 		"{@pagebreak}"
 		"Coille Slat - дает рост растениям"
 	]
-	quest.50A70151E50EC5DC.quest_desc: ["выпадает из minecraft:bogged"]
-	quest.53D226046704B4F5.quest_desc: ["Same as copper, but with small chance to catch gold and iron"]
-	quest.552B1FFCECBD0652.quest_desc: ["ручной-колодец, в разных биомах производит разное кол-во воды, можно подключить к системе акведуков"]
-	quest.55B031B4D7E5DEE3.quest_desc: ["Wikd chicken"]
-	quest.5643AEC296D95BE9.quest_desc: ["Слабость и замедление"]
-	quest.56AE77021D975ACD.quest_desc: ["This mesh can catch basic resources such as: sand, gravel, clay and fish"]
+	quest.50A70151E50EC5DC.quest_desc: ["Drops from bogged."]
+	quest.53D226046704B4F5.quest_desc: ["Same as copper, but with a small chance to catch gold and iron."]
+	quest.552B1FFCECBD0652.quest_desc: ["A manual well. Produces different amounts of water in different biomes. Can be connected to a system of aqueducts"]
+	quest.55B031B4D7E5DEE3.quest_desc: ["Wild chicken"]
+	quest.5643AEC296D95BE9.quest_desc: ["Slowness and weakness."]
+	quest.56AE77021D975ACD.quest_desc: ["This mesh can catch basic resources, such as sand, gravel, clay and fish"]
 	quest.57A91C641FE38999.quest_desc: [
 		"Copper bolt to craft?"
 		"Unlock next stage after this?(because unlocking it in the middle of quest line is kinda weird to me, but IDK)"
@@ -606,7 +606,7 @@
 	quest.58DE851CD9578153.quest_desc: ["позволяет шарить глифы за опыт, чем больше глифово - тратит больше опыта"]
 	quest.58E8A03E6BB037C5.quest_desc: ["Applies the Glowing effect to all entities near the player when it's in your inventory."]
 	quest.590167B593FE267A.quest_desc: [""]
-	quest.5984DB66549B9040.quest_desc: ["Отравление на оружие"]
+	quest.5984DB66549B9040.quest_desc: ["Poison."]
 	quest.5A4BB58AB11D4B81.quest_desc: [
 		"The witch's oven is a modified furnace used to collect byproducts and fumes made from burning materials."
 		""
@@ -619,7 +619,7 @@
 	quest.5AEBD2E96FA53366.quest_desc: ["The fiery modifier can be applied to all tool items (Pickaxes, Shovels, Axes, Hoes) and will automatically smelt all mined blocks if they have a smelting recipe. "]
 	quest.5AEEF8055EA6AE88.quest_desc: ["Use a Splash Aureal Bottle on a normal soul for getting"]
 	quest.5C1A95780908F901.quest_desc: [
-		"The old methods of mortar and pestle are slow. As such I have created through miraculous engineering a machine to automate the process. Using redstone as its activator, this can take away the monotony of manual pestling off your hands."
+		"The old methods of mortar and pestle are slow. As such, I have created, through miraculous engineering, a machine to automate the process. Using redstone as its activator, this can take away the monotony of manual pestling off your hands."
 		"{@pagebreak}"
 		"Старые методы с использованием ступки и пестика очень медленные. Поэтому я создал с помощью чудесной инженерии машину для автоматизации этого процесса. Используя красный камень в качестве активатора, она избавит вас от монотонной ручной работы пестиком."
 	]
@@ -636,22 +636,22 @@
 		"• +1x Recharge Rate"
 	]
 	quest.5F151FBC5A68433F.quest_desc: [
-		"Можно привязать мобов чтобы они дробили руду, кости, моба нужно взять в поводок и нажать на этот блок"
+		"To power it, leash a mob to it."
 		""
-		"у предметов есть шанс получить бонус при дробление"
+		"Some items can be processed more efficiently here, than by hand."
 	]
 	quest.5F3B3C006860B496.quest_desc: ["Attracts items when powered"]
 	quest.5F750B9378BA292B.quest_desc: [""]
 	quest.5FB8F11E1CE083EC.quest_desc: [
-		"An outfit from a bygone age. Their style was very fitting in their time. With some minor-improvements, I've made it coat fit me perfectly. Now for the remaining parts."
+		"An outfit from a bygone age. Their style was very fitting in their time. With some minor improvements, I've made it coat me perfectly. Now, for the remaining parts."
 		""
-		"I must admit, my pants were the most tattered of all my attire. So having fresh leggings is a euphoric feeling. Otherwise the breeze would have made my skin crawl and my nights freezing."
+		"I must admit, my pants were the most tattered of all my attire. So having fresh leggings is a euphoric feeling. Otherwise, the breeze would have made my skin crawl and my nights freezing."
 		""
 		"To avoid having fungus feet, some nice pair of boots will be invaluable. Always a fresh pair, except these ones are already infused with my toxin. Almost feel like my feet are being cleansed by the fumes. Plus the pain."
 		""
 		"Finally, the centerpiece of the suit. The mask that personified the period. The Plague Mask. Although I've placed a convenient hood over it for days of rain. This mask will greatly benefit the sometimes overpowering toxins."
 		""
-		"The plague doctor outfit has a rather potent effect. When afflicted by a hazardous ailment such as slowness or blindness, the effect won't last as long. The amount of time the effect is reduced by depends on how many parts of the outfit I am wearing. It can even nullify the effect completely if it already is applied for a very short span of time."
+		"The plague doctor outfit has a rather potent effect. When afflicted by a hazardous ailment such as slowness or blindness, the effect won't last as long. The amount of time the effect is reduced by depends on how many parts of the outfit I am wearing. It can even nullify the effect completely, if it's already applied for a very short span of time."
 		"{@pagebreak}"
 		"Наряд давно минувших времён. В своё время он был очень уместен. Несколько стяжков, и он сидит на мне идеально. Теперь к остальному."
 		""
@@ -670,10 +670,10 @@
 		""
 		"A ancient schematic to a device long lost to time."
 		""
-		"One that fully realizes the power of toxin I have lost for so long."
+		"One that fully realizes the power of toxin I have sought for so long."
 		""
 		"How does it work??"
-		"In text roughly translates to \"In mendus we pour it the liquor of life, of two side-by-side.\""
+		"The text roughly translates to \"In mendus we pour it the liquor of life, of two side-by-side.\""
 		"BUT HOW AND WHY??"
 		""
 		"…"
@@ -693,7 +693,7 @@
 	]
 	quest.624A33C4995164C4.quest_desc: ["Hot enough furnace to produce steel, as well as some other useful resources"]
 	quest.62D095FE0536F7B7.quest_desc: [
-		"needed. Now that I have a much more durable leather, I only need a very durable metal. The strongest I can find to withstand the chemicals. That's when I came across ancient debris. Fitting it is deep within the bowls of the Nether."
+		"Now that I have a much more durable leather, I only need a very durable metal. The strongest I can find to withstand the chemicals. That's when I came across ancient debris. It's quite fitting it is deep within the bowels of the Nether."
 		""
 		"It was time to expand my arsenal. I have realized the potential Netherite has. So much I could do with such a durable material. And I'll start it with this new Oil Pot Bandolier."
 		"{@pagebreak}"
@@ -723,11 +723,11 @@
 	quest.6728D3D62F6812D6.quest_subtitle: "Your ultimate farming solution!"
 	quest.672EEF1A13EC159D.quest_desc: ["90~"]
 	quest.678DD52529698DE4.quest_desc: ["Нужно кормить зельями даёт сурс"]
-	quest.68C1714F3E9B2CA2.quest_desc: ["Выпадает из волка если он отправлен в момент смерти"]
+	quest.68C1714F3E9B2CA2.quest_desc: ["Drops from a poisoned wolf."]
 	quest.69D8F87655435203.quest_desc: [
-		"снижает эффективность его брони примерно на 25%."
+		"Lowers the effectiveness of armour by about 25%."
 		""
-		"Можно использовать вместе с поясом для масел, зелье будет копать руду по области как гранаты, при этом копание будет происходит словно вы копаете с киркой зачарованной на удачу 2."
+		"Can be used together with a Oil Pot Sash. Pots will dig ore in an area like grenades. The ores will have Fortune II applied to them."
 	]
 	quest.6B56735FE657E8D0.quest_desc: ["даёт сурс за еду либо кидать либо класть на платформу. Вокруг 3х3 будет превращать землю в мицелий и выращивать грибы"]
 	quest.6CB0342958887169.quest_desc: ["Furnace, but better!"]
@@ -749,12 +749,12 @@
 	]
 	quest.6E69C3F456FD1C3D.quest_desc: ["Every ritual you execute will require you to sacrifice certain items which need to be placed on Pedestals. Obtaining these Pedestals should be your next step. Most rituals will only need 6 Pedestals while others may require you to use all 8 available spots for Pedestals. "]
 	quest.6E99902F01ED8483.quest_desc: [
-		"Blaze power was already as VOLATILE as toxin. It burns just like toxin does. So a thought came to me. Was there a way to mix these substances together to create the ultimate purifying effect. That's when I created this miraculous fusion. WITCHFIRE."
+		"Blaze powder was already as VOLATILE as toxin. It burns just like toxin does. So a thought came to me. Was there a way to mix these substances together to create the ultimate purifying effect. That's when I created this miraculous fusion. WITCHFIRE."
 		"{@pagebreak}"
 		"Однажды мне пришла идея смешать огненный порошок с ядом, они и по отдельности сильны, но вместе... ДА ЭТО ЧЁРТОВ ВЕДЬМИН ОГОНЬ!!!"
 	]
 	quest.6F85911351916741.quest_desc: ["An Edelwood Bucket can hold multiple fluids at once (4 buckets for water and 3buckets for lava). Can also hold stews and some small entities. The Edelwood Bucket will require the Permafrost enchantment in order to hold lava safely."]
-	quest.70798A5B74FDB203.quest_desc: ["На болоте"]
+	quest.70798A5B74FDB203.quest_desc: ["Grows in swamps."]
 	quest.714992905CA44375.quest_desc: [
 		"My catalogue of ingredients, although plentiful, can be limiting in its color. I do not have enough ingredients to expand my ideas, my vision! But I know how I can get more. It may seem like these are all the flowers and herbs the world has to offer, but I know simple plant life can be so much more complex. I will imbue these plants, strip them down to their genetical make-up, and create new plants. COMPLETELY REMADE BY MY HAND."
 		""
@@ -810,7 +810,7 @@
 		"Переработка потребляет энергию алтаря, поэтому дистиллятор должен быть расположен соответствующим образом."
 	]
 	quest.7737F36A9E69FB4C.quest_desc: [
-		"This complex device Is similar to its cousin the crossbow. However, through extensive research and engineering, I have managed to compact it down to a single-handed crossbow that can fire two additional shots before needing to be loaded."
+		"This complex device is similar to its cousin, the regular crossbow. However, through extensive research and engineering, I have managed to compact it down to a single-handed crossbow that can fire two additional shots before needing to be reloaded."
 		"{@pagebreak}"
 		"Это сложное устройство похоже на своего двоюродного брата - арбалет. Однако благодаря обширным исследованиям и инженерным разработкам мне удалось свести его к одноручному арбалету, который может сделать два дополнительных выстрела, прежде чем его нужно будет заряжать."
 	]
@@ -819,14 +819,14 @@
 	quest.787735496233A905.quest_desc: ["When drunk it will grant 35 Aureal to the player. It can also be used to input Aureal into the Hephaestus Forge."]
 	quest.7A5F66121C4BCC2B.quest_desc: ["Charges items. That's it"]
 	quest.7AA3CDBC6B160F86.quest_desc: ["Free furnaces"]
-	quest.7D5DCEA36FF46987.quest_desc: ["Daytime bed"]
+	quest.7D5DCEA36FF46987.quest_desc: ["A bed for daytime."]
 	quest.7E277FEC22A1924D.quest_desc: ["Spawner Scrap drops when breaking a Spawner"]
 	quest.7E9470BDDB0600F0.quest_desc: [
 		"11 без"
 		"35 с"
 	]
 	quest.7EBDE83B2DCA80D8.quest_desc: [
-		"However, because of its size, its power has been scaled down. To compensate, I have made special ammunition. A catalyst for oil. Using the bolts inside a placed oil pot, it can be covered in oil, applying its effect to hit targets. Do keep in mind some oils will not apply to the bolts."
+		"However, because of its size, its power has been scaled down. To compensate, I have created special ammunition - a catalyst for oil. By using the bolts on a placed oil pot, they can be covered in oil, applying its effect to hit targets. Do keep in mind some oils will not apply to the bolts."
 		"{@pagebreak}"
 		"Однако из-за его размеров его мощность была снижена. Чтобы компенсировать это, я создал специальные боеприпасы. Катализатор для масла. Если поместить болты в горшок с маслом, они могут покрыться маслом, применяя его эффект к пораженным целям. Имейте в виду, что некоторые масла не будут действовать на болты."
 	]
